@@ -1,6 +1,6 @@
 "use client";
 
-import { BlogList } from '@/app/[locale]/blog/page';
+import { BlogList } from '@/data/blogList';
 import { useTranslations } from 'next-intl';
 import { useLocale } from 'next-intl';
 import { useRouter } from 'next/navigation';

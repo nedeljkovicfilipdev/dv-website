@@ -3,41 +3,10 @@
 import { useTranslations } from 'next-intl';
 import { useParams, useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
-import Blog1 from '@/components/blogs/blog1';
-import Blog2 from '@/components/blogs/blog2';
-import Blog3 from '@/components/blogs/blog3';
-import { TranslationKeys } from '@/types/translationKeys';
+import { BlogList } from '@/data/blogList'; // Adjust the import path as necessary
 import { useLocale } from 'next-intl';
 
-interface Blog {
-  slug: string;
-  titleKey: TranslationKeys;
-  image: string;
-  component: React.ReactNode;
-}
-
-export const BlogList: Blog[] = [
-  {
-    slug: 'CanadianStudyGuide',
-    titleKey: 'blog-title',
-    image: '/images/blog/blogimg3.jpg',
-    component: <Blog1 />
-  },
-  {
-    slug: 'FamilySponsorship',
-    titleKey: 'family.blog-title',
-    image: '/images/blog/blogimg2.jpg',
-    component: <Blog2 />
-  },
-  {
-    slug: 'StartUpVisa',
-    titleKey: 'startup.blog-title',
-    image: '/images/blog/blogimg1.jpg',
-    component: <Blog3 />
-  },
-];
-
-const ResidentBlog: React.FC = () => {
+const DiverseBlog: React.FC = () => {
   const router = useRouter();
   const t = useTranslations();
   const { slug } = useParams(); // Get the dynamic parameters
@@ -108,4 +77,4 @@ const ResidentBlog: React.FC = () => {
   );
 };
 
-export default ResidentBlog;
+export default DiverseBlog;
