@@ -37,6 +37,23 @@ export default async function LocaleLayout({
 
   return (
     <html className="h-full" lang={locale}>
+      <head>
+        {/* Google Tag Manager (gtag.js) */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-VQSRSLBQYG"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-VQSRSLBQYG');
+            `,
+          }}
+        ></script>
+      </head>
       <body className={clsx(inter.className, 'flex flex-col min-h-screen')}>
         <NextIntlClientProvider messages={messages}>
           <Header />
