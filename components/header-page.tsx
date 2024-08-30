@@ -3,7 +3,7 @@
 import { ReactNode, useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { useLocale, useTranslations } from 'next-intl';
-import { Menu, X } from 'lucide-react';
+import { Languages, Menu, X } from 'lucide-react';
 import { Button } from '@/ui/button';
 import LocaleSwitcher from './LocaleSwitcher';
 

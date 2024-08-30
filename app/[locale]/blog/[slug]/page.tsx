@@ -16,13 +16,13 @@ const BlogPage = ({ params }: BlogPageProps) => {
   let BlogComponent;
 
   switch (slug) {
-    case 'blog1':
+    case 'CanadianStudyGuide':
       BlogComponent = Blog1;
       break;
-    case 'blog2':
+    case 'FamilySponsorship':
       BlogComponent = Blog2;
       break;
-    case 'blog3':
+    case 'StartUpVisa':
       BlogComponent = Blog3;
       break;
     default:

@@ -18,14 +18,10 @@ export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
-export async function generateMetadata({
-  params: { locale }
-}: Omit<Props, 'children'>) {
-  // Ensure the namespace is valid
-  const t = await getTranslations({ locale , namespace: 'LocaleLayout'});
-
+export async function generateMetadata() {
   return {
-    title: t('title')
+    title: 'Diverse Visa - Expert Immigration Services for Canada and Beyond',
+    description: 'Expert immigration services for Canada. Diverse Visa helps with visa applications, study permits, work permits, and more. Seamless, professional, and successful outcomes.'
   };
 }
 

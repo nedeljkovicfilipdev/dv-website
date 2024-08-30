@@ -3,10 +3,10 @@
 import { Button } from "@/ui/button";
 import axios from "axios";
 import { useState } from "react";
-import { useTranslation } from "react-i18next";
+import { useTranslations } from "next-intl";
 
 export const EmailForm = () => {
-  const { t } = useTranslation();
+  const t = useTranslations();
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',

@@ -1,6 +1,7 @@
 import DiverseAbout from '@/components/about-page';
 import DiverseConsultations from '@/components/consultations-page';
 import DiverseHero from '@/components/hero-page';
+import DiverseLatestBlogs from '@/components/latest-page';
 import DiverseNetwork from '@/components/network-page';
 import DiversePrograms from '@/components/programs-page';
 import DiverseServices from '@/components/services-page';
@@ -26,6 +27,7 @@ export default function IndexPage({params: {locale}}: Props) {
         <DiverseServices />
         <DiverseNetwork />
         <DiverseConsultations />
+        <DiverseLatestBlogs />
         <Stories />
     </section>
   );

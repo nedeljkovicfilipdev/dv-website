@@ -43,7 +43,7 @@ export const Footer = () => {
                   <Mail className='mr-4'/>info@diversevisa.com
                 </a>
               </p>
-              <div className="mt-10 text-lg font-semibold">Locations:</div>
+              <div className="mt-10 text-lg font-semibold">{t('Locations')}:</div>
               <div className="mt-2">
                 <p className='flex mb-4'><MapPin className='mr-4'/>Belgrade, Serbia</p>
                 <p className='flex'><MapPin className='mr-4'/>Toronto, Canada</p>

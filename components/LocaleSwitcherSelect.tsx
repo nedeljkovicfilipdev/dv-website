@@ -4,6 +4,7 @@ import clsx from 'clsx';
 import { useParams, usePathname, useRouter } from 'next/navigation';
 import { ChangeEvent, ReactNode, useTransition } from 'react';
 import { Locale } from '@/types';
+import { Languages } from 'lucide-react';
 
 type Props = {
   children: ReactNode;
@@ -43,14 +44,14 @@ export default function LocaleSwitcherSelect({
     >
       <p className="sr-only">{label}</p>
       <select
-        className="inline-flex appearance-none bg-transparent py-3 pl-2 pr-6"
+        className="inline-flex appearance-none bg-transparent py-3 pl-2 pr-6 hover:cursor-pointer"
         defaultValue={defaultValue}
         disabled={isPending}
         onChange={onSelectChange}
       >
         {children}
       </select>
-      <span className="pointer-events-none absolute right-2 top-[8px]">⌄</span>
+      <span className="pointer-events-none absolute right-2 top-[8px]"><Languages/></span>
     </label>
   );
 }
