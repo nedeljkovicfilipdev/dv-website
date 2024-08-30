@@ -1,0 +1,271 @@
+{
+    "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": {
+      "en": "English",
+      "ru": "Russian",
+      "uk": "Ukrainian",
+      "sr": "Serbian"
+    }
+  },
+    "LocaleLayout": {
+      "title": "Diverse Visa"
+    },
+    "title": "Diverse Visa",
+    "title-header": "DIVERSE VISA",
+    "about-nav": "ABOUT",
+    "services-nav": "SERVICES",
+    "consultations":"CONSULTATIONS",
+    "our-network-nav": "NETWORK",
+    "our-programs-nav": "PROGRAMS",
+    "contact-nav": "CONTACT",
+    "blog-nav": "BLOG",
+    "headline": "Bridge Your Path to a New Future with Diverse Visa",
+    "subHeadline": "Connecting You with Expert Immigration Professionals for a Seamless Journey",
+    "callToAction": "Start Your Journey Today",
+    "missionStatement": "Helping people immigrate to Canada with expert guidance and support.",
+    "visionStatement": "Serving the East-European market with expertise in Canadian immigration",
+    "storyline-title":"Storyline",
+    "storyline": "At Diverse Visa, we bridge your dreams to reality by connecting you with expert immigration professionals and essential services tailored to your unique needs. Our dedicated team and extensive network of partners, including recruiters, business brokers, educational institutions, and community organizations, ensure a seamless immigration process. We uphold the highest standards of integrity, innovation, client-centric service, and excellence, empowering you to start a new life, pursue educational opportunities, or expand your business. Let Diverse Visa guide your journey to new horizons today.",
+    "about-us":"About us",
+    "our-story":"Our story",
+    "our-mission":"Our mission",
+    "our-vision":"Our vision",
+    "our-values":"Our values",
+    "our-team":"Our team",
+    "our-blogs":"Our Blogs",
+    "back-blog":"Back to Blog section",
+    "blog-latest": "Latest Blogs",
+    "diverse-story":"We believe everyone deserves the chance to pursue their dreams. Founded by a team of passionate professionals, we make the complex immigration process smooth and stress-free. We bridge the gap between applicants and expert professionals, especially for those from Eastern Europe.",
+    "diverse-mission":"Bridging dreams and reality by connecting applicants with top-notch immigration professionals and essential services.",
+    "diverse-vision":"A world where borders do not hinder dreams. We aim to be the leading immigration agency, renowned for our expertise and dedication",
+    "diverse-values":"We uphold the highest standards of honesty and transparency in all our dealings. We continuously improve our services to meet evolving needs of our clients. Our clients are at the heart of everything we do. We strive for excellence in every aspect of our work, ensuring our clients receive the best possible service.",
+    "diverse-team-about":"Our dedicated agents, legal experts, and business advisors bring a wealth of knowledge and expertise, providing personalized support and guidance to ensure the highest quality of service.",
+    "services":"Our services",
+    "immigration-consulting-experts":"Immigration Consulting Experts",
+    "immigration-consulting-experts-description": "Personalized advice and support to navigate complex immigration laws and maximize success chances.",
+    "recruiters-job-placements":"Recruiters Job Placements",
+    "recruiters-job-placements-description": "Connect with specialized recruiters to find employment opportunities matching your skills.",
+    "business-brokers":"Business Brokers",
+    "business-brokers-description": "Identify and secure lucrative business opportunities in Canada, guiding you through the investment process.",
+    "educational-institutions":"Educational Institutions",
+    "educational-institutions-description": "Partner with top Canadian institutions to help you secure admission and provide guidance on visas and post-graduation residency pathways.",
+    "legal-compliance-advisors":"Legal Compliance Advisor",
+    "legal-compliance-advisors-description": "Comprehensive legal support for application reviews, compliance checks, and representation in case of appeals.",
+    "holistic-approach":"Holistic Approach",
+    "holistic-approach-text":"At Diverse Visa, we take a holistic approach to immigration support. Our extensive network of partners includes immigration professionals, recruiters, business brokers, government agencies, educational institutions, business incubators, and community organizations. This allows us to offer comprehensive support tailored to the specific needs of each client.",
+    "understanding-unique-journeys":"Understanding unique journeys",
+    "understanding-unique-journeys-text":"We understand that every immigration journey is unique, and we are here to provide the guidance and support needed to make your transition as seamless as possible. Whether you are seeking to start a new life in Canada, pursue educational opportunities, or expand your business, Diverse Visa is your trusted partner every step of the way.",
+    "how-can-we-help":"How can we help ?",
+    "what-sets-us-apart":"What sets us apart?",
+    "initial-consultations": "Inital Consultations",
+    "expect-first-meeting": "What to expect in the first meeting",
+    "prepare-first-meeting": "How to prepare",
+    "other-services": "Other Services",
+    "service-1": "Service Example",
+    "service-1-desc": "Description Example",
+    "service-2": "Service Example",
+    "service-2-desc": "Description Example",
+    "service-3": "Service Example",
+    "service-3-desc": "Description Example",
+    "success-stories": "Success Stories",
+    "ourPrograms":"OUR PROGRAMS",
+    "close":"Close",
+    "connect-social-network":"Connect with Us on social media",
+    "partnernetwork": "Network of Partners",
+    "partners": {
+      "immigrationProfessionals": {
+        "title": "Immigration Professionals",
+        "description": "Certified immigration experts offering tailored visa and immigration consulting services to help you navigate the complexities of visa applications and achieve successful outcomes."
+      },
+      "recruiters": {
+        "title": "Recruiters",
+        "description": "Specialized recruiters connecting you with employment opportunities abroad, ensuring you find the best job placements to match your skills and career goals."
+      },
+      "businessBrokers": {
+        "title": "Business Brokers",
+        "description": "Experienced business brokers assisting clients with business investments and acquisitions, helping you explore and secure profitable business opportunities internationally."
+      },
+      "governmentAgencies": {
+        "title": "Government Agencies",
+        "description": "Official government agencies providing guidance and support to ensure compliance with immigration regulations, making your visa application process smooth and hassle-free."
+      },
+      "educationalInstitutions": {
+        "title": "Educational Institutions",
+        "description": "Partnered schools and universities offering a wide range of educational pathways and programs for international students, helping you achieve your academic and career aspirations."
+      },
+      "businessIncubators": {
+        "title": "Business Incubators",
+        "description": "Business incubators supporting start-ups and entrepreneurs with resources, mentorship, and guidance, fostering innovation and success in your business ventures."
+      },
+      "communityOrganizations": {
+        "title": "Community Organizations",
+        "description": "Local community organizations dedicated to offering support and integration services to newcomers, helping you settle and thrive in your new environment."
+      }
+    },
+    "programs": {
+      "skilledWorkers": {
+        "title": "Skilled Workers",
+        "content": "Designed for individuals with specific skills and qualifications who can contribute to Canada’s economy. These programs include the Express Entry system and various Provincial Nominee Programs (PNPs). Successful applicants can gain permanent residency based on their skills, work experience, and ability to contribute to the Canadian labor market."
+      },
+      "businessAndEntrepreneurs": {
+        "title": "Business and Entrepreneurs",
+        "content": "These programs cater to individuals looking to invest in or start a business in Canada. Key programs include the Start-Up Visa Program, Self-Employed Program, and Owners-Operators Program. They provide pathways to permanent residency for entrepreneurs, investors, and self-employed individuals who can drive economic growth and create jobs in Canada."
+      },
+      "familySponsorship": {
+        "title": "Family Sponsorship",
+        "content": "Allows Canadian citizens and permanent residents to sponsor their relatives, including spouses, common-law partners, dependent children, parents, and grandparents, to come to Canada as permanent residents. This program focuses on family reunification, ensuring families can stay together and support each other."
+      },
+      "caregivers": {
+        "title": "Caregivers",
+        "content": "Aimed at individuals who provide care for children, elderly persons, or those with medical needs in Canada. Caregivers can apply for permanent residency through pathways designed specifically for those who have gained work experience in Canada while providing essential caregiving services."
+      },
+      "temporary": {
+        "title": "Temporary",
+        "content": "These programs allow individuals to come to Canada for a limited period. They include Temporary Resident Visas (for visitors), Work Permits, and Study Permits. Temporary residents may have the opportunity to transition to permanent residency through various immigration pathways."
+      },
+      "humanitarian": {
+        "title": "Humanitarian",
+        "content": "Programs under this category cater to individuals who do not qualify under other immigration programs but have compelling reasons to seek residency in Canada. This includes applications on humanitarian and compassionate grounds, often considering factors like the best interest of children or individuals facing significant hardship."
+      },
+      "studentsAndGraduates": {
+        "title": "Students and Graduates",
+        "content": "Canada offers pathways for international students to study and eventually settle in Canada. Programs include Student Visas and Study Permits, as well as opportunities for graduates to transition to permanent residency through various immigration pathways."
+      },
+      "refugees": {
+        "title": "Refugees",
+        "content": "Canada provides protection to individuals who have fled their home countries due to persecution, war, or violence. Refugee programs offer pathways to safety and permanent residency for those who meet the criteria for refugee status, ensuring they can rebuild their lives in Canada."
+      }
+    },
+    "journeyStart": {
+      "consultationsTitle": "CONSULTATIONS",
+      "firstMeetingTitle": "What to Expect in the First Meeting",
+      "firstMeetingPoints1": "Assess your background: Understand your qualifications and immigration goals.",
+      "firstMeetingPoints2": "Discuss programs: Recommend suitable immigration programs tailored to your needs.",
+      "firstMeetingPoints3": "Outline the process: Explain the application steps, timelines, and requirements.",
+      "firstMeetingPoints4": "Answer questions: Address any concerns or queries you have about immigration.",  
+      "successStories1": "\"Diverse Visa made my immigration process seamless. Their expertise ensured my Express Entry success.\":- John D., Skilled Worker",
+      "successStories2": "\"Thanks to Diverse Visa, I successfully launched my business in Canada. Their support was invaluable.\":- Maria S., Entrepreneur",
+      "successStories3": "\"Diverse Visa helped me secure my Study Permit and guided me towards permanent residency.\":- Elena K., Student",
+      "successStories4": "\"Diverse Visa reunited us with our family. Their professionalism made all the difference.\":- Ahmed and Fatima A., Family Sponsorship",  
+      "successStoriesTitle": "Success Stories"
+    },
+    "First Name": "First Name",
+    "Last Name": "Last Name",
+    "Email": "Email",
+    "Message": "Message",
+    "SEND": "SEND",
+    "blog-title": "Understanding the Canadian Study Permit Process: A Comprehensive Guide",
+    "blog-intro": "Canada is renowned for its world-class education system, making it a top choice for international students. If you’re considering studying in Canada, one of the first steps is obtaining a Study Permit. This guide will help you understand the process, its benefits, and how to navigate it confidently.",
+    "blog-image1-alt": "Canadian Study Permit Process",
+    "blog-why-study-canada": "Why Study in Canada?",
+    "blog-high-quality-education": "High-Quality Education",
+    "blog-high-quality-education-desc": "Canadian universities and colleges are globally recognized for their academic excellence, offering a wide range of programs that cater to diverse interests and career goals.",
+    "blog-work-opportunities": "Work Opportunities",
+    "blog-work-opportunities-desc": "With a Study Permit, you can work part-time during your studies and full-time during breaks, helping you gain valuable work experience and earn money to support yourself.",
+    "blog-pathway-to-pr": "Pathway to Permanent Residency",
+    "blog-pathway-to-pr-desc": "After graduation, the Post-Graduation Work Permit (PGWP) allows you to work in Canada, which can be a stepping stone to permanent residency through programs like Express Entry.",
+    "blog-study-permit": "What is a Study Permit?",
+    "blog-study-permit-desc": "A Study Permit is an official document issued by the Canadian government that allows foreign nationals to study at designated learning institutions (DLIs) in Canada. It’s important to note that a Study Permit is not a visa. You may also need a visitor visa or an Electronic Travel Authorization (eTA) to enter Canada.",
+    "blog-eligibility": "Eligibility Requirements",
+    "blog-acceptance-at-dli": "Acceptance at a DLI",
+    "blog-acceptance-at-dli-desc": "You need an acceptance letter from a recognized Canadian educational institution.",
+    "blog-proof-of-funds": "Proof of Funds",
+    "blog-proof-of-funds-desc": "You must show that you have enough money to cover tuition fees, living expenses, and return transportation.",
+    "blog-ties-to-home": "Ties to Home Country",
+    "blog-ties-to-home-desc": "You need to prove that you will return to your home country after your studies.",
+    "blog-no-criminal-record": "No Criminal Record",
+    "blog-no-criminal-record-desc": "A police certificate may be required to prove you have no criminal record.",
+    "blog-medical-exam": "Medical Exam",
+    "blog-medical-exam-desc": "Depending on your country of residence, you may need a medical exam to ensure you’re in good health.",
+    "blog-image2-alt": "Canadian Study Permit Process",
+    "blog-application-process": "The Application Process",
+    "blog-acceptance-letter": "Acceptance Letter",
+    "blog-acceptance-letter-desc": "Start by applying to and getting accepted by a DLI. Once accepted, you’ll receive an acceptance letter, which is required for your Study Permit application.",
+    "blog-gather-documentation": "Gather Documentation",
+    "blog-gather-documentation-desc": "Prepare your documents, including your passport, acceptance letter, proof of funds, and any additional documents required by your home country (such as biometrics or police certificates).",
+    "blog-submit-application": "Submit Your Application",
+    "blog-submit-application-desc": "Apply online via the Immigration, Refugees, and Citizenship Canada (IRCC) website. Make sure to fill out all forms accurately and submit all required documents.",
+    "blog-pay-fees": "Pay the Fees",
+    "blog-pay-fees-desc": "There’s an application fee that you must pay when submitting your application. If biometrics are required, there will be an additional fee.",
+    "blog-processing-time": "Processing Time",
+    "blog-processing-time-desc": "Processing times vary depending on your home country. Check the IRCC website for estimated processing times and plan accordingly.",
+    "blog-approval-and-travel": "Approval and Travel",
+    "blog-approval-and-travel-desc": "Once approved, you’ll receive your Study Permit. Make travel arrangements to Canada and be prepared for an interview with immigration officers upon arrival.",
+    "blog-image3-alt": "Canadian Study Permit Process",
+    "blog-after-arrival": "After Arrival in Canada",
+    "blog-begin-studies": "Begin Your Studies",
+    "blog-begin-studies-desc": "Start attending your classes as per your schedule and make sure to follow all the regulations of your Study Permit.",
+    "blog-work-while-studying": "Work While Studying",
+    "blog-work-while-studying-desc": "You’re allowed to work part-time during your studies and full-time during breaks. Make use of this opportunity to gain work experience and support yourself financially.",
+    "blog-post-graduation-opportunities": "Post-Graduation Opportunities",
+    "blog-post-graduation-opportunities-desc": "After completing your studies, explore options such as the Post-Graduation Work Permit (PGWP) and pathways to permanent residency.",
+    "blog-advantages": "Advantages of Studying in Canada",
+    "blog-quality-of-life": "Quality of Life",
+    "blog-quality-of-life-desc": "Canada is known for its high standard of living, safe environment, and friendly communities.",
+    "blog-cultural-diversity": "Cultural Diversity",
+    "blog-cultural-diversity-desc": "Experience a diverse and inclusive society that values multiculturalism and offers a range of cultural experiences.",
+    "blog-career-opportunities": "Career Opportunities",
+    "blog-career-opportunities-desc": "Canada offers numerous career opportunities and has a strong job market, particularly for international graduates.",
+    "blog-closing": "Studying in Canada offers numerous benefits and opportunities for personal and professional growth. By understanding the Study Permit process and preparing thoroughly, you can embark on a successful educational journey in one of the world’s most welcoming countries.",
+    "family": {
+      "blog-image2-alt": "Family Sponsorship Image",
+      "blog-title": "Family Sponsorship: Reuniting Families in Canada",
+      "intro": "What is Family Sponsorship? Family Sponsorship allows Canadian citizens and permanent residents to sponsor their loved ones for permanent residency in Canada. This program is essential for reuniting families and providing support networks for newcomers.",
+      "who-can-sponsor-title": "Who Can You Sponsor?",
+      "who-can-sponsor": [
+        "Spouse or Common-Law Partner: You can sponsor your spouse or partner to live with you in Canada.",
+        "Dependent Children: Sponsorship is available for your children under 22 years old, including adopted children.",
+        "Parents and Grandparents: You can also sponsor your parents and grandparents, ensuring they can live with you in Canada."
+      ],
+      "why-choose-title": "Why Choose Family Sponsorship?",
+      "why-choose": [
+        "Family Reunification: Keep your loved ones close and support them as they integrate into Canadian society.",
+        "Permanent Residency: Sponsored family members receive permanent residency, allowing them to live, work, and study in Canada."
+      ],
+      "how-it-works-title": "How Does It Work?",
+      "how-it-works": [
+        "Eligibility Check: Ensure both the sponsor and the sponsored person meet the eligibility criteria.",
+        "Submit the Application: Complete and submit your sponsorship application along with all required documents.",
+        "Processing and Approval: After the application is reviewed, the sponsored person will be granted permanent residency."
+      ],
+      "benefits-title": "Benefits",
+      "benefits": [
+        "Support Network: Having family in Canada provides emotional and practical support, easing the transition to a new country.",
+        "Access to Services: Sponsored family members gain access to healthcare, education, and social services in Canada."
+      ],
+      "closing": "At Diverse Visa, we understand the importance of family. Our team is here to help you navigate the Family Sponsorship process, ensuring a smooth and successful application. Contact us today to reunite with your loved ones in Canada."
+    },
+    "startup": {
+      "blog-image1-alt": "Start-Up Visa Program Image",
+      "blog-title": "Exploring the Start-Up Visa Program: Your Gateway to Entrepreneurship in Canada",
+      "intro": "Canada’s Start-Up Visa Program offers a unique opportunity for innovative entrepreneurs to establish their businesses and gain permanent residency. If you have a business idea with global potential, this program could be your gateway to launching it in one of the world’s most dynamic economies.",
+      "what-is-title": "What is the Start-Up Visa Program?",
+      "what-is-description": "The Start-Up Visa Program is designed for entrepreneurs who can create jobs for Canadians and compete on a global scale. The program connects you with Canadian private sector organizations, such as angel investor groups, venture capital funds, or business incubators, who can support your start-up.",
+      "eligibility-requirements-title": "Eligibility Requirements",
+      "eligibility-requirements": [
+        "Have a Qualifying Business: Your business must be innovative, have the potential for growth, and be able to compete internationally.",
+        "Secure a Commitment: You must obtain a letter of support from a designated organization, such as an angel investor group, venture capital fund, or business incubator.",
+        "Meet Language Requirements: You need to demonstrate proficiency in English or French through recognized language tests.",
+        "Proof of Funds: You must show that you have enough money to settle in Canada and support yourself and your family while establishing your business."
+      ],
+      "application-process-title": "The Application Process",
+      "application-process": [
+        "Develop Your Business Idea: Start with a strong, innovative business concept that meets the criteria for global competitiveness and job creation in Canada.",
+        "Secure a Commitment: Approach a designated organization and pitch your business idea. If they believe in your concept, they will provide a letter of support, which is crucial for your application.",
+        "Apply for the Visa: Once you have the letter of support, you can apply for the Start-Up Visa. You’ll need to submit your business plan, proof of funds, language test results, and other required documents.",
+        "Processing and Approval: The processing time can vary, but once approved, you’ll receive your visa, allowing you to come to Canada and establish your business.",
+        "Path to Permanent Residency: The Start-Up Visa not only allows you to build your business in Canada but also offers a direct pathway to permanent residency for you and your family."
+      ],
+      "advantages-title": "Advantages of the Start-Up Visa Program",
+      "advantages": [
+        "Access to Funding and Support: By securing a commitment from a Canadian organization, you gain access to valuable resources, mentorship, and potential funding to grow your business.",
+        "Permanent Residency: The program provides a clear pathway to permanent residency for successful applicants and their families.",
+        "Thriving Entrepreneurial Ecosystem: Canada offers a supportive environment for start-ups, with access to a skilled workforce, strong infrastructure, and a stable economy."
+      ],
+      "success-stories-title": "Success Stories",
+      "success-stories-description": "Many entrepreneurs from around the world have successfully used the Start-Up Visa Program to launch their businesses in Canada. These start-ups have gone on to create jobs, innovate in various industries, and contribute to the Canadian economy.",
+      "closing": "At Diverse Visa, we specialize in guiding entrepreneurs through the Start-Up Visa Program. From developing your business plan to securing a commitment from a designated organization, we provide comprehensive support every step of the way. Contact us today to start your entrepreneurial journey in Canada."
+    }
+  }
+  
