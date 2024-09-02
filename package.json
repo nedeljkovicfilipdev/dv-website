@@ -3,9 +3,9 @@
   "version": "1.0.1",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 5100",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 5100",
     "typecheck": "tsc --noEmit",
     "typecheck:watch": "tsc --noEmit --watch",
     "lint": "eslint --quiet app --ext .ts,.tsx && stylelint app/**/*.less",
