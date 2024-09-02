@@ -160,7 +160,7 @@ export const Header = () => {
             <div className="mb-2">
               <LocaleSwitcher isMenuOpen={isMenuOpen} />
             </div>
-            <Button onClick={handleBlog} className="cursor-pointer bg-customblue hover:bg-custombluehover">
+            <Button onClick={handleBlog} className="cursor-pointer bg-customblue text-white hover:bg-custombluehover">
               {t('blog-nav')}
             </Button>
           </div>
