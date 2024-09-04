@@ -12,6 +12,7 @@
     "lint:fix": "eslint --quiet --fix app --ext .ts,.tsx && stylelint --fix app/**/*.less"
   },
   "dependencies": {
+    "@next/third-parties": "^14.2.7",
     "@radix-ui/react-dropdown-menu": "^2.1.1",
     "@radix-ui/react-popover": "^1.1.1",
     "@radix-ui/react-slot": "^1.1.0",

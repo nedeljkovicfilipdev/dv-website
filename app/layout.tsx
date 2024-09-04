@@ -3,6 +3,7 @@ import { ReactNode } from 'react';
 import './globals.css';
 import { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -25,6 +26,7 @@ export default function RootLayout({ children }: Props) {
       <body className={`${inter.className} bg-white text-black`}>
         {children}
       </body>
+      <GoogleAnalytics gaId='G-VQSRSLBQYG' />
     </html>
   );
 }

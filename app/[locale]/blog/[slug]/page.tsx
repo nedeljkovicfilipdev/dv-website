@@ -16,13 +16,13 @@ const BlogPage = ({ params }: BlogPageProps) => {
   let BlogComponent;
 
   switch (slug) {
-    case 'CanadianStudyGuide':
+    case 'understanding-the-canadian-study-permit-process-a-comprehensive-guide':
       BlogComponent = Blog1;
       break;
-    case 'FamilySponsorship':
+    case 'family-sponsorship-reuniting-families-in-canada':
       BlogComponent = Blog2;
       break;
-    case 'StartUpVisa':
+    case 'exploring-the-start-up-visa-program-your-gateway-to-entrepreneurship-in-canada':
       BlogComponent = Blog3;
       break;
     default:
