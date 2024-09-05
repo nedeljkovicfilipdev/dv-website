@@ -1,9 +1,8 @@
-// app/layout.tsx
 import { ReactNode } from 'react';
 import './globals.css';
 import { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import { GoogleAnalytics } from '@next/third-parties/google'
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -20,7 +19,16 @@ export default function RootLayout({ children }: Props) {
   return (
     <html className="h-full" lang="en">
       <head>
-        {/* Add any global meta tags or links here */}
+        {/* Favicon */}
+        <link rel="icon" href="/icon.ico" />
+
+        {/* Open Graph Meta Tags */}
+        <meta property="og:title" content="Diverse Visa - Expert Immigration Services for Canada and Beyond" />
+        <meta property="og:description" content="Expert immigration services for Canada. Diverse Visa helps with visa applications, study permits, work permits, and more. Seamless, professional, and successful outcomes." />
+        <meta property="og:image" content="/icon.ico" /> {/* Replace with a specific image if needed */}
+        <meta property="og:url" content="https://diversevisa.com" />
+
+        {/* Viewport Meta Tag */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
       <body className={`${inter.className} bg-white text-black`}>
