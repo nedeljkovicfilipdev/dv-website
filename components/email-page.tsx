@@ -31,12 +31,12 @@ export const EmailForm = () => {
 
   const validateForm = () => {
     const newErrors = [];
-    if (!formData.firstName) newErrors.push(t('First Name is required.'));
-    if (!formData.lastName) newErrors.push(t('Last Name is required.'));
-    if (!formData.email) newErrors.push(t('Email is required.'));
-    else if (!/\S+@\S+\.\S+/.test(formData.email)) newErrors.push(t('Email format is invalid.'));
-    if (!formData.message) newErrors.push(t('Message is required.'));
-    if (!agreeToContact) newErrors.push(t('You must agree to be contacted.'));
+    if (!formData.firstName) newErrors.push(t('First Name is required'));
+    if (!formData.lastName) newErrors.push(t('Last Name is required'));
+    if (!formData.email) newErrors.push(t('Email is required'));
+    else if (!/\S+@\S+\.\S+/.test(formData.email)) newErrors.push(t('Email format is invalid'));
+    if (!formData.message) newErrors.push(t('Message is required'));
+    if (!agreeToContact) newErrors.push(t('You must agree to be contacted'));
     setErrors(newErrors);
     return newErrors.length === 0;
   };
@@ -51,13 +51,13 @@ export const EmailForm = () => {
     try {
       const response = await axios.post('/api/send-email', formData);
       if (response.status === 200) {
-        setStatus(t('Email sent successfully!'));
+        setStatus(t('Email sent successfully'));
         setFormData({ firstName: '', lastName: '', email: '', message: '' });
         setAgreeToContact(false);
       }
     } catch (error) {
       console.error('Error sending email:', error);
-      setStatus(t('Failed to send email. Please try again later.'));
+      setStatus(t('Failed to send email Please try again later'));
     }
   };
 

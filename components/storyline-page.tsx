@@ -12,7 +12,7 @@ export const DiverseStoryline = () => {
               {t('storyline-title')}
             </h1>
             <div className="flex flex-col items-center space-y-2 p-4">
-              <p className="mb-6 text-justify sm:text-lg xl:text-xl font-light">
+              <p className="mb-6 text-left md:text-justify sm:text-lg xl:text-xl font-light">
                 {t('storyline')}
               </p>
             </div>

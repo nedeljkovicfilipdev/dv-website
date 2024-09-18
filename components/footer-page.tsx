@@ -1,13 +1,27 @@
 "use client"; // Add this to mark the component as a Client Component
 
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone, PhoneCall } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { EmailForm } from './email-page';
+import { Button } from '@/ui/button';
+import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 
 export const Footer = () => {
   const t = useTranslations();
+  const router = useRouter();
+  const locale = useLocale();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  
+  const handlePrivacy = () => {
+    router.push(`/${locale}/privacy-policy`);
+    window.scrollTo(0, 0);
+    if (isMenuOpen) {
+      setIsMenuOpen(false);
+    }
+  };
 
   return (
     <section id="contact-us">
@@ -52,7 +66,9 @@ export const Footer = () => {
           </div>
 
           {/* Middle Section */}
-          <div className="mb-4 flex flex-col items-center md:mb-0 md:items-center"></div>
+          <div className="mb-4 flex flex-col items-center md:mb-0 md:items-center">
+            
+          </div>
 
           {/* Right Section - Form and Social Links */}
           <div className='bg-white p-6 text-black rounded-2xl md:w-[250px] xl:w-[450px]'>
@@ -76,6 +92,11 @@ export const Footer = () => {
 
         {/* Bottom Section - Footer Links and Contact Info */}
         <div className="mt-8 text-center text-gray-400">
+          <div>
+            <Button onClick={handlePrivacy} className="cursor-pointer bg-customblue text-white hover:bg-custombluehover">
+              {t('privacy-policy')}
+            </Button>
+          </div>
           <div>
             <p>&copy; {new Date().getFullYear()} Diverse Visa. All rights reserved.</p>
           </div>

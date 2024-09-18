@@ -21,7 +21,7 @@ export const DiverseAbout = () => {
             </div>
 
             {/* Right Column: Content */}
-            <div className="w-full md:w-1/2 md:pl-10 tracking-tighter" >
+            <div className="w-full md:w-1/2 md:pl-10 tracking-tight" >
               {/* Header */}
               <div className="flex items-center justify-center mb-8">
                 <p className="mb-6 text-center font-bold text-black text-3xl md:text-2xl xl:text-5xl">
@@ -43,8 +43,8 @@ export const DiverseAbout = () => {
                 <p className="text-lg text-[#333]">{t('diverse-values')}</p>
               </div>
               <div className="p-2 space-y-8 font-light">
-                <h2 className="sm:text-2xl xl:text-3xl text-[#333] text-center font-bold">{t('our-team')}</h2>
-                <p className="text-lg text-[#333] font-arial">{t('diverse-team-about')}</p>
+                <h2 className="text-2xl xl:text-3xl text-[#333] text-center font-bold">{t('our-team')}</h2>
+                <p className="text-lg text-[#333]">{t('diverse-team-about')}</p>
               </div>
             </div>
           </div>
