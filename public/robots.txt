@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.diversevisa.com
+
+# Sitemaps
+Sitemap: https://www.diversevisa.com/sitemap.xml
