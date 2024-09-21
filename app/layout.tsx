@@ -23,6 +23,7 @@ export default function RootLayout({ children }: Props) {
         <link rel="icon" href="/icon.ico" />
 
         {/* Open Graph Meta Tags */}
+        <meta property="og:site_name" content="Diverse Visa" />
         <meta property="og:title" content="Diverse Visa - Expert Immigration Services for Canada and Beyond" />
         <meta property="og:description" content="Expert immigration services for Canada. Diverse Visa helps with visa applications, study permits, work permits, and more. Seamless, professional, and successful outcomes." />
         <meta property="og:image" content="/images/logo/dv-logo-reverse.jpg" /> {/* Replace with a specific image if needed */}
