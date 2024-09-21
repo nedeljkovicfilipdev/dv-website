@@ -31,6 +31,23 @@ export default function RootLayout({ children }: Props) {
 
         {/* Viewport Meta Tag */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Diverse Visa",
+              "url": "https://diversevisa.com",
+              "description": "Expert immigration services for Canada and more.",
+              "sameAs": [
+                "https://www.facebook.com/diversevisa",
+                "https://www.instagram.com/diversevisa"
+              ]
+            }),
+          }}
+        />
       </head>
       <body className={`${inter.className} bg-white text-black`}>
         {children}
