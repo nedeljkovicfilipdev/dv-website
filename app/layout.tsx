@@ -13,6 +13,7 @@ type Props = {
 export const metadata: Metadata = {
   title: 'Diverse Visa - Expert Immigration Services for Canada and Beyond',
   description: 'Expert immigration services for Canada. Diverse Visa helps with visa applications, study permits, work permits, and more. Seamless, professional, and successful outcomes.',
+  keywords: 'diverse visa, immigration, visa, canada immigration, work permits, study permits, diverse visa, visa application',
 };
 
 export default function RootLayout({ children }: Props) {
