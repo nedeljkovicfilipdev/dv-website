@@ -50,6 +50,7 @@ export default function RootLayout({ children }: Props) {
         />
       </head>
       <body className={`${inter.className} bg-white text-black`}>
+        <h1 className='sr-only'>Diverse Visa</h1>
         {children}
       </body>
       <GoogleAnalytics gaId='G-VQSRSLBQYG' />
