@@ -7,6 +7,7 @@ import Link from 'next/link';
 import { EmailForm } from './email-page';
 import { Button } from '@/ui/button';
 import { useState } from 'react';
+import Flag from 'react-world-flags';
 import { useRouter } from 'next/navigation';
 
 export const Footer = () => {
@@ -43,16 +44,24 @@ export const Footer = () => {
 
             <div className="mb-6 p-4 text-white rounded-lg">
               <p className="mb-2">
-                <a href="tel:+381645772908" className="flex text-blue-400 hover:text-blue-300">
-                  <Phone className='mr-4'/>+381 64 4684465
-                </a>
+              <a href="tel:+16479316484" className="text-blue-400 hover:text-blue-300">
+                <p>Canadian Office:</p>
+                <div className="flex items-center">
+                  <Flag code="CA" className="w-6 h-6 mr-2" />
+                  <p>+1 (647) 931-6484</p>
+                </div>
+              </a>
               </p>
               <p className="mb-2">
-                <a href="tel:+381645772908" className="flex text-blue-400 hover:text-blue-300">
-                  <PhoneCall className='mr-4 text-customgreen'/>+381 64 4684465
-                </a>
+              <a href="tel:+381644684465" className="text-blue-400 hover:text-blue-300">
+                <p>Serbian Office:</p>
+                <div className="flex items-center">
+                  <Flag code="RS" className="w-6 h-6 mr-2" />
+                  <p>+381 (64) 468-4465</p>
+                </div>
+              </a>
               </p>
-              <p className="mb-4">
+              <p className="mb-4 mt-6">
                 <a href="mailto:info@example.com" className="flex text-blue-400 hover:text-blue-300">
                   <Mail className='mr-4'/>info@diversevisa.com
                 </a>
