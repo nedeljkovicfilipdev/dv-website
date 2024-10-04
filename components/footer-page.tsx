@@ -7,8 +7,8 @@ import Link from 'next/link';
 import { EmailForm } from './email-page';
 import { Button } from '@/ui/button';
 import { useState } from 'react';
-import Flag from 'react-world-flags';
 import { useRouter } from 'next/navigation';
+import Flag from 'react-world-flags';
 
 export const Footer = () => {
   const t = useTranslations();
@@ -43,35 +43,36 @@ export const Footer = () => {
             </Link>
 
             <div className="mb-6 p-4 text-white rounded-lg">
-              <p className="mb-2">
-              <a href="tel:+16479316484" className="text-blue-400 hover:text-blue-300">
-                <p>Canadian Office:</p>
+              <div className="mb-2">
+                <span className="text-blue-400 hover:text-blue-300">
+                  Canadian Office:
+                </span>
                 <div className="flex items-center">
                   <Flag code="CA" className="w-6 h-6 mr-2" />
-                  <p>+1 (647) 931-6484</p>
+                  <span>+1 (647) 931-6484</span>
                 </div>
-              </a>
-              </p>
-              <p className="mb-2">
-              <a href="tel:+381644684465" className="text-blue-400 hover:text-blue-300">
-                <p>Serbian Office:</p>
+              </div>
+              <div className="mb-2">
+                <span className="text-blue-400 hover:text-blue-300">
+                  Serbian Office:
+                </span>
                 <div className="flex items-center">
                   <Flag code="RS" className="w-6 h-6 mr-2" />
-                  <p>+381 (64) 468-4465</p>
+                  <span>+381 (64) 468-4465</span>
                 </div>
-              </a>
-              </p>
-              <p className="mb-4 mt-6">
+              </div>
+              <div className="mb-4 mt-6">
                 <a href="mailto:info@example.com" className="flex text-blue-400 hover:text-blue-300">
-                  <Mail className='mr-4'/>info@diversevisa.com
+                  <Mail className="mr-4" /> info@diversevisa.com
                 </a>
-              </p>
+              </div>
               <div className="mt-10 text-lg font-semibold">{t('Locations')}:</div>
               <div className="mt-2">
-                <p className='flex mb-4'><MapPin className='mr-4'/>Belgrade, Serbia</p>
-                <p className='flex'><MapPin className='mr-4'/>Toronto, Canada</p>
+                <p className="flex mb-4"><MapPin className="mr-4" />Belgrade, Serbia</p>
+                <p className="flex"><MapPin className="mr-4" />Toronto, Canada</p>
               </div>
             </div>
+
           </div>
 
           {/* Middle Section */}

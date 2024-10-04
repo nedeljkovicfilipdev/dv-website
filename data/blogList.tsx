@@ -1,6 +1,8 @@
 import Blog1 from '@/components/blogs/blog1';
 import Blog2 from '@/components/blogs/blog2';
 import Blog3 from '@/components/blogs/blog3';
+import Blog4 from '@/components/blogs/blog4';
+import Blog5 from '@/components/blogs/blog5';
 import { TranslationKeys } from '@/types/translationKeys';
 import { ReactNode } from 'react';
 
@@ -29,5 +31,17 @@ export const BlogList: Blog[] = [
     titleKey: 'startup.blog-title',
     image: '/images/blog/blogimg1.jpg',
     component: <Blog3 />
+  },
+  {
+    slug: 'exciting-remote-job-opportunity-web-developer-in-canada',
+    titleKey: 'job-title',
+    image: '/images/blog/blogimg4.jpg',
+    component: <Blog4 />
+  },
+  {
+    slug: 'on-site-job-opportunities-across-canada-apply-now',
+    titleKey: 'heading',
+    image: '/images/blog/blogimg5.jpg',
+    component: <Blog5 />
   },
 ];

@@ -5,4 +5,6 @@ export type TranslationKeys =
   | 'back-blog'
   | 'family.blog-title'
   | 'startup.blog-title'
+  | 'job-title'
+  | 'heading'
   // Add other translation keys here...

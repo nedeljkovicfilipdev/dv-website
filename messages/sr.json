@@ -256,6 +256,101 @@
       "success-stories-title": "Priče o uspehu",
       "success-stories-description": "Mnogi preduzetnici iz celog sveta uspešno su koristili Start-Up Visa program za pokretanje svojih poslova u Kanadi. Ovi startapi su stvorili radna mesta, inovirali u različitim industrijama i doprinosili kanadskoj ekonomiji.",
       "closing": "U kompaniji Diverse Visa, specijalizovani smo za vođenje preduzetnika kroz Start-Up Visa program. Od razvijanja vašeg poslovnog plana do osiguravanja obaveze od ovlašćene organizacije, pružamo sveobuhvatnu podršku u svakom koraku. Kontaktirajte nas danas da započnete svoje preduzetničko putovanje u Kanadi."
-    }
+    },
+    "job-title": "Uzbudljiva udaljena radna prilika: Veb programer u Kanadi",
+  "job-intro": "U Diverse Visa, uzbuđeni smo što možemo predstaviti jedinstvenu i fleksibilnu priliku za vešte veb programere da rade udaljeno sa jednim od naših proverenih klijenata u Kvebeku, Kanada. Ova uloga vam omogućava da doprinosite rastućoj tehnološkoj industriji Kanade dok uživate u fleksibilnosti rada od kuće, gde god da se nalazite. Pozicija veb programera dolazi sa odobrenjem LMIA, što pojednostavljuje proces prijave za radnu dozvolu, omogućavajući vam da pređete u kanadsku ulogu bez potrebe za trenutnim preseljenjem.",
+  
+  "job-about-role-title": "O ulozi",
+  "job-about-role-desc": "Kao veb programer, igraćete ključnu ulogu u dizajniranju, razvoju i održavanju veb sajtova za razne projekte. Blisko ćete sarađivati sa drugim programerima, dizajnerima i zainteresovanim stranama kako biste osigurali da su veb sajtovi optimizovani za brzinu, performanse i korisničko iskustvo.",
+  
+  "job-responsibilities-title": "Vaše odgovornosti",
+  "job-responsibility1": "Razvijajte responzivne i visoko performanse veb sajtove koristeći tehnologije kao što su HTML, CSS, JavaScript i PHP.",
+  "job-responsibility2": "Saradnja sa međufunkcionalnim timovima kako biste pružili besprekorno korisničko iskustvo.",
+  "job-responsibility3": "Održavajte i optimizujte veb sajtove za brzinu i performanse.",
+  "job-responsibility4": "Otklanjajte i ispravite sve probleme sa veb sajtovima koji se javljaju.",
+  "job-responsibility5": "Budite u toku sa najnovijim trendovima i tehnologijama veb programiranja.",
+  
+  "job-requirements-title": "Ključni zahtevi",
+  "job-requirement1": "Iskustvo: Dokazano iskustvo u veb programiranju, sa ekspertizom u front-end i back-end tehnologijama. Znanje okvira kao što su React, Angular ili Laravel je plus.",
+  "job-requirement2": "Obrazovanje: Diploma iz računarskih nauka ili srodnog polja se preferira, ali će se uzeti u obzir i ekvivalentno iskustvo.",
+  "job-requirement3": "Veštine: Snažna pažnja na detalje, veštine rešavanja problema i sposobnost da radite samostalno u udaljenom okruženju.",
+  "job-requirement4": "Jezik: Povezivanje na engleskom jeziku je obavezno. Poznavanje francuskog jezika je bonus, ali nije obavezno.",
+  
+  "job-why-choose-title": "Zašto odabrati udaljeni posao u Kanadi?",
+  "job-why-choose-desc": "Kanada je poznata po svom prosperitetnom tehnološkom sektoru, a ova uloga vam omogućava da postanete deo toga bez potrebe za trenutnim preseljenjem. Rad na daljinu nudi vam fleksibilnost da uskladite svoju karijeru sa ličnim životom, dok dobijate dragoceno iskustvo sa kanadskim preduzećima. Štaviše, status odobrenja LMIA ove uloge osigurava da se vaša prijava za radnu dozvolu obrađuje glatko i efikasno.",
+  
+  "job-application-process-title": "Kako se prijaviti",
+  "job-application-process-desc": "Ako ste kvalifikovani veb programer koji traži mogućnost rada na daljinu za kanadsku kompaniju, ovo je savršena prilika za vas! Kontaktirajte nas na info@diversevisa.com ili posetite našu veb stranicu kako biste saznali više o procesu prijave.",
+  
+  "job-conclusion-title": "Zaključak",
+  "job-conclusion-desc": "Ova pozicija veb programera nudi vam najbolje iz oba sveta — rad na daljinu dok gradite svoju karijeru u kanadskoj tehnološkoj industriji. Sa fleksibilnošću udaljenog rada i sigurnošću pozicije sa LMIA, ova uloga je savršena za programere koji žele da ostave značajan utisak. Obratite se Diverse Visa danas i započnite svoje putovanje ka svetlijoj budućnosti u Kanadi.",
+  "heading": "Mogućnosti posla na licu mesta širom Kanade – Prijavite se odmah!",
+  "intro-paragraph": "U Diverse Visa ponosni smo što možemo da ponudimo širok spektar mogućnosti posla na licu mesta za kvalifikovane radnike koji žele da žive i rade u Kanadi. Sa pozicijama u više provincija, ove uloge pružaju odličan put ka dobijanju kanadske radne dozvole, a mnoge nude potencijal za prelazak u stalno prebivalište kroz programe kao što su Ocenjivanje uticaja na tržište rada (LMIA), Pilot program za imigraciju u ruralne i severne oblasti (RNIP) i Atlantski imigracioni program (AIP). Ove uloge se protežu kroz razne industrije kao što su zdravstvo, logistika, građevinarstvo i ugostiteljstvo, i savršene su za pojedince koji žele da rade direktno u svojim izabranim oblastima. Mnoge pozicije već imaju odobrenje LMIA, što čini proces imigracije bržim i efikasnijim.",
+  
+  "positions-header": "Dostupne pozicije na licu mesta",
+  
+  "position-1-title": "1. Konobar",
+  "position-1-location": "Lokacija: New Brunswick (NB)",
+  "position-1-program": "Program: Odobren LMIA",
+  "position-1-description": "Ako imate iskustva u ugostiteljstvu, ova uloga konobara u New Brunswicku je odlična prilika. Sa odobrenjem LMIA, proces dobijanja radne dozvole je pojednostavljen, omogućavajući vam da brzo počnete sa radom.",
+  
+  "position-2-title": "2. Auto mehaničar",
+  "position-2-location": "Lokacija: Nova Škotska (NS)",
+  "position-2-program": "Program: Odobren LMIA",
+  "position-2-description": "Auto mehaničari su traženi širom Kanade. Ova pozicija u Novoj Škotskoj nudi praktičan rad u prometnoj radionici i ima LMIA odobrenje, što olakšava dobijanje radne dozvole.",
+  
+  "position-3-title": "3. Računovođa",
+  "position-3-location": "Lokacija: Alberta",
+  "position-3-program": "Program: RNIP",
+  "position-3-description": "Ova uloga nudi priliku da radite kao računovođa u rastućem finansijskom sektoru Albare. Kroz RNIP, ovaj posao pruža direktan put ka stalnom prebivalištu.",
+  
+  "position-4-title": "4. Radnik na farmi mleka",
+  "position-4-location": "Lokacija: Newfoundland i Labrador (NL)",
+  "position-4-program": "Program: LMIA",
+  "position-4-description": "Ova pozicija je idealna za pojedince sa iskustvom u poljoprivredi. LMIA odobrenje olakšava dobijanje radne dozvole i omogućava vam da počnete da doprinosite poljoprivrednom sektoru Kanade.",
+  
+  "position-5-title": "5. Lični pomoćnik/bilingvalna medicinska sestra",
+  "position-5-location": "Lokacija: Britanska Kolumbija (BC)",
+  "position-5-program": "Program: Odobren LMIA",
+  "position-5-description": "Zdravstveni radnici su uvek traženi, a ova uloga za bilingvalnog ličnog pomoćnika ili medicinsku sestru u Britanskoj Kolumbiji nije izuzetak. Sa LMIA odobrenjem, proces dobijanja radne dozvole se ubrzava.",
+  
+  "position-6-title": "6. Mehaničar poljoprivredne opreme",
+  "position-6-location": "Lokacija: Newfoundland i Labrador (NL)",
+  "position-6-program": "Program: LMIA",
+  "position-6-description": "Ako imate iskustvo u radu sa poljoprivrednom opremom, ova pozicija je odlična prilika za rad u poljoprivrednoj industriji Kanade. Ova LMIA odobrena pozicija vam omogućava da lako počnete da radite u ruralnim područjima Kanade.",
+  
+  "position-7-title": "7. Vozač kamiona",
+  "position-7-location": "Lokacija: NL, BC, ON",
+  "position-7-program": "Program: LMIA",
+  "position-7-description": "Sa više od 30 dostupnih pozicija širom Newfoundland-a, Britanske Kolumbije i Ontarija, vozači kamiona su veoma traženi. LMIA odobrenje obezbeđuje brz i jednostavan proces dobijanja radne dozvole.",
+  
+  "position-8-title": "8. Prijemnik-pošiljalac/operater viljuškara",
+  "position-8-location": "Lokacija: New Brunswick (NB)",
+  "position-8-program": "Program: LMIA/AIP",
+  "position-8-description": "Ova uloga uključuje upravljanje operacijama prijema i slanja, uključujući zadatke operatera viljuškara, u New Brunswicku. Kvalifikuje se i za LMIA i AIP, što čini proces dobijanja radne dozvole fleksibilnim.",
+  
+  "position-9-title": "9. Frizer",
+  "position-9-location": "Lokacija: NB, ON, NS",
+  "position-9-program": "Program: LMIA",
+  "position-9-description": "Iskusni frizeri mogu se prijaviti za više pozicija širom New Brunswicka, Ontarija i Nove Škotske. Ove uloge su LMIA odobrene, što olakšava dobijanje radne dozvole.",
+  
+  "position-10-title": "10. Kuhar (kuhinja severne Indije)",
+  "position-10-location": "Lokacija: Ontario (ON)",
+  "position-10-program": "Program: Odobren LMIA",
+  "position-10-description": "Ako ste kuvar specijalizovan za kuhinju severne Indije, ova pozicija u Ontariju je odlična prilika da pokažete svoje kulinarske talente. Sa LMIA odobrenjem, možete dobiti radnu dozvolu i brzo početi da radite u Kanadi.",
+  
+  "position-11-title": "11. Varioci/konstruisanje",
+  "position-11-location": "Lokacija: Ontario (ON)",
+  "position-11-program": "Program: LMIA",
+  "position-11-description": "Ako ste iskusni varilac ili konstruktor, ova pozicija u Ontariju nudi odličnu priliku za rad u građevinskom sektoru Kanade. LMIA odobrenje obezbeđuje glatku proceduru dobijanja radne dozvole.",
+  
+  "position-12-title": "12. CNC operateri i operateri mašina",
+  "position-12-location": "Lokacija: Ontario (ON)",
+  "position-12-program": "Program: LMIA",
+  "position-12-description": "Veštini CNC operateri i operateri mašina su potrebni u prosperitetnom proizvodnom sektoru Ontarija. Ova LMIA odobrena pozicija čini proces dobijanja radne dozvole jednostavnim.",
+  
+  "conclusion": "Kanada čeka kvalifikovane radnike poput vas! Bilo da ste mehaničar, vozač kamiona, kuvar ili zdravstveni radnik, ove mogućnosti posla na licu mesta nude brzu stazu do dobijanja kanadske radne dozvole i potencijalnog obezbeđenja stalnog prebivališta. Kontaktirajte Diverse Visa danas na info@diversevisa.com da biste saznali više o ovim uzbudljivim prilikama."
+
+
   }
   

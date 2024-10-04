@@ -105,12 +105,13 @@ export const Header = () => {
           >
             {t('contact-nav')}
           </button>
-        </div>
-        <div className="hidden lg:flex items-center gap-4">
-          <LocaleSwitcher isMenuOpen={isMenuOpen} />
           <Button onClick={handleBlog} className="cursor-pointer bg-customblue hover:bg-custombluehover text-white rounded-xl">
             {t('blog-nav')}
           </Button>
+        </div>
+        <div className="hidden lg:flex items-center gap-4">
+          <LocaleSwitcher isMenuOpen={isMenuOpen} />
+          
         </div>
         <button className="lg:hidden flex items-center justify-center p-2 text-slate-700" onClick={toggleMenu}>
           <Menu className="h-6 w-6" />
