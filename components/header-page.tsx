@@ -156,14 +156,15 @@ export const Header = () => {
             >
               {t('contact-nav')}
             </button>
+            <Button onClick={handleBlog} className="text-xl cursor-pointer bg-customblue text-white hover:bg-custombluehover rounded-xl">
+              {t('blog-nav')}
+            </Button>
           </nav>
-          <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 w-full flex flex-col items-center">
+          <div className="absolute bottom-40 left-1/2 transform -translate-x-1/2 w-full flex flex-col items-center">
             <div className="mb-2">
               <LocaleSwitcher isMenuOpen={isMenuOpen} />
             </div>
-            <Button onClick={handleBlog} className="cursor-pointer bg-customblue text-white hover:bg-custombluehover">
-              {t('blog-nav')}
-            </Button>
+            
           </div>
         </div>
       )}
