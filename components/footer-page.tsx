@@ -82,7 +82,9 @@ export const Footer = () => {
 
           {/* Right Section - Form and Social Links */}
           <div className='bg-white p-6 text-black rounded-2xl md:w-[250px] xl:w-[450px]'>
-            <EmailForm />
+            <section id='contact-us-form'>
+              <EmailForm />
+            </section>
             <div className="mt-8 text-center font-light">
               <p>{t('connect-social-network')}</p>
               <div className="mt-2 flex justify-center gap-4">

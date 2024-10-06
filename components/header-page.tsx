@@ -69,7 +69,7 @@ export const Header = () => {
       <header className="fixed left-0 top-0 z-50 flex w-full items-center justify-between border bg-slate-50 px-4 py-2 md:px-12">
         <button
           onClick={() => handleNavigation('poster')}
-          className="flex font-bold md:flex-col sm:flex-row text-slate-700 items-center text-center cursor-pointer hover:opacity-75"
+          className="flex font-regular md:flex-col sm:flex-row text-slate-700 items-center text-center cursor-pointer hover:opacity-75"
         >
           <img src="/images/logo/dv-icon.png" alt="Diverse Logo" className="h-10 w-auto" />
           <span>DIVERSE VISA</span>
@@ -100,7 +100,7 @@ export const Header = () => {
             {t('consultations')}
           </button>
           <button
-            onClick={() => handleNavigation('contact-us')}
+            onClick={() => handleNavigation('contact-us-form')}
             className="cursor-pointer p-2 rounded-xl hover:text-white hover:bg-customblue transition-colors duration-500"
           >
             {t('contact-nav')}
@@ -151,7 +151,7 @@ export const Header = () => {
               {t('consultations')}
             </button>
             <button
-              onClick={() => handleNavigation('contact-us')}
+              onClick={() => handleNavigation('contact-us-form')}
               className="text-xl text-slate-700 hover:text-customblue"
             >
               {t('contact-nav')}
