@@ -15,22 +15,10 @@ export interface Blog {
 
 export const BlogList: Blog[] = [
   {
-    slug: 'understanding-the-canadian-study-permit-process-a-comprehensive-guide',
-    titleKey: 'blog-title',
-    image: '/images/blog/blogimg3.jpg',
-    component: <Blog1 />
-  },
-  {
-    slug: 'family-sponsorship-reuniting-families-in-canada',
-    titleKey: 'family.blog-title',
-    image: '/images/blog/blogimg2.jpg',
-    component: <Blog2 />
-  },
-  {
-    slug: 'exploring-the-start-up-visa-program-your-gateway-to-entrepreneurship-in-canada',
-    titleKey: 'startup.blog-title',
-    image: '/images/blog/blogimg1.jpg',
-    component: <Blog3 />
+    slug: 'on-site-job-opportunities-across-canada-apply-now',
+    titleKey: 'heading',
+    image: '/images/blog/blogimg5.jpg',
+    component: <Blog5 />
   },
   {
     slug: 'exciting-remote-job-opportunity-web-developer-in-canada',
@@ -39,9 +27,21 @@ export const BlogList: Blog[] = [
     component: <Blog4 />
   },
   {
-    slug: 'on-site-job-opportunities-across-canada-apply-now',
-    titleKey: 'heading',
-    image: '/images/blog/blogimg5.jpg',
-    component: <Blog5 />
+    slug: 'exploring-the-start-up-visa-program-your-gateway-to-entrepreneurship-in-canada',
+    titleKey: 'startup.blog-title',
+    image: '/images/blog/blogimg1.jpg',
+    component: <Blog3 />
   },
+  {
+    slug: 'family-sponsorship-reuniting-families-in-canada',
+    titleKey: 'family.blog-title',
+    image: '/images/blog/blogimg2.jpg',
+    component: <Blog2 />
+  },
+  {
+    slug: 'understanding-the-canadian-study-permit-process-a-comprehensive-guide',
+    titleKey: 'blog-title',
+    image: '/images/blog/blogimg3.jpg',
+    component: <Blog1 />
+  }
 ];

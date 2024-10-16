@@ -15,7 +15,7 @@ const DiverseLatestBlogs: React.FC = () => {
     window.scrollTo(0, 0);
   };
 
-  const latestBlogs = BlogList.slice(-3).reverse(); // Get the last 3 blogs in reverse order (latest first)
+  const latestBlogs = BlogList.slice(0,3);
 
   return (
     <div className="container shadow-lg p-8 bg-gray-50">
