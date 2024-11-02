@@ -11,346 +11,593 @@
   "LocaleLayout": {
     "title": "Diverse Visa"
   },
-    "partnernetwork": "Mreža partnera",
-    "partners": {
-      "immigrationProfessionals": {
-        "title": "Imigracioni stručnjaci",
-        "description": "Sertifikovani imigracioni stručnjaci koji nude prilagođene usluge savjetovanja o vizama i imigraciji kako bi vam pomogli u snalaženju u složenostima podnošenja zahteva za vizu i postizanju uspešnih rezultata."
-      },
-      "recruiters": {
-        "title": "Regruteri",
-        "description": "Specijalizovani regruteri koji vas povezuju sa mogućnostima zapošljavanja u inostranstvu, osiguravajući da pronađete najbolje poslove koji odgovaraju vašim veštinama i karijernim ciljevima."
-      },
-      "businessBrokers": {
-        "title": "Poslovni brokeri",
-        "description": "Iskusni poslovni brokeri koji pomažu klijentima sa investicijama i akvizicijama, pomažući vam da istražite i obezbedite profitabilne poslovne mogućnosti na međunarodnom nivou."
-      },
-      "governmentAgencies": {
-        "title": "Vladine agencije",
-        "description": "Zvanične vladine agencije koje pružaju smernice i podršku kako bi se osigurala usklađenost sa imigracionim propisima, čineći vaš proces podnošenja zahteva za vizu glatkim i bez problema."
-      },
-      "educationalInstitutions": {
-        "title": "Obrazovne ustanove",
-        "description": "Partnerske škole i univerziteti koji nude širok spektar obrazovnih programa za međunarodne studente, pomažući vam da postignete svoje akademske i karijerne ciljeve."
-      },
-      "businessIncubators": {
-        "title": "Poslovni inkubatori",
-        "description": "Poslovni inkubatori koji podržavaju start-upove i preduzetnike resursima, mentorstvom i smernicama, podstičući inovacije i uspeh u vašim poslovnim poduhvatima."
-      },
-      "communityOrganizations": {
-        "title": "Zajedničke organizacije",
-        "description": "Lokalne zajedničke organizacije posvećene pružanju podrške i usluga integracije novopridošlima, pomažući vam da se smestite i napredujete u novom okruženju."
-      }
+  "partnernetwork": "Mreža partnera",
+  "partners": {
+    "immigrationProfessionals": {
+      "title": "Imigracioni stručnjaci",
+      "description": "Sertifikovani imigracioni stručnjaci koji nude prilagođene usluge savjetovanja o vizama i imigraciji kako bi vam pomogli u snalaženju u složenostima podnošenja zahteva za vizu i postizanju uspešnih rezultata."
     },
-    "programs": {
-      "skilledWorkers": {
-        "title": "Kvalifikovani radnici",
-        "content": "Osmišljeni za pojedince sa specifičnim veštinama i kvalifikacijama koji mogu doprineti ekonomiji Kanade. Ovi programi uključuju Express Entry sistem i različite Provincial Nominee Programs (PNP). Uspešni kandidati mogu dobiti stalni boravak na osnovu svojih veština, radnog iskustva i sposobnosti da doprinesu kanadskom tržištu rada."
-      },
-      "businessAndEntrepreneurs": {
-        "title": "Biznis i preduzetnici",
-        "content": "Ovi programi su namenjeni osobama koje žele da investiraju ili započnu posao u Kanadi. Ključni programi uključuju Start-Up Visa Program, Self-Employed Program i Owners-Operators Program. Oni pružaju puteve do stalnog boravka za preduzetnike, investitore i samozaposlene osobe koje mogu podsticati ekonomski rast i otvarati radna mesta u Kanadi."
-      },
-      "familySponsorship": {
-        "title": "Porodično sponzorstvo",
-        "content": "Omogućava kanadskim građanima i stalnim stanovnicima da sponzorišu svoje rođake, uključujući supružnike, partnere, zavisnu decu, roditelje i bake i deke, da dođu u Kanadu kao stalni stanovnici. Ovaj program se fokusira na porodično ponovno okupljanje, osiguravajući da porodice mogu ostati zajedno i podržavati jedni druge."
-      },
-      "caregivers": {
-        "title": "Negovatelji",
-        "content": "Namenjen pojedincima koji pružaju negu za decu, starije osobe ili one sa medicinskim potrebama u Kanadi. Negovatelji mogu podneti zahtev za stalni boravak putem programa posebno dizajniranih za one koji su stekli radno iskustvo u Kanadi pružajući osnovne usluge nege."
-      },
-      "temporary": {
-        "title": "Privremeni",
-        "content": "Ovi programi omogućavaju pojedincima da dođu u Kanadu na ograničen period. Oni uključuju privremene rezidentske vize (za posetioce), radne dozvole i dozvole za studiranje. Privremeni stanovnici mogu imati priliku da pređu na stalni boravak putem različitih imigracionih puteva."
-      },
-      "humanitarian": {
-        "title": "Humanitarni",
-        "content": "Programi iz ove kategorije namenjeni su pojedincima koji se ne kvalifikuju u okviru drugih imigracionih programa, ali imaju uverljive razloge da traže boravak u Kanadi. Ovo uključuje aplikacije iz humanitarnih i saosećajnih razloga, često uzimajući u obzir faktore kao što su najbolji interes dece ili pojedinaca koji se suočavaju sa značajnim poteškoćama."
-      },
-      "studentsAndGraduates": {
-        "title": "Studenti i diplomci",
-        "content": "Kanada nudi puteve za međunarodne studente da studiraju i eventualno se nastane u Kanadi. Programi uključuju studentske vize i dozvole za studiranje, kao i mogućnosti za diplomce da pređu na stalni boravak putem različitih imigracionih puteva."
-      },
-      "refugees": {
-        "title": "Izbeglice",
-        "content": "Kanada pruža zaštitu osobama koje su napustile svoje domovine zbog progona, rata ili nasilja. Programi za izbeglice nude puteve do sigurnosti i stalnog boravka za one koji ispunjavaju kriterijume za status izbeglice, osiguravajući da mogu obnoviti svoje živote u Kanadi."
-      }
+    "recruiters": {
+      "title": "Regruteri",
+      "description": "Specijalizovani regruteri koji vas povezuju sa mogućnostima zapošljavanja u inostranstvu, osiguravajući da pronađete najbolje poslove koji odgovaraju vašim veštinama i karijernim ciljevima."
     },
-    "journeyStart": {
-      "consultationsTitle": "KONSULTACIJE",
-      "firstMeetingTitle": "Šta očekivati na prvom sastanku",
-      "firstMeetingPoints1": "Procena vaše prošlosti: Razumevanje vaših kvalifikacija i imigracionih ciljeva.",
-      "firstMeetingPoints2": "Razgovor o programima: Preporuke za odgovarajuće imigracione programe prilagođene vašim potrebama.",
-      "firstMeetingPoints3": "Opis procesa: Objašnjenje koraka prijave, vremenskih okvira i zahteva.",
-      "firstMeetingPoints4": "Odgovori na pitanja: Rešavanje svih nedoumica ili pitanja u vezi sa imigracijom.",
-      "successStoriesTitle": "Priče o uspehu",
-      "successStories1": "\"Diverse Visa je učinila moj imigracioni proces besprekornim. Njihova stručnost je osigurala moj uspeh u Express Entry.\": - Džon D., Kvalifikovani radnik",
-      "successStories2": "\"Zahvaljujući Diverse Visa, uspešno sam pokrenula svoj posao u Kanadi. Njihova podrška je bila neprocenjiva.\": - Marija S., Preduzetnik",
-      "successStories3": "\"Diverse Visa mi je pomogla da dobijem dozvolu za studiranje i usmerila me ka stalnom boravku.\": - Elena K., Student",
-      "successStories4": "\"Diverse Visa nas je ponovo spojila sa našom porodicom. Njihov profesionalizam je učinio razliku.\": - Ahmed i Fatima A., Porodično sponzorstvo"  
+    "businessBrokers": {
+      "title": "Poslovni brokeri",
+      "description": "Iskusni poslovni brokeri koji pomažu klijentima sa investicijama i akvizicijama, pomažući vam da istražite i obezbedite profitabilne poslovne mogućnosti na međunarodnom nivou."
     },
-    "privacy-policy": "Politika Privatnosti",
-    "Locations": "Lokacije",
-    "First Name is required": "Ime je obavezno.",
-    "Last Name is required": "Prezime je obavezno.",
-    "Email is required": "E-mail je obavezan.",
-    "Email format is invalid": "Format e-maila nije važeći.",
-    "Message is required": "Poruka je obavezna.",
-    "You must agree to be contacted": "Morate pristati da vas kontaktiraju.",
-    "Email sent successfully": "Email je uspešno poslat!",
-    "Failed to send email Please try again later": "Slanje emaila nije uspelo. Molimo pokušajte ponovo kasnije.",
-    "I agree to be contacted by Diverse Visa": "Slažem se da me kontaktira Diverse Visa",
-    "headline": "Povežite se sa novom budućnošću uz Diverse Visa",
-    "subHeadline": "Povezujemo vas sa stručnim imigracionim profesionalcima za besprekorno putovanje",
-    "callToAction": "Započnite svoje putovanje danas",
-    "storyline-title": "Naša priča",
-    "storyline": "U Diverse Visa ostvarujemo vaše snove povezujući vas sa stručnjacima za imigraciju i osnovnim uslugama prilagođenim vašim jedinstvenim potrebama. Naš posvećeni tim i široka mreža partnera, uključujući regrutere, poslovne brokere, obrazovne ustanove i društvene organizacije, osiguravaju besprekidan proces imigracije. Poštujemo najviše standarde poštenja, inovacija, orijentisanosti ka klijentima i izvrsnosti, pomažući vam da započnete novi život, nastavite obrazovanje ili proširite posao. Neka vas Diverse Visa vodi na vašem putovanju ka novim horizontima već danas.",
-    "about-us": "O nama",
-    "diverse-vision": "Svet u kojem granice ne ometaju snove. Cilj nam je da budemo vodeća imigraciona agencija, poznata po našem stručnosti i posvećenosti.",
-    "diverse-story": "U Diverse Visa, verujemo da svako zaslužuje priliku da ostvaruje svoje snove. Osnovani od strane tima strastvenih profesionalaca, činimo složen proces imigracije jednostavnim i bez stresa. Povezujemo aplikante sa stručnim profesionalcima, posebno za one iz Istočne Evrope.",
-    "diverse-values": "Održavamo najviše standarde poštenja i transparentnosti u svim našim poslovanjima. Kontinuirano unapređujemo naše usluge kako bismo zadovoljili promenljive potrebe naših klijenata. Naši klijenti su u središtu svega što radimo. Težimo izvrsnosti u svakom aspektu našeg rada, osiguravajući da naši klijenti dobiju najbolju moguću uslugu.",
-    "diverse-mission": "Povezivanje snova i stvarnosti tako što aplikante spajamo sa vrhunskim imigracionim profesionalcima i ključnim uslugama.",
-    "our-team": "Naš tim",
-    "diverse-team-about": "Naš tim se sastoji od posvećenih agenata, pravnih stručnjaka i poslovnih savetnika koji donose bogato iskustvo i znanje. Svaki član našeg tima posvećen je pružanju personalizovane podrške i smernica, obezbeđujući našim klijentima najviši kvalitet usluge.",
-    "services": "Naše usluge",
-    "connect-social-network": "Povežite se s nama na društvenim mrežama",
-    "immigration-consulting-experts": "Eksperti za imigracione konsultacije",
-    "immigration-consulting-experts-description": "Personalizovani saveti i podrška za navigaciju kroz složene imigracione zakone i maksimizaciju šansi za uspeh.",
-    "recruiters-job-placements": "Postavljanje poslova od strane rekrutera",
-    "recruiters-job-placements-description": "Povežite se sa specijalizovanim rekruterima kako biste pronašli zaposlenje koje odgovara vašim veštinama.",
-    "business-brokers": "Poslovni posrednici",
-    "business-brokers-description": "Identifikujte i obezbedite unosne poslovne prilike u Kanadi, vodeći vas kroz proces investiranja.",
-    "educational-institutions": "Obrazovne institucije",
-    "educational-institutions-description": "Saradjujte sa vrhunskim kanadskim institucijama kako biste obezbedili prijem i pružili smernice o vizama i putevima za prebivalište posle diplomiranja.",
-    "legal-compliance-advisors": "Savjetnici za pravnu usklađenost",
-    "legal-compliance-advisors-description": "Kompletna pravna podrška za pregled aplikacija, proveru usklađenosti i predstavljanje u slučaju žalbi.",
-    "holistic-approach": "Holistički pristup",
-    "holistic-approach-text": "U Diverse Visa primenjujemo holistički pristup u podršci imigraciji. Naša opsežna mreža partnera uključuje imigracione stručnjake, rekrute, poslovne posrednike, vladine agencije, obrazovne institucije, poslovne inkubatore i zajednice. Ovo nam omogućava da ponudimo sveobuhvatnu podršku prilagođenu specifičnim potrebama svakog klijenta.",
-    "understanding-unique-journeys": "Razumevanje jedinstvenih putovanja",
-    "understanding-unique-journeys-text": "Razumemo da je svako imigraciono putovanje jedinstveno i ovde smo da pružimo vođenje i podršku potrebnu za što bezbolniji prelazak. Bilo da želite da započnete novi život u Kanadi, nastavite obrazovanje ili proširite posao, Diverse Visa je vaš pouzdan partner na svakom koraku puta.",
-    "ourPrograms":"Naši Programi",
-    "title-header": "DIVERSE VISA",
-    "about-nav": "O NAMA",
-    "services-nav": "USLUGE",
-    "consultations": "KONSULTACIJE",
-    "our-programs-nav": "NAŠI PROGRAMI",
-    "our-network-nav": "NAŠA MREŽA",
-    "contact-nav": "KONTAKT",
-    "blog-nav": "BLOG",
-    "blog-title": "Razumevanje procesa dobijanja kanadske studentske vize: Opsežan vodič",
-    "blog-intro": "Kanada je poznata po svom obrazovnom sistemu svetske klase, što je čini vrhunskim izborom za međunarodne studente. Ako razmišljate o studiranju u Kanadi, jedan od prvih koraka je dobijanje studentske vize. Ovaj vodič će vam pomoći da razumete proces, njegove prednosti i kako da ga uspešno prođete.",
-    "blog-image1-alt": "Proces dobijanja kanadske studentske vize",
-    "blog-why-study-canada": "Zašto studirati u Kanadi?",
-    "blog-high-quality-education": "Obrazovanje visoke kvaliteta",
-    "blog-high-quality-education-desc": "Kanadski univerziteti i koledži su globalno priznati zbog svog akademskog izuzetnosti, nudeći širok spektar programa koji odgovaraju različitim interesovanjima i ciljevima karijere.",
-    "blog-work-opportunities": "Prilike za rad",
-    "blog-work-opportunities-desc": "Sa studentskom vizom možete raditi sa skraćenim radnim vremenom tokom studija i puno radno vreme tokom pauza, što vam pomaže da steknete dragoceno radno iskustvo i zarađujete novac za svoje izdržavanje.",
-    "blog-pathway-to-pr": "Put do stalnog prebivališta",
-    "blog-pathway-to-pr-desc": "Nakon diplomiranja, viza Post-Graduation Work Permit (PGWP) vam omogućava da radite u Kanadi, što može biti stepenik ka stalnom prebivalištu kroz programe poput Express Entry.",
-    "blog-study-permit": "Šta je studentska viza?",
-    "blog-study-permit-desc": "Studentska viza je zvanični dokument koji izdaje kanadska vlada koji omogućava stranim državljanima da studiraju na označenim obrazovnim institucijama (DLI) u Kanadi. Važno je napomenuti da studentska viza nije isto što i viza. Možda će vam biti potrebna i turistička viza ili Elektronska dozvola za putovanje (eTA) za ulazak u Kanadu.",
-    "blog-eligibility": "Zahtevi za eligibility",
-    "blog-acceptance-at-dli": "Prihvaćen u DLI",
-    "blog-acceptance-at-dli-desc": "Potrebno je da dobijete pismo o prihvatanju od priznate kanadske obrazovne institucije.",
-    "blog-proof-of-funds": "Dokazi o sredstvima",
-    "blog-proof-of-funds-desc": "Morate da pokažete da imate dovoljno novca da pokrijete školarinu, troškove života i troškove povratka.",
-    "blog-ties-to-home": "Veze sa domovinom",
-    "blog-ties-to-home-desc": "Morate da dokažete da ćete se vratiti u svoju domovinu nakon studija.",
-    "blog-no-criminal-record": "Bez krivične prijave",
-    "blog-no-criminal-record-desc": "Može biti potrebna policijska potvrda kako biste dokazali da nemate krivičnu prijavu.",
-    "blog-medical-exam": "Medicinski pregled",
-    "blog-medical-exam-desc": "U zavisnosti od vaše zemlje prebivališta, možda će vam biti potreban medicinski pregled kako biste potvrdili svoje zdravlje.",
-    "blog-image2-alt": "Proces dobijanja kanadske studentske vize",
-    "blog-application-process": "Proces prijave",
-    "blog-acceptance-letter": "Pismo o prihvatanju",
-    "blog-acceptance-letter-desc": "Počnite sa prijavom i dobijanjem prihvatanja u DLI. Nakon prihvatanja, dobićete pismo o prihvatanju koje je potrebno za vašu prijavu za studentsku vizu.",
-    "blog-gather-documentation": "Prikupite dokumentaciju",
-    "blog-gather-documentation-desc": "Pripremite svoje dokumente, uključujući pasoš, pismo o prihvatanju, dokaze o sredstvima i sve dodatne dokumente koji su potrebni vašoj zemlji (kao što su biometrijski podaci ili policijske potvrde).",
-    "blog-submit-application": "Podnesite prijavu",
-    "blog-submit-application-desc": "Prijavite se online preko sajta za Imigraciju, Izbeglice i Građanstvo Kanade (IRCC). Uverite se da su svi obrasci tačno popunjeni i da su svi potrebni dokumenti priloženi.",
-    "blog-pay-fees": "Platite takse",
-    "blog-pay-fees-desc": "Postoji taksa za podnošenje prijave koju morate platiti prilikom predaje prijave. Ako su biometrijski podaci potrebni, biće dodatna taksa.",
-    "blog-processing-time": "Vreme obrade",
-    "blog-processing-time-desc": "Vreme obrade varira u zavisnosti od vaše zemlje prebivališta. Proverite sajt IRCC za procenjeno vreme obrade i planirajte u skladu sa tim.",
-    "blog-approval-and-travel": "Odobrenje i putovanje",
-    "blog-approval-and-travel-desc": "Nakon odobrenja, dobićete svoju studentsku vizu. Organizujte putovanje u Kanadu i budite spremni za intervju sa imigracionim službenicima po dolasku.",
-    "blog-image3-alt": "Proces dobijanja kanadske studentske vize",
-    "blog-after-arrival": "Nakon dolaska u Kanadu",
-    "blog-begin-studies": "Započnite studije",
-    "blog-begin-studies-desc": "Počnite da prisustvujete svojim časovima prema rasporedu i budite sigurni da se pridržavate svih pravila vaše studentske vize.",
-    "blog-work-while-studying": "Rad tokom studija",
-    "blog-work-while-studying-desc": "Dozvoljeno vam je da radite sa skraćenim radnim vremenom tokom studija i puno radno vreme tokom pauza. Iskoristite ovu priliku da steknete radno iskustvo i finansijski se podržite.",
-    "blog-post-graduation-opportunities": "Prilike nakon diplomiranja",
-    "blog-post-graduation-opportunities-desc": "Nakon završetka studija, istražite opcije kao što su viza Post-Graduation Work Permit (PGWP) i putevi ka stalnom prebivalištu.",
-    "blog-advantages": "Prednosti studiranja u Kanadi",
-    "blog-quality-of-life": "Kvalitet života",
-    "blog-quality-of-life-desc": "Kanada je poznata po visokom standardu života, sigurnom okruženju i prijateljskim zajednicama.",
-    "blog-cultural-diversity": "Kulturna raznovrsnost",
-    "blog-cultural-diversity-desc": "Iskusite raznovrsno i inkluzivno društvo koje ceni multikulturalnost i nudi brojne kulturne doživljaje.",
-    "blog-career-opportunities": "Karijerne prilike",
-    "blog-career-opportunities-desc": "Kanada nudi brojne karijerne prilike i ima snažno tržište rada, posebno za međunarodne diplomce.",
-    "blog-closing": "Studiranje u Kanadi pruža brojne prednosti i mogućnosti za lični i profesionalni rast. Razumevanjem procesa dobijanja studentske vize i temeljnom pripremom, možete započeti uspešno obrazovno putovanje u jednoj od najprijateljskijih zemalja na svetu.",
-    "our-blogs": "Naši blogovi",
-    "back-blog": "Povratak na odeljak bloga",
-    "blog-latest": "Najnoviji blogovi",
-    "First Name": "Ime",
-    "Last Name": "Prezime",
-    "Email": "Email",
-    "Message": "Poruka",
-    "SEND": "Pošalji",
-    "family": {
-        "blog-image2-alt": "Slika porodičnog sponzorstva",
-        "blog-title": "Porodično sponzorstvo: ponovo spajanje porodica u Kanadi",
-        "intro": "Šta je porodično sponzorstvo? Porodično sponzorstvo omogućava kanadskim građanima i stalnim stanovnicima da sponzorišu svoje voljene za stalni boravak u Kanadi. Ovaj program je ključan za ponovo spajanje porodica i pružanje mreža podrške za nove doseljenike.",
-        "who-can-sponsor-title": "Koga možete sponzorisati?",
-        "who-can-sponsor": [
-          "Supružnik ili partner u zajedničkom zakonu: Možete sponzorisati svog supružnika ili partnera da živi sa vama u Kanadi.",
-          "Zavisna deca: Sponzorstvo je dostupno za vašu decu mlađu od 22 godine, uključujući usvojenu decu.",
-          "Roditelji i bake i deke: Takođe možete sponzorisati svoje roditelje i bake i deke, omogućavajući im da žive sa vama u Kanadi."
-        ],
-        "why-choose-title": "Zašto odabrati porodično sponzorstvo?",
-        "why-choose": [
-          "Ponovo spajanje porodice: Držite svoje voljene blizu i podržavajte ih dok se integrišu u kanadsko društvo.",
-          "Stalni boravak: Sponzorisani članovi porodice dobijaju stalni boravak, omogućavajući im da žive, rade i studiraju u Kanadi."
-        ],
-        "how-it-works-title": "Kako funkcioniše?",
-        "how-it-works": [
-          "Provera podobnosti: Uverite se da i sponzor i sponzorisana osoba ispunjavaju kriterijume.",
-          "Podnošenje prijave: Popunite i podnesite svoju prijavu za sponzorstvo zajedno sa svim potrebnim dokumentima.",
-          "Obrada i odobrenje: Nakon pregleda prijave, sponzorisanoj osobi će biti odobren stalni boravak."
-        ],
-        "benefits-title": "Prednosti",
-        "benefits": [
-          "Mreža podrške: Imati porodicu u Kanadi pruža emocionalnu i praktičnu podršku, olakšavajući prelazak u novu zemlju.",
-          "Pristup uslugama: Sponzorisani članovi porodice imaju pristup zdravstvenoj zaštiti, obrazovanju i socijalnim uslugama u Kanadi."
-        ],
-        "closing": "U Diverse Visa razumemo važnost porodice. Naš tim je tu da vam pomogne u navigaciji kroz proces porodičnog sponzorstva, osiguravajući glatku i uspešnu prijavu. Kontaktirajte nas danas da se ponovo spojite sa svojim voljenima u Kanadi."
+    "governmentAgencies": {
+      "title": "Vladine agencije",
+      "description": "Zvanične vladine agencije koje pružaju smernice i podršku kako bi se osigurala usklađenost sa imigracionim propisima, čineći vaš proces podnošenja zahteva za vizu glatkim i bez problema."
     },
-    "startup": {
-      "blog-image1-alt": "Slika Start-Up Visa programa",
-      "blog-title": "Istraživanje Start-Up Visa programa: Vaš put ka preduzetništvu u Kanadi",
-      "intro": "Start-Up Visa program u Kanadi nudi jedinstvenu priliku za inovativne preduzetnike da uspostave svoje poslove i steknu stalni boravak. Ako imate poslovnu ideju sa globalnim potencijalom, ovaj program može biti vaš put ka pokretanju u jednoj od najdinamičnijih ekonomija sveta.",
-      "what-is-title": "Šta je Start-Up Visa program?",
-      "what-is-description": "Start-Up Visa program je namenjen preduzetnicima koji mogu da kreiraju radna mesta za Kanađane i da konkurišu na globalnom nivou. Program vas povezuje sa kanadskim privatnim sektorom, kao što su grupe anđeoskih investitora, fondovi za rizični kapital ili poslovni inkubatori, koji mogu podržati vaš startap.",
-      "eligibility-requirements-title": "Zahtevi za kvalifikaciju",
-      "eligibility-requirements": [
-        "Imati kvalifikovani posao: Vaš posao mora biti inovativan, imati potencijal za rast i biti sposoban da konkuriše međunarodno.",
-        "Osigurati obavezu: Morate dobiti pismo podrške od ovlašćene organizacije, kao što su grupe anđeoskih investitora, fondovi za rizični kapital ili poslovni inkubatori.",
-        "Ispunjavanje jezičkih zahteva: Morate dokazati znanje engleskog ili francuskog jezika kroz priznate jezičke testove.",
-        "Dokaz o sredstvima: Morate pokazati da imate dovoljno novca za život u Kanadi i podršku sebi i svojoj porodici dok osnivate svoj posao."
-      ],
-      "application-process-title": "Proces prijave",
-      "application-process": [
-        "Razvijajte svoju poslovnu ideju: Počnite sa snažnom, inovativnom poslovnom idejom koja ispunjava kriterijume globalne konkurentnosti i kreiranja radnih mesta u Kanadi.",
-        "Osigurajte obavezu: Obratite se ovlašćenoj organizaciji i predstavite svoju poslovnu ideju. Ako veruju u vaš koncept, pružiće vam pismo podrške koje je ključno za vašu prijavu.",
-        "Podnesite zahtev za vizu: Kada dobijete pismo podrške, možete se prijaviti za Start-Up Visa. Treba da dostavite poslovni plan, dokaz o sredstvima, rezultate jezičkih testova i druge potrebne dokumente.",
-        "Obrada i odobrenje: Vreme obrade može varirati, ali kada bude odobreno, dobićete vizu koja vam omogućava da dođete u Kanadu i uspostavite svoj posao.",
-        "Put ka stalnom boravku: Start-Up Visa ne samo da vam omogućava da izgradite svoj posao u Kanadi, već nudi i direktan put ka stalnom boravku za vas i vašu porodicu."
-      ],
-      "advantages-title": "Prednosti Start-Up Visa programa",
-      "advantages": [
-        "Pristup finansiranju i podršci: Osiguravanjem obaveze od kanadske organizacije dobijate pristup vrednim resursima, mentorstvu i potencijalnom finansiranju za rast vašeg posla.",
-        "Stalni boravak: Program pruža jasan put ka stalnom boravku za uspešne aplikante i njihove porodice.",
-        "Rastuća preduzetnička ekosistema: Kanada nudi podržavajuće okruženje za startape, sa pristupom kvalifikovanoj radnoj snazi, jakom infrastrukturom i stabilnom ekonomijom."
-      ],
-      "success-stories-title": "Priče o uspehu",
-      "success-stories-description": "Mnogi preduzetnici iz celog sveta uspešno su koristili Start-Up Visa program za pokretanje svojih poslova u Kanadi. Ovi startapi su stvorili radna mesta, inovirali u različitim industrijama i doprinosili kanadskoj ekonomiji.",
-      "closing": "U kompaniji Diverse Visa, specijalizovani smo za vođenje preduzetnika kroz Start-Up Visa program. Od razvijanja vašeg poslovnog plana do osiguravanja obaveze od ovlašćene organizacije, pružamo sveobuhvatnu podršku u svakom koraku. Kontaktirajte nas danas da započnete svoje preduzetničko putovanje u Kanadi."
+    "educationalInstitutions": {
+      "title": "Obrazovne ustanove",
+      "description": "Partnerske škole i univerziteti koji nude širok spektar obrazovnih programa za međunarodne studente, pomažući vam da postignete svoje akademske i karijerne ciljeve."
     },
-    "job-title": "Uzbudljiva udaljena radna prilika: Veb programer u Kanadi",
+    "businessIncubators": {
+      "title": "Poslovni inkubatori",
+      "description": "Poslovni inkubatori koji podržavaju start-upove i preduzetnike resursima, mentorstvom i smernicama, podstičući inovacije i uspeh u vašim poslovnim poduhvatima."
+    },
+    "communityOrganizations": {
+      "title": "Zajedničke organizacije",
+      "description": "Lokalne zajedničke organizacije posvećene pružanju podrške i usluga integracije novopridošlima, pomažući vam da se smestite i napredujete u novom okruženju."
+    }
+  },
+  "programs": {
+    "skilledWorkers": {
+      "title": "Kvalifikovani radnici",
+      "content": "Osmišljeni za pojedince sa specifičnim veštinama i kvalifikacijama koji mogu doprineti ekonomiji Kanade. Ovi programi uključuju Express Entry sistem i različite Provincial Nominee Programs (PNP). Uspešni kandidati mogu dobiti stalni boravak na osnovu svojih veština, radnog iskustva i sposobnosti da doprinesu kanadskom tržištu rada."
+    },
+    "businessAndEntrepreneurs": {
+      "title": "Biznis i preduzetnici",
+      "content": "Ovi programi su namenjeni osobama koje žele da investiraju ili započnu posao u Kanadi. Ključni programi uključuju Start-Up Visa Program, Self-Employed Program i Owners-Operators Program. Oni pružaju puteve do stalnog boravka za preduzetnike, investitore i samozaposlene osobe koje mogu podsticati ekonomski rast i otvarati radna mesta u Kanadi."
+    },
+    "familySponsorship": {
+      "title": "Porodično sponzorstvo",
+      "content": "Omogućava kanadskim građanima i stalnim stanovnicima da sponzorišu svoje rođake, uključujući supružnike, partnere, zavisnu decu, roditelje i bake i deke, da dođu u Kanadu kao stalni stanovnici. Ovaj program se fokusira na porodično ponovno okupljanje, osiguravajući da porodice mogu ostati zajedno i podržavati jedni druge."
+    },
+    "caregivers": {
+      "title": "Negovatelji",
+      "content": "Namenjen pojedincima koji pružaju negu za decu, starije osobe ili one sa medicinskim potrebama u Kanadi. Negovatelji mogu podneti zahtev za stalni boravak putem programa posebno dizajniranih za one koji su stekli radno iskustvo u Kanadi pružajući osnovne usluge nege."
+    },
+    "temporary": {
+      "title": "Privremeni",
+      "content": "Ovi programi omogućavaju pojedincima da dođu u Kanadu na ograničen period. Oni uključuju privremene rezidentske vize (za posetioce), radne dozvole i dozvole za studiranje. Privremeni stanovnici mogu imati priliku da pređu na stalni boravak putem različitih imigracionih puteva."
+    },
+    "humanitarian": {
+      "title": "Humanitarni",
+      "content": "Programi iz ove kategorije namenjeni su pojedincima koji se ne kvalifikuju u okviru drugih imigracionih programa, ali imaju uverljive razloge da traže boravak u Kanadi. Ovo uključuje aplikacije iz humanitarnih i saosećajnih razloga, često uzimajući u obzir faktore kao što su najbolji interes dece ili pojedinaca koji se suočavaju sa značajnim poteškoćama."
+    },
+    "studentsAndGraduates": {
+      "title": "Studenti i diplomci",
+      "content": "Kanada nudi puteve za međunarodne studente da studiraju i eventualno se nastane u Kanadi. Programi uključuju studentske vize i dozvole za studiranje, kao i mogućnosti za diplomce da pređu na stalni boravak putem različitih imigracionih puteva."
+    },
+    "refugees": {
+      "title": "Izbeglice",
+      "content": "Kanada pruža zaštitu osobama koje su napustile svoje domovine zbog progona, rata ili nasilja. Programi za izbeglice nude puteve do sigurnosti i stalnog boravka za one koji ispunjavaju kriterijume za status izbeglice, osiguravajući da mogu obnoviti svoje živote u Kanadi."
+    }
+  },
+  "journeyStart": {
+    "consultationsTitle": "KONSULTACIJE",
+    "firstMeetingTitle": "Šta očekivati na prvom sastanku",
+    "firstMeetingPoints1": "Procena vaše prošlosti: Razumevanje vaših kvalifikacija i imigracionih ciljeva.",
+    "firstMeetingPoints2": "Razgovor o programima: Preporuke za odgovarajuće imigracione programe prilagođene vašim potrebama.",
+    "firstMeetingPoints3": "Opis procesa: Objašnjenje koraka prijave, vremenskih okvira i zahteva.",
+    "firstMeetingPoints4": "Odgovori na pitanja: Rešavanje svih nedoumica ili pitanja u vezi sa imigracijom.",
+    "successStoriesTitle": "Priče o uspehu",
+    "successStories1": "\"Diverse Visa je učinila moj imigracioni proces besprekornim. Njihova stručnost je osigurala moj uspeh u Express Entry.\": - Džon D., Kvalifikovani radnik",
+    "successStories2": "\"Zahvaljujući Diverse Visa, uspešno sam pokrenula svoj posao u Kanadi. Njihova podrška je bila neprocenjiva.\": - Marija S., Preduzetnik",
+    "successStories3": "\"Diverse Visa mi je pomogla da dobijem dozvolu za studiranje i usmerila me ka stalnom boravku.\": - Elena K., Student",
+    "successStories4": "\"Diverse Visa nas je ponovo spojila sa našom porodicom. Njihov profesionalizam je učinio razliku.\": - Ahmed i Fatima A., Porodično sponzorstvo"
+  },
+  "privacy-policy": "Politika Privatnosti",
+  "Locations": "Lokacije",
+  "First Name is required": "Ime je obavezno.",
+  "Last Name is required": "Prezime je obavezno.",
+  "Email is required": "E-mail je obavezan.",
+  "Email format is invalid": "Format e-maila nije važeći.",
+  "Message is required": "Poruka je obavezna.",
+  "You must agree to be contacted": "Morate pristati da vas kontaktiraju.",
+  "Email sent successfully": "Email je uspešno poslat!",
+  "Failed to send email Please try again later": "Slanje emaila nije uspelo. Molimo pokušajte ponovo kasnije.",
+  "I agree to be contacted by Diverse Visa": "Slažem se da me kontaktira Diverse Visa",
+  "headline": "Povežite se sa novom budućnošću uz Diverse Visa",
+  "subHeadline": "Povezujemo vas sa stručnim imigracionim profesionalcima za besprekorno putovanje",
+  "callToAction": "Započnite svoje putovanje danas",
+  "storyline-title": "Naša priča",
+  "storyline": "U Diverse Visa ostvarujemo vaše snove povezujući vas sa stručnjacima za imigraciju i osnovnim uslugama prilagođenim vašim jedinstvenim potrebama. Naš posvećeni tim i široka mreža partnera, uključujući regrutere, poslovne brokere, obrazovne ustanove i društvene organizacije, osiguravaju besprekidan proces imigracije. Poštujemo najviše standarde poštenja, inovacija, orijentisanosti ka klijentima i izvrsnosti, pomažući vam da započnete novi život, nastavite obrazovanje ili proširite posao. Neka vas Diverse Visa vodi na vašem putovanju ka novim horizontima već danas.",
+  "about-us": "O nama",
+  "diverse-vision": "Svet u kojem granice ne ometaju snove. Cilj nam je da budemo vodeća imigraciona agencija, poznata po našem stručnosti i posvećenosti.",
+  "diverse-story": "U Diverse Visa, verujemo da svako zaslužuje priliku da ostvaruje svoje snove. Osnovani od strane tima strastvenih profesionalaca, činimo složen proces imigracije jednostavnim i bez stresa. Povezujemo aplikante sa stručnim profesionalcima, posebno za one iz Istočne Evrope.",
+  "diverse-values": "Održavamo najviše standarde poštenja i transparentnosti u svim našim poslovanjima. Kontinuirano unapređujemo naše usluge kako bismo zadovoljili promenljive potrebe naših klijenata. Naši klijenti su u središtu svega što radimo. Težimo izvrsnosti u svakom aspektu našeg rada, osiguravajući da naši klijenti dobiju najbolju moguću uslugu.",
+  "diverse-mission": "Povezivanje snova i stvarnosti tako što aplikante spajamo sa vrhunskim imigracionim profesionalcima i ključnim uslugama.",
+  "our-team": "Naš tim",
+  "diverse-team-about": "Naš tim se sastoji od posvećenih agenata, pravnih stručnjaka i poslovnih savetnika koji donose bogato iskustvo i znanje. Svaki član našeg tima posvećen je pružanju personalizovane podrške i smernica, obezbeđujući našim klijentima najviši kvalitet usluge.",
+  "services": "Naše usluge",
+  "connect-social-network": "Povežite se s nama na društvenim mrežama",
+  "immigration-consulting-experts": "Eksperti za imigracione konsultacije",
+  "immigration-consulting-experts-description": "Personalizovani saveti i podrška za navigaciju kroz složene imigracione zakone i maksimizaciju šansi za uspeh.",
+  "recruiters-job-placements": "Postavljanje poslova od strane rekrutera",
+  "recruiters-job-placements-description": "Povežite se sa specijalizovanim rekruterima kako biste pronašli zaposlenje koje odgovara vašim veštinama.",
+  "business-brokers": "Poslovni posrednici",
+  "business-brokers-description": "Identifikujte i obezbedite unosne poslovne prilike u Kanadi, vodeći vas kroz proces investiranja.",
+  "educational-institutions": "Obrazovne institucije",
+  "educational-institutions-description": "Saradjujte sa vrhunskim kanadskim institucijama kako biste obezbedili prijem i pružili smernice o vizama i putevima za prebivalište posle diplomiranja.",
+  "legal-compliance-advisors": "Savjetnici za pravnu usklađenost",
+  "legal-compliance-advisors-description": "Kompletna pravna podrška za pregled aplikacija, proveru usklađenosti i predstavljanje u slučaju žalbi.",
+  "holistic-approach": "Holistički pristup",
+  "holistic-approach-text": "U Diverse Visa primenjujemo holistički pristup u podršci imigraciji. Naša opsežna mreža partnera uključuje imigracione stručnjake, rekrute, poslovne posrednike, vladine agencije, obrazovne institucije, poslovne inkubatore i zajednice. Ovo nam omogućava da ponudimo sveobuhvatnu podršku prilagođenu specifičnim potrebama svakog klijenta.",
+  "understanding-unique-journeys": "Razumevanje jedinstvenih putovanja",
+  "understanding-unique-journeys-text": "Razumemo da je svako imigraciono putovanje jedinstveno i ovde smo da pružimo vođenje i podršku potrebnu za što bezbolniji prelazak. Bilo da želite da započnete novi život u Kanadi, nastavite obrazovanje ili proširite posao, Diverse Visa je vaš pouzdan partner na svakom koraku puta.",
+  "ourPrograms": "Naši Programi",
+  "title-header": "DIVERSE VISA",
+  "about-nav": "O NAMA",
+  "services-nav": "USLUGE",
+  "consultations": "KONSULTACIJE",
+  "our-programs-nav": "NAŠI PROGRAMI",
+  "our-network-nav": "NAŠA MREŽA",
+  "contact-nav": "KONTAKT",
+  "blog-nav": "BLOG",
+  "blog-title": "Razumevanje procesa dobijanja kanadske studentske vize: Opsežan vodič",
+  "blog-intro": "Kanada je poznata po svom obrazovnom sistemu svetske klase, što je čini vrhunskim izborom za međunarodne studente. Ako razmišljate o studiranju u Kanadi, jedan od prvih koraka je dobijanje studentske vize. Ovaj vodič će vam pomoći da razumete proces, njegove prednosti i kako da ga uspešno prođete.",
+  "blog-image1-alt": "Proces dobijanja kanadske studentske vize",
+  "blog-why-study-canada": "Zašto studirati u Kanadi?",
+  "blog-high-quality-education": "Obrazovanje visoke kvaliteta",
+  "blog-high-quality-education-desc": "Kanadski univerziteti i koledži su globalno priznati zbog svog akademskog izuzetnosti, nudeći širok spektar programa koji odgovaraju različitim interesovanjima i ciljevima karijere.",
+  "blog-work-opportunities": "Prilike za rad",
+  "blog-work-opportunities-desc": "Sa studentskom vizom možete raditi sa skraćenim radnim vremenom tokom studija i puno radno vreme tokom pauza, što vam pomaže da steknete dragoceno radno iskustvo i zarađujete novac za svoje izdržavanje.",
+  "blog-pathway-to-pr": "Put do stalnog prebivališta",
+  "blog-pathway-to-pr-desc": "Nakon diplomiranja, viza Post-Graduation Work Permit (PGWP) vam omogućava da radite u Kanadi, što može biti stepenik ka stalnom prebivalištu kroz programe poput Express Entry.",
+  "blog-study-permit": "Šta je studentska viza?",
+  "blog-study-permit-desc": "Studentska viza je zvanični dokument koji izdaje kanadska vlada koji omogućava stranim državljanima da studiraju na označenim obrazovnim institucijama (DLI) u Kanadi. Važno je napomenuti da studentska viza nije isto što i viza. Možda će vam biti potrebna i turistička viza ili Elektronska dozvola za putovanje (eTA) za ulazak u Kanadu.",
+  "blog-eligibility": "Zahtevi za eligibility",
+  "blog-acceptance-at-dli": "Prihvaćen u DLI",
+  "blog-acceptance-at-dli-desc": "Potrebno je da dobijete pismo o prihvatanju od priznate kanadske obrazovne institucije.",
+  "blog-proof-of-funds": "Dokazi o sredstvima",
+  "blog-proof-of-funds-desc": "Morate da pokažete da imate dovoljno novca da pokrijete školarinu, troškove života i troškove povratka.",
+  "blog-ties-to-home": "Veze sa domovinom",
+  "blog-ties-to-home-desc": "Morate da dokažete da ćete se vratiti u svoju domovinu nakon studija.",
+  "blog-no-criminal-record": "Bez krivične prijave",
+  "blog-no-criminal-record-desc": "Može biti potrebna policijska potvrda kako biste dokazali da nemate krivičnu prijavu.",
+  "blog-medical-exam": "Medicinski pregled",
+  "blog-medical-exam-desc": "U zavisnosti od vaše zemlje prebivališta, možda će vam biti potreban medicinski pregled kako biste potvrdili svoje zdravlje.",
+  "blog-image2-alt": "Proces dobijanja kanadske studentske vize",
+  "blog-application-process": "Proces prijave",
+  "blog-acceptance-letter": "Pismo o prihvatanju",
+  "blog-acceptance-letter-desc": "Počnite sa prijavom i dobijanjem prihvatanja u DLI. Nakon prihvatanja, dobićete pismo o prihvatanju koje je potrebno za vašu prijavu za studentsku vizu.",
+  "blog-gather-documentation": "Prikupite dokumentaciju",
+  "blog-gather-documentation-desc": "Pripremite svoje dokumente, uključujući pasoš, pismo o prihvatanju, dokaze o sredstvima i sve dodatne dokumente koji su potrebni vašoj zemlji (kao što su biometrijski podaci ili policijske potvrde).",
+  "blog-submit-application": "Podnesite prijavu",
+  "blog-submit-application-desc": "Prijavite se online preko sajta za Imigraciju, Izbeglice i Građanstvo Kanade (IRCC). Uverite se da su svi obrasci tačno popunjeni i da su svi potrebni dokumenti priloženi.",
+  "blog-pay-fees": "Platite takse",
+  "blog-pay-fees-desc": "Postoji taksa za podnošenje prijave koju morate platiti prilikom predaje prijave. Ako su biometrijski podaci potrebni, biće dodatna taksa.",
+  "blog-processing-time": "Vreme obrade",
+  "blog-processing-time-desc": "Vreme obrade varira u zavisnosti od vaše zemlje prebivališta. Proverite sajt IRCC za procenjeno vreme obrade i planirajte u skladu sa tim.",
+  "blog-approval-and-travel": "Odobrenje i putovanje",
+  "blog-approval-and-travel-desc": "Nakon odobrenja, dobićete svoju studentsku vizu. Organizujte putovanje u Kanadu i budite spremni za intervju sa imigracionim službenicima po dolasku.",
+  "blog-image3-alt": "Proces dobijanja kanadske studentske vize",
+  "blog-after-arrival": "Nakon dolaska u Kanadu",
+  "blog-begin-studies": "Započnite studije",
+  "blog-begin-studies-desc": "Počnite da prisustvujete svojim časovima prema rasporedu i budite sigurni da se pridržavate svih pravila vaše studentske vize.",
+  "blog-work-while-studying": "Rad tokom studija",
+  "blog-work-while-studying-desc": "Dozvoljeno vam je da radite sa skraćenim radnim vremenom tokom studija i puno radno vreme tokom pauza. Iskoristite ovu priliku da steknete radno iskustvo i finansijski se podržite.",
+  "blog-post-graduation-opportunities": "Prilike nakon diplomiranja",
+  "blog-post-graduation-opportunities-desc": "Nakon završetka studija, istražite opcije kao što su viza Post-Graduation Work Permit (PGWP) i putevi ka stalnom prebivalištu.",
+  "blog-advantages": "Prednosti studiranja u Kanadi",
+  "blog-quality-of-life": "Kvalitet života",
+  "blog-quality-of-life-desc": "Kanada je poznata po visokom standardu života, sigurnom okruženju i prijateljskim zajednicama.",
+  "blog-cultural-diversity": "Kulturna raznovrsnost",
+  "blog-cultural-diversity-desc": "Iskusite raznovrsno i inkluzivno društvo koje ceni multikulturalnost i nudi brojne kulturne doživljaje.",
+  "blog-career-opportunities": "Karijerne prilike",
+  "blog-career-opportunities-desc": "Kanada nudi brojne karijerne prilike i ima snažno tržište rada, posebno za međunarodne diplomce.",
+  "blog-closing": "Studiranje u Kanadi pruža brojne prednosti i mogućnosti za lični i profesionalni rast. Razumevanjem procesa dobijanja studentske vize i temeljnom pripremom, možete započeti uspešno obrazovno putovanje u jednoj od najprijateljskijih zemalja na svetu.",
+  "our-blogs": "Naši blogovi",
+  "back-blog": "Povratak na odeljak bloga",
+  "blog-latest": "Najnoviji blogovi",
+  "First Name": "Ime",
+  "Last Name": "Prezime",
+  "Email": "Email",
+  "Message": "Poruka",
+  "SEND": "Pošalji",
+  "family": {
+    "blog-image2-alt": "Slika porodičnog sponzorstva",
+    "blog-title": "Porodično sponzorstvo: ponovo spajanje porodica u Kanadi",
+    "intro": "Šta je porodično sponzorstvo? Porodično sponzorstvo omogućava kanadskim građanima i stalnim stanovnicima da sponzorišu svoje voljene za stalni boravak u Kanadi. Ovaj program je ključan za ponovo spajanje porodica i pružanje mreža podrške za nove doseljenike.",
+    "who-can-sponsor-title": "Koga možete sponzorisati?",
+    "who-can-sponsor": [
+      "Supružnik ili partner u zajedničkom zakonu: Možete sponzorisati svog supružnika ili partnera da živi sa vama u Kanadi.",
+      "Zavisna deca: Sponzorstvo je dostupno za vašu decu mlađu od 22 godine, uključujući usvojenu decu.",
+      "Roditelji i bake i deke: Takođe možete sponzorisati svoje roditelje i bake i deke, omogućavajući im da žive sa vama u Kanadi."
+    ],
+    "why-choose-title": "Zašto odabrati porodično sponzorstvo?",
+    "why-choose": [
+      "Ponovo spajanje porodice: Držite svoje voljene blizu i podržavajte ih dok se integrišu u kanadsko društvo.",
+      "Stalni boravak: Sponzorisani članovi porodice dobijaju stalni boravak, omogućavajući im da žive, rade i studiraju u Kanadi."
+    ],
+    "how-it-works-title": "Kako funkcioniše?",
+    "how-it-works": [
+      "Provera podobnosti: Uverite se da i sponzor i sponzorisana osoba ispunjavaju kriterijume.",
+      "Podnošenje prijave: Popunite i podnesite svoju prijavu za sponzorstvo zajedno sa svim potrebnim dokumentima.",
+      "Obrada i odobrenje: Nakon pregleda prijave, sponzorisanoj osobi će biti odobren stalni boravak."
+    ],
+    "benefits-title": "Prednosti",
+    "benefits": [
+      "Mreža podrške: Imati porodicu u Kanadi pruža emocionalnu i praktičnu podršku, olakšavajući prelazak u novu zemlju.",
+      "Pristup uslugama: Sponzorisani članovi porodice imaju pristup zdravstvenoj zaštiti, obrazovanju i socijalnim uslugama u Kanadi."
+    ],
+    "closing": "U Diverse Visa razumemo važnost porodice. Naš tim je tu da vam pomogne u navigaciji kroz proces porodičnog sponzorstva, osiguravajući glatku i uspešnu prijavu. Kontaktirajte nas danas da se ponovo spojite sa svojim voljenima u Kanadi."
+  },
+  "startup": {
+    "blog-image1-alt": "Slika Start-Up Visa programa",
+    "blog-title": "Istraživanje Start-Up Visa programa: Vaš put ka preduzetništvu u Kanadi",
+    "intro": "Start-Up Visa program u Kanadi nudi jedinstvenu priliku za inovativne preduzetnike da uspostave svoje poslove i steknu stalni boravak. Ako imate poslovnu ideju sa globalnim potencijalom, ovaj program može biti vaš put ka pokretanju u jednoj od najdinamičnijih ekonomija sveta.",
+    "what-is-title": "Šta je Start-Up Visa program?",
+    "what-is-description": "Start-Up Visa program je namenjen preduzetnicima koji mogu da kreiraju radna mesta za Kanađane i da konkurišu na globalnom nivou. Program vas povezuje sa kanadskim privatnim sektorom, kao što su grupe anđeoskih investitora, fondovi za rizični kapital ili poslovni inkubatori, koji mogu podržati vaš startap.",
+    "eligibility-requirements-title": "Zahtevi za kvalifikaciju",
+    "eligibility-requirements": [
+      "Imati kvalifikovani posao: Vaš posao mora biti inovativan, imati potencijal za rast i biti sposoban da konkuriše međunarodno.",
+      "Osigurati obavezu: Morate dobiti pismo podrške od ovlašćene organizacije, kao što su grupe anđeoskih investitora, fondovi za rizični kapital ili poslovni inkubatori.",
+      "Ispunjavanje jezičkih zahteva: Morate dokazati znanje engleskog ili francuskog jezika kroz priznate jezičke testove.",
+      "Dokaz o sredstvima: Morate pokazati da imate dovoljno novca za život u Kanadi i podršku sebi i svojoj porodici dok osnivate svoj posao."
+    ],
+    "application-process-title": "Proces prijave",
+    "application-process": [
+      "Razvijajte svoju poslovnu ideju: Počnite sa snažnom, inovativnom poslovnom idejom koja ispunjava kriterijume globalne konkurentnosti i kreiranja radnih mesta u Kanadi.",
+      "Osigurajte obavezu: Obratite se ovlašćenoj organizaciji i predstavite svoju poslovnu ideju. Ako veruju u vaš koncept, pružiće vam pismo podrške koje je ključno za vašu prijavu.",
+      "Podnesite zahtev za vizu: Kada dobijete pismo podrške, možete se prijaviti za Start-Up Visa. Treba da dostavite poslovni plan, dokaz o sredstvima, rezultate jezičkih testova i druge potrebne dokumente.",
+      "Obrada i odobrenje: Vreme obrade može varirati, ali kada bude odobreno, dobićete vizu koja vam omogućava da dođete u Kanadu i uspostavite svoj posao.",
+      "Put ka stalnom boravku: Start-Up Visa ne samo da vam omogućava da izgradite svoj posao u Kanadi, već nudi i direktan put ka stalnom boravku za vas i vašu porodicu."
+    ],
+    "advantages-title": "Prednosti Start-Up Visa programa",
+    "advantages": [
+      "Pristup finansiranju i podršci: Osiguravanjem obaveze od kanadske organizacije dobijate pristup vrednim resursima, mentorstvu i potencijalnom finansiranju za rast vašeg posla.",
+      "Stalni boravak: Program pruža jasan put ka stalnom boravku za uspešne aplikante i njihove porodice.",
+      "Rastuća preduzetnička ekosistema: Kanada nudi podržavajuće okruženje za startape, sa pristupom kvalifikovanoj radnoj snazi, jakom infrastrukturom i stabilnom ekonomijom."
+    ],
+    "success-stories-title": "Priče o uspehu",
+    "success-stories-description": "Mnogi preduzetnici iz celog sveta uspešno su koristili Start-Up Visa program za pokretanje svojih poslova u Kanadi. Ovi startapi su stvorili radna mesta, inovirali u različitim industrijama i doprinosili kanadskoj ekonomiji.",
+    "closing": "U kompaniji Diverse Visa, specijalizovani smo za vođenje preduzetnika kroz Start-Up Visa program. Od razvijanja vašeg poslovnog plana do osiguravanja obaveze od ovlašćene organizacije, pružamo sveobuhvatnu podršku u svakom koraku. Kontaktirajte nas danas da započnete svoje preduzetničko putovanje u Kanadi."
+  },
+  "job-title": "Uzbudljiva udaljena radna prilika: Veb programer u Kanadi",
   "job-intro": "U Diverse Visa, uzbuđeni smo što možemo predstaviti jedinstvenu i fleksibilnu priliku za vešte veb programere da rade udaljeno sa jednim od naših proverenih klijenata u Kvebeku, Kanada. Ova uloga vam omogućava da doprinosite rastućoj tehnološkoj industriji Kanade dok uživate u fleksibilnosti rada od kuće, gde god da se nalazite. Pozicija veb programera dolazi sa odobrenjem LMIA, što pojednostavljuje proces prijave za radnu dozvolu, omogućavajući vam da pređete u kanadsku ulogu bez potrebe za trenutnim preseljenjem.",
-  
+
   "job-about-role-title": "O ulozi",
   "job-about-role-desc": "Kao veb programer, igraćete ključnu ulogu u dizajniranju, razvoju i održavanju veb sajtova za razne projekte. Blisko ćete sarađivati sa drugim programerima, dizajnerima i zainteresovanim stranama kako biste osigurali da su veb sajtovi optimizovani za brzinu, performanse i korisničko iskustvo.",
-  
+
   "job-responsibilities-title": "Vaše odgovornosti",
   "job-responsibility1": "Razvijajte responzivne i visoko performanse veb sajtove koristeći tehnologije kao što su HTML, CSS, JavaScript i PHP.",
   "job-responsibility2": "Saradnja sa međufunkcionalnim timovima kako biste pružili besprekorno korisničko iskustvo.",
   "job-responsibility3": "Održavajte i optimizujte veb sajtove za brzinu i performanse.",
   "job-responsibility4": "Otklanjajte i ispravite sve probleme sa veb sajtovima koji se javljaju.",
   "job-responsibility5": "Budite u toku sa najnovijim trendovima i tehnologijama veb programiranja.",
-  
+
   "job-requirements-title": "Ključni zahtevi",
   "job-requirement1": "Iskustvo: Dokazano iskustvo u veb programiranju, sa ekspertizom u front-end i back-end tehnologijama. Znanje okvira kao što su React, Angular ili Laravel je plus.",
   "job-requirement2": "Obrazovanje: Diploma iz računarskih nauka ili srodnog polja se preferira, ali će se uzeti u obzir i ekvivalentno iskustvo.",
   "job-requirement3": "Veštine: Snažna pažnja na detalje, veštine rešavanja problema i sposobnost da radite samostalno u udaljenom okruženju.",
   "job-requirement4": "Jezik: Povezivanje na engleskom jeziku je obavezno. Poznavanje francuskog jezika je bonus, ali nije obavezno.",
-  
+
   "job-why-choose-title": "Zašto odabrati udaljeni posao u Kanadi?",
   "job-why-choose-desc": "Kanada je poznata po svom prosperitetnom tehnološkom sektoru, a ova uloga vam omogućava da postanete deo toga bez potrebe za trenutnim preseljenjem. Rad na daljinu nudi vam fleksibilnost da uskladite svoju karijeru sa ličnim životom, dok dobijate dragoceno iskustvo sa kanadskim preduzećima. Štaviše, status odobrenja LMIA ove uloge osigurava da se vaša prijava za radnu dozvolu obrađuje glatko i efikasno.",
-  
+
   "job-application-process-title": "Kako se prijaviti",
   "job-application-process-desc": "Ako ste kvalifikovani veb programer koji traži mogućnost rada na daljinu za kanadsku kompaniju, ovo je savršena prilika za vas! Kontaktirajte nas na info@diversevisa.com ili posetite našu veb stranicu kako biste saznali više o procesu prijave.",
-  
+
   "job-conclusion-title": "Zaključak",
   "job-conclusion-desc": "Ova pozicija veb programera nudi vam najbolje iz oba sveta — rad na daljinu dok gradite svoju karijeru u kanadskoj tehnološkoj industriji. Sa fleksibilnošću udaljenog rada i sigurnošću pozicije sa LMIA, ova uloga je savršena za programere koji žele da ostave značajan utisak. Obratite se Diverse Visa danas i započnite svoje putovanje ka svetlijoj budućnosti u Kanadi.",
   "heading": "Mogućnosti posla na licu mesta širom Kanade – Prijavite se odmah!",
   "intro-paragraph": "U Diverse Visa ponosni smo što možemo da ponudimo širok spektar mogućnosti posla na licu mesta za kvalifikovane radnike koji žele da žive i rade u Kanadi. Sa pozicijama u više provincija, ove uloge pružaju odličan put ka dobijanju kanadske radne dozvole, a mnoge nude potencijal za prelazak u stalno prebivalište kroz programe kao što su Ocenjivanje uticaja na tržište rada (LMIA), Pilot program za imigraciju u ruralne i severne oblasti (RNIP) i Atlantski imigracioni program (AIP). Ove uloge se protežu kroz razne industrije kao što su zdravstvo, logistika, građevinarstvo i ugostiteljstvo, i savršene su za pojedince koji žele da rade direktno u svojim izabranim oblastima. Mnoge pozicije već imaju odobrenje LMIA, što čini proces imigracije bržim i efikasnijim.",
-  
+
   "positions-header": "Dostupne pozicije na licu mesta",
-  
+
   "position-1-title": "1. Konobar",
   "position-1-location": "Lokacija: New Brunswick (NB)",
   "position-1-program": "Program: Odobren LMIA",
   "position-1-description": "Ako imate iskustva u ugostiteljstvu, ova uloga konobara u New Brunswicku je odlična prilika. Sa odobrenjem LMIA, proces dobijanja radne dozvole je pojednostavljen, omogućavajući vam da brzo počnete sa radom.",
-  
+
   "position-2-title": "2. Auto mehaničar",
   "position-2-location": "Lokacija: Nova Škotska (NS)",
   "position-2-program": "Program: Odobren LMIA",
   "position-2-description": "Auto mehaničari su traženi širom Kanade. Ova pozicija u Novoj Škotskoj nudi praktičan rad u prometnoj radionici i ima LMIA odobrenje, što olakšava dobijanje radne dozvole.",
-  
+
   "position-3-title": "3. Računovođa",
   "position-3-location": "Lokacija: Alberta",
   "position-3-program": "Program: RNIP",
   "position-3-description": "Ova uloga nudi priliku da radite kao računovođa u rastućem finansijskom sektoru Albare. Kroz RNIP, ovaj posao pruža direktan put ka stalnom prebivalištu.",
-  
+
   "position-4-title": "4. Radnik na farmi mleka",
   "position-4-location": "Lokacija: Newfoundland i Labrador (NL)",
   "position-4-program": "Program: LMIA",
   "position-4-description": "Ova pozicija je idealna za pojedince sa iskustvom u poljoprivredi. LMIA odobrenje olakšava dobijanje radne dozvole i omogućava vam da počnete da doprinosite poljoprivrednom sektoru Kanade.",
-  
+
   "position-5-title": "5. Lični pomoćnik/bilingvalna medicinska sestra",
   "position-5-location": "Lokacija: Britanska Kolumbija (BC)",
   "position-5-program": "Program: Odobren LMIA",
   "position-5-description": "Zdravstveni radnici su uvek traženi, a ova uloga za bilingvalnog ličnog pomoćnika ili medicinsku sestru u Britanskoj Kolumbiji nije izuzetak. Sa LMIA odobrenjem, proces dobijanja radne dozvole se ubrzava.",
-  
+
   "position-6-title": "6. Mehaničar poljoprivredne opreme",
   "position-6-location": "Lokacija: Newfoundland i Labrador (NL)",
   "position-6-program": "Program: LMIA",
   "position-6-description": "Ako imate iskustvo u radu sa poljoprivrednom opremom, ova pozicija je odlična prilika za rad u poljoprivrednoj industriji Kanade. Ova LMIA odobrena pozicija vam omogućava da lako počnete da radite u ruralnim područjima Kanade.",
-  
+
   "position-7-title": "7. Vozač kamiona",
   "position-7-location": "Lokacija: NL, BC, ON",
   "position-7-program": "Program: LMIA",
   "position-7-description": "Sa više od 30 dostupnih pozicija širom Newfoundland-a, Britanske Kolumbije i Ontarija, vozači kamiona su veoma traženi. LMIA odobrenje obezbeđuje brz i jednostavan proces dobijanja radne dozvole.",
-  
+
   "position-8-title": "8. Prijemnik-pošiljalac/operater viljuškara",
   "position-8-location": "Lokacija: New Brunswick (NB)",
   "position-8-program": "Program: LMIA/AIP",
   "position-8-description": "Ova uloga uključuje upravljanje operacijama prijema i slanja, uključujući zadatke operatera viljuškara, u New Brunswicku. Kvalifikuje se i za LMIA i AIP, što čini proces dobijanja radne dozvole fleksibilnim.",
-  
+
   "position-9-title": "9. Frizer",
   "position-9-location": "Lokacija: NB, ON, NS",
   "position-9-program": "Program: LMIA",
   "position-9-description": "Iskusni frizeri mogu se prijaviti za više pozicija širom New Brunswicka, Ontarija i Nove Škotske. Ove uloge su LMIA odobrene, što olakšava dobijanje radne dozvole.",
-  
+
   "position-10-title": "10. Kuhar (kuhinja severne Indije)",
   "position-10-location": "Lokacija: Ontario (ON)",
   "position-10-program": "Program: Odobren LMIA",
   "position-10-description": "Ako ste kuvar specijalizovan za kuhinju severne Indije, ova pozicija u Ontariju je odlična prilika da pokažete svoje kulinarske talente. Sa LMIA odobrenjem, možete dobiti radnu dozvolu i brzo početi da radite u Kanadi.",
-  
+
   "position-11-title": "11. Varioci/konstruisanje",
   "position-11-location": "Lokacija: Ontario (ON)",
   "position-11-program": "Program: LMIA",
   "position-11-description": "Ako ste iskusni varilac ili konstruktor, ova pozicija u Ontariju nudi odličnu priliku za rad u građevinskom sektoru Kanade. LMIA odobrenje obezbeđuje glatku proceduru dobijanja radne dozvole.",
-  
+
   "position-12-title": "12. CNC operateri i operateri mašina",
   "position-12-location": "Lokacija: Ontario (ON)",
   "position-12-program": "Program: LMIA",
   "position-12-description": "Veštini CNC operateri i operateri mašina su potrebni u prosperitetnom proizvodnom sektoru Ontarija. Ova LMIA odobrena pozicija čini proces dobijanja radne dozvole jednostavnim.",
-  
-  "conclusion": "Kanada čeka kvalifikovane radnike poput vas! Bilo da ste mehaničar, vozač kamiona, kuvar ili zdravstveni radnik, ove mogućnosti posla na licu mesta nude brzu stazu do dobijanja kanadske radne dozvole i potencijalnog obezbeđenja stalnog prebivališta. Kontaktirajte Diverse Visa danas na info@diversevisa.com da biste saznali više o ovim uzbudljivim prilikama."
 
+  "conclusion": "Kanada čeka kvalifikovane radnike poput vas! Bilo da ste mehaničar, vozač kamiona, kuvar ili zdravstveni radnik, ove mogućnosti posla na licu mesta nude brzu stazu do dobijanja kanadske radne dozvole i potencijalnog obezbeđenja stalnog prebivališta. Kontaktirajte Diverse Visa danas na info@diversevisa.com da biste saznali više o ovim uzbudljivim prilikama.",
 
+  "countriesHeader": "Države",
+  "immigrationUSA": {
+    "title": "Imigracija u Sjedinjene Američke Države: Putanje ka Novoj Budućnosti",
+    "introduction": "Sjedinjene Američke Države su vodeća destinacija za pojedince i porodice širom sveta koji traže nove prilike u obrazovanju, zapošljavanju i ličnom razvoju. Sa više puteva za imigraciju, SAD nude opcije prilagođene preduzetnicima, kvalifikovanim radnicima, članovima porodica, investitorima i studentima. Bilo da želite da radite, studirate ili pokrenete biznis u SAD-u, navigacija pravim programom imigracije može biti ključni prvi korak.",
+    "whyImmigrate": "Zašto imigrirati u Sjedinjene Američke Države?",
+    "benefits": "SAD-ov imigracioni sistem nudi različite prednosti, uključujući pristup prosperitetnoj ekonomiji, vrhunskim obrazovnim institucijama i bogatstvu profesionalnih i ličnih prilika. Od užurbanih urbanih centara do mirnih predgrađa, SAD pružaju izvanredan kvalitet života za imigrante i njihove porodice. Pored toga, mnogi vizni programi omogućavaju vam prelazak ka stalnom boravku, pružajući jasan put ka izgradnji vaše budućnosti u SAD-u.",
+    "pathways": "Putanje imigracije u SAD",
+    "popularPrograms": "Evo nekih od najpopularnijih imigracionih programa za Sjedinjene Američke Države:",
+    "familyBased": "Imigracija zasnovana na porodici",
+    "familyDescription": "Građani SAD-a i stalni stanovnici mogu sponzorisati bliske rođake putem viza zasnovanih na porodici, stvarajući put za okupljanje voljenih i uspostavljanje života u SAD-u. Ovaj program uključuje kako neposredne rođake, tako i kategorije porodičnih preferencija.",
+    "employmentBased": "Imigracija zasnovana na zaposlenju (EB)",
+    "employmentCategories": "Vize zasnovane na zaposlenju su podeljene u kategorije prema veštinama, profesiji i kvalifikacijama:",
+    "EB1": "EB-1: Za pojedince sa izuzetnim sposobnostima u umetnosti, naukama, obrazovanju, biznisu ili sportu.",
+    "EB2": "EB-2: Za profesionalce sa naprednim diplomama ili izuzetnim sposobnostima.",
+    "EB3": "EB-3: Za kvalifikovane radnike, profesionalce i određene druge radnike.",
+    "EB4": "EB-4: Za specijalne imigrante, uključujući religiozne radnike i neke druge specifične profesije.",
+    "EB5": "EB-5: Za investitore koji ulažu od 800.000 do 1 miliona dolara u biznis u SAD-u, stvarajući radna mesta za američke radnike.",
+    "businessInvestment": "Poslovne i investicione vize (E-2 i EB-5)",
+    "businessDescription": "Poslovno orijentisane vize nude priliku za osnivanje ili investiranje u biznis unutar SAD-a:",
+    "EB5Investor": "EB-5 Investitorska viza: Direktan put do stalnog boravka za one koji prave značajnu ekonomsku investiciju.",
+    "E2TreatyInvestor": "E-2 Viza za investitore iz zemalja potpisnica, koja omogućava poslovne investicije sa opcijama obnavljanja viza.",
+    "workVisas": "Radne vize (H-1B, L-1)",
+    "temporaryWork": "Privremene radne vize uključuju:",
+    "H1B": "H-1B: Za kvalifikovane profesionalce u oblastima kao što su tehnologija, inženjering i nauke.",
+    "L1": "L-1: Za transfere unutar kompanija na menadžerskim ili izvršnim pozicijama ili onima sa specijalizovanim znanjem.",
+    "studentVisas": "Vize za studente (F-1, M-1)",
+    "studentDescription": "Američke vize za studente omogućavaju pristup nekim od najboljih obrazovnih institucija na svetu:",
+    "F1": "F-1: Za akademske studije na akreditovanim institucijama.",
+    "M1": "M-1: Za profesionalne ili tehničke studije.",
+    "asylum": "Programi za azilante i izbeglice",
+    "asylumDescription": "SAD pružaju puteve za tražioce azila i izbeglice koji beže od progona. Ovi programi nude sigurnost i put ka stalnom boravku za kvalifikovane pojedince.",
+    "touristVisas": "Turističke i vizne vize (B-1/B-2)",
+    "touristDescription": "Za pojedince koji traže kratkoročni ulazak za posao (B-1) ili turizam (B-2), ove vize omogućavaju privremene boravke, pružajući dragocen prvi uvid u SAD za potencijalne buduće imigrante.",
+    "advantages": "Prednosti imigracije u SAD uz Diverse Visa",
+    "support": "U Diverse Visa, specijalizujemo se za povezivanje aplikanta sa pravim putem imigracije. Naš iskusni tim pruža sveobuhvatnu podršku, od pripreme dokumenata do podnošenja zahteva, osiguravajući da ste dobro pripremljeni na svakom koraku. Uz našu stručnu pomoć, vaša imigraciona putanja će biti jasna i samouverena.",
+    "contact": "Bilo da ste zainteresovani za pokretanje biznisa, unapređenje karijere ili okupljanje sa porodicom, naš tim može pomoći. Kontaktirajte nas danas da istražite svoje mogućnosti imigracije u SAD i napravite prvi korak ka novom početku u Sjedinjenim Američkim Državama."
+  },
+  "immigrationSerbia": {
+    "serbiaImmigrationPathways": "Putanje za imigraciju u Srbiju",
+    "introduction": "Uvod",
+    "serbiaAttractiveDestination": "Srbija je postala atraktivna destinacija za strane državljane koji traže mogućnost da žive, rade ili osnuju biznis u Evropi. Sa svojim povoljnim poreskim sistemom, pristupačnim troškovima života i rastućom ekonomijom, zemlja nudi prijateljsko okruženje za imigrante. Bilo da planirate selidbu iz poslovnih, radnih ili ličnih razloga, Srbija pruža više opcija za privremeno i trajno prebivalište.",
+    "availablePathways": "Dostupne putanje za boravak u Srbiji",
+    "temporaryResidenceByEmployment": "Privremeno boravište na osnovu zaposlenja",
+    "foreignNationalsApply": "Strani državljani mogu podneti zahtev za jedinstvenu radnu i boravišnu dozvolu u Srbiji. Ova dozvola je idealna za one koji planiraju da rade ili prolaze profesionalnu obuku u Srbiji, što je čini jednom od najpopularnijih opcija za strane radnike.",
+    "unifiedProcess": "Jedinstven proces za boravišne i radne dozvole.",
+    "validFor3Years": "Važi do 3 godine, produživo.",
+    "eligibilityForPrograms": "Pravo na učešće u programima zapošljavanja i obuke.",
+    "temporaryResidenceByCompanyFormation": "Privremeno boravište na osnovu osnivanja kompanije",
+    "entrepreneursSelfEmployed": "Preduzetnici i samostalni radnici mogu osnovati biznis u Srbiji kako bi se kvalifikovali za privremenu boravišnu dozvolu. Ova putanja je popularna među investitorima koji žele da iskoriste niske poreze na dobit i pristup ključnim evropskim tržištima.",
+    "noNationalityRestrictions": "Nema ograničenja u vezi sa nacionalnošću osnivača.",
+    "lowCorporateTax": "Niski porezi na dobit (15%) i troškovi poslovanja.",
+    "freeTradeAgreements": "Sporazumi o slobodnoj trgovini sa EU, Rusijom i Turskom.",
+    "temporaryResidenceByPropertyInvestment": "Privremeno boravište na osnovu ulaganja u nekretnine",
+    "investingInRealEstate": "Strani državljani mogu dobiti privremeno boravište ulaganjem u srpske nekretnine. Ova opcija je popularna među pojedincima koji žele da poseduju nekretnine i uživaju u boravištu bez angažovanja u poslovnim aktivnostima.",
+    "noWealthTax": "Nema poreza na bogatstvo, sa porezima na nekretnine koji su niski kao 0.2%.",
+    "noMinimumInvestment": "Nema zakonskog minimalnog zahteva za ulaganje, iako je prosek obično oko 50,000 evra.",
+    "idealForRetirees": "Idealno za penzionere ili one koji traže drugi dom.",
+    "temporaryResidenceByFamilyReunification": "Privremeno boravište na osnovu spajanja porodice",
+    "familyMembersInSerbia": "Strani državljani koji imaju članove porodice koji već borave u Srbiji mogu podneti zahtev za privremeno boravište putem spajanja porodice. Ova opcija omogućava porodici da ostane zajedno bez dugotrajne separacije.",
+    "validAsLongAsPrimaryValid": "Važi dok je boravište glavnog podnosioca validno.",
+    "rightToWorkForFamily": "Obezbeđuje pravo na rad u Srbiji za članove porodice.",
+    "longTermResidencyAndCitizenship": "Dugoročno prebivalište i državljanstvo",
+    "5YearsForResidency": "Jednom kada strani državljanin legalno boravi u Srbiji najmanje 5 uzastopnih godina, može podneti zahtev za trajno prebivalište, a eventualno i za srpsko državljanstvo. Ova putanja je idealna za pojedince koji žele da se trajno nastane u zemlji i uživaju u punim pravima građanstva.",
+    "activeResidency": "Podnosioci zahteva moraju dokazati aktivno prebivalište i poštovanje srpskih zakona.",
+    "permanentResidencyStability": "Trajno prebivalište pruža dugoročnu stabilnost i pristup srpskim benefitima.",
+    "citizenshipApplications": "Zahtevi za državljanstvo obično traju jednu godinu nakon ispunjavanja uslova.",
+    "whyChooseSerbia": "Zašto izabrati Srbiju?",
+    "excellentQualityOfLife": "Srbija nudi odličan kvalitet života po znatno nižim troškovima u poređenju sa drugim evropskim zemljama. Sa prosperitetnom IT industrijom, strateškom lokacijom i sve većom liberalizacijom svojih imigracionih procesa, Srbija je postala vrhunska destinacija za strance.",
+    "costEffectiveLiving": "Troškovi života: Srbija ima jedan od najnižih troškova života u Evropi, što je čini idealnom za porodice i penzionere.",
+    "centralLocation": "Centralna lokacija: Pozicionirana između Istočne i Zapadne Evrope, Srbija pruža pristup brojnim evropskim tržištima, što je idealno za poslovanje i putovanja.",
+    "flexibleBankingSystem": "Fleksibilan bankarski sistem: Bankarski sistem Srbije podržava strane državljane i podstiče komercijalnu aktivnost.",
+    "howDiverseVisaCanHelp": "Kako Diverse Visa može pomoći",
+    "simplifyingImmigration": "U Diverse Visa, specijalizujemo se za pojednostavljenje složenog imigracionog procesa za naše klijente. Bilo da želite da se preselite u Srbiju zbog posla, biznisa ili spajanja porodice, naš iskusni tim može vas voditi kroz svaki korak.",
+    "ourServices": "Naše usluge:",
+    "completeDocumentation": "Kompletna pomoć u dokumentaciji: Pomažemo vam da prikupite svu potrebnu papirologiju kako bismo osigurali nesmetan proces.",
+    "speedyApplicationProcessing": "Brza obrada aplikacija: Radimo efikasno kako bismo podneli vaše dokumente u potrebnim rokovima, minimizirajući kašnjenja.",
+    "personalizedSupport": "Personalizovana podrška: Pružamo individualne konsultacije kako bismo osigurali da vaša aplikacija bude u skladu sa srpskim imigracionim zakonima i politikama.",
+    "serbiaFavoredDestination": "Srbija brzo postaje omiljena destinacija za strane državljane širom sveta. Dozvolite nam da vam pomognemo da se lakše snađete u procesu i započnete novi život u ovoj dinamičnoj zemlji. Kontaktirajte nas danas da razgovaramo o vašim opcijama!"
+  },
+  "visitorVisa": {
+    "visitorVisaTitle": "Posetilačka Viza: Istražite Kanadu sa Lakoćom",
+    "introduction": "Uvod",
+    "canadianVisitorVisa": "Kanadska posetilačka viza, poznata i kao privremena rezidentna viza (TRV), omogućava stranim državljanima pristup Kanadi u svrhu turizma, poslovanja ili posete porodici i prijateljima. Bilo da vas očarava neverovatna prirodna lepota Kanade, prisustvujete važnim poslovnim sastancima ili se povezujete s porodicom, posetilačka viza otvara vrata iskustvu zemlje iz prve ruke.",
+    "diverseVisaAim": "U Diverse Visa, naš cilj je da proces učinimo brzim i jednostavnim pomažući vam da prikupite potrebnu dokumentaciju, osiguravajući da vaša aplikacija bude efikasno podneta i vodeći vas korak po korak kroz zahteve.",
+    "programOverview": "Pregled Programa",
+    "eligibilityRequirements": "Zahtevi za Kvalifikaciju",
+    "validPassport": "Važeći pasoš: Imati važeći pasoš i druge potrebne putne dokumente.",
+    "proofOfFunds": "Dokaz o sredstvima: Demonstrirati da imate dovoljna sredstva za pokriće vašeg boravka u Kanadi.",
+    "purposeOfVisit": "Svrha posete: Jasno objasniti razlog vaše posete (npr. turizam, porodica, posao) i pružiti dokaze o vezama sa vašom domovinom (kao što su zaposlenje ili nekretnine) kako biste pokazali da imate nameru da se vratite nakon posete.",
+    "criminalAndHealthRecord": "Kriminalna i zdravstvena evidencija: Možda ćete morati da dostavite policijske sertifikate i, u nekim slučajevima, medicinski pregled kako biste dokazali dobro zdravlje i čistu evidenciju.",
+    "invitationLetter": "Pismo o pozivu (ako je primenljivo): Za one koji posećuju porodicu ili prijatelje, može biti potrebno pismo o pozivu od vašeg kanadskog domaćina.",
+    "typesOfVisitorVisas": "Vrste Posetilačkih Viza",
+    "singleEntryVisa": "Viza za jedno ulazak: Omogućava jedno ulazak u Kanadu. Nakon izlaska, biće vam potrebna nova viza za ponovni ulazak.",
+    "multipleEntryVisa": "Viza za više ulazaka: Pruža fleksibilnost, omogućavajući vam da ulazite i izlazite iz Kanade više puta tokom važenja (do 10 godina).",
+    "whyVisitCanada": "Zašto posetiti Kanadu?",
+    "stunningNaturalBeauty": "Očaravajuća prirodna lepota: Od Stenovitih planina do Nijagarskih vodopada, prirodni pejzaži Kanade su nenadmašni.",
+    "businessOpportunities": "Poslovne mogućnosti: Kanada je centar globalnog poslovanja, sa brojnim konferencijama, sajmovima i korporativnim događanjima koja privlače profesionalce iz celog sveta.",
+    "familyAndCulture": "Porodica i kultura: Mnogi posetioci dolaze da se ponovo povežu sa porodicom ili istraže bogatu multikulturalnu istoriju i živopisni gradski život Kanade.",
+    "commonChallenges": "Uobičajeni izazovi",
+    "provingFinancialStability": "Dokazivanje finansijske stabilnosti: Važno je pokazati da imate dovoljno sredstava za podršku tokom boravka.",
+    "tiesToHomeCountry": "Veze sa domovinom: Imigracioni službenici trebaju da vide jake veze sa vašom domovinom, kao što su zaposlenje ili vlasništvo nad nekretninama, kako bi osigurali da planirate da se vratite nakon posete.",
+    "howDiverseVisaHelps": "Kako Diverse Visa pomaže da uspete",
+    "fastDocumentSubmission": "Brzo podnošenje dokumenata: Radimo brzo kako bismo osigurali da vaša aplikacija bude podneta u rekordnom vremenu, često u roku od 48 sati nakon prikupljanja svih dokumenata.",
+    "helpWithGatheringDocuments": "Pomoć u prikupljanju potrebnih dokumenata: Naš tim vam pomaže da prikupite potrebne papire, od finansijskih izveštaja do putnih planova, tako da vaša aplikacija bude potpuna i tačna.",
+    "lowServiceFees": "Niske takse za usluge:",
+    "standardServiceFee": "Standardna usluga: €100 - Uključuje punu podršku, pregled dokumenata i podnošenje kako bi vaša aplikacija za vizu bila tačna.",
+    "rushServiceFee": "Hitna usluga: €200 - Prioritetno procesuiranje dokumenata i brzo podnošenje za hitne potrebe vize.",
+    "whyChooseDiverseVisa": "Zašto odabrati Diverse Visa?",
+    "fastAndEfficientProcess": "Brz i efikasan proces: Ponose se brzim podnošenjem vaše aplikacije, osiguravajući da ne dođe do kašnjenja u vašim putnim planovima.",
+    "affordableService": "Pristupačna usluga: Sa konkurentnim cenama od €100 za standardnu uslugu i €200 za hitnu uslugu, pružamo vrhunsku podršku po pristupačnoj ceni.",
+    "completeDocumentAssistance": "Potpuna pomoć sa dokumentima: Pomažemo vam u prikupljanju svih potrebnih dokumenata, osiguravajući da vaša aplikacija bude bez greške.",
+    "ongoingSupport": "Kontinuirana podrška: Od inicijalne aplikacije do odobrenja vize, vodimo vas kroz svaku fazu, osiguravajući da vaše putovanje u Kanadu bude glatko i bez stresa."
+  },
+  "studyInCanada": {
+    "studyPermitProgramTitle": "Program za dozvolu studija: Studirajte, radite i živite u Kanadi",
+    "introduction": "Uvod",
+    "studyPermitProgramDescription": "Program za dozvolu studija je vrata za međunarodne studente da dobiju obrazovanje svetske klase u Kanadi, a istovremeno stiču vredno radno iskustvo tokom studija. Ovaj program omogućava studentima da studiraju na odabranim institucijama za obrazovanje (DLI) u Kanadi i rade na pola radnog vremena dok su upisani na kurseve. Za mnoge studente, dozvola za studije postaje odskočna daska ka stalnom boravku u Kanadi, nudeći jasnu putanju ka izgradnji života u jednoj od najprijateljskijih zemalja za studente.",
+    "diverseVisaSupport": "U Diverse Visa, pomažemo studentima u svakom koraku procesa, osiguravajući da njihovo obrazovno putovanje u Kanadi bude glatko i uspešno.",
+    "programOverview": "Pregled programa",
+    "eligibilityRequirements": "Uslovi za prihvatanje",
+    "acceptanceIntoDLI": "Prihvatanje na odabranu instituciju za učenje (DLI): Pre nego što se prijave za dozvolu studija, studenti moraju prvo biti prihvaćeni na priznatu DLI u Kanadi.",
+    "proofOfFinancialSupport": "Dokaz o finansijskoj podršci: Studenti moraju pokazati dokaz da imaju dovoljno sredstava za pokriće školarine, troškova života za sebe i članove porodice (ako je primenljivo) i povratnu kartu.",
+    "languageProficiency": "Proficiency u engleskom ili francuskom jeziku: Iako testovi jezika možda nisu potrebni za samu dozvolu, studenti mogu morati da dokažu svoju sposobnost u engleskom ili francuskom jeziku kao deo svoje prijave kanadskim institucijama. Popularni testovi uključuju IELTS ili TOEFL za engleski i TEF za francuski.",
+    "healthAndCriminalRecord": "Dobro zdravlje i bez krivične evidencije: Studenti možda moraju da se podvrgnu medicinskom pregledu i dostave policijske sertifikate kako bi osigurali da ispunjavaju kanadske zdravstvene i bezbednosne standarde.",
+    "workWhileStudying": "Rad tokom studiranja",
+    "workWhileStudyingDescription": "Sa dozvolom za studije, studenti mogu raditi do 20 sati nedeljno tokom redovnih akademskih sesija i puno radno vreme tokom planiranih odmora (kao što su zimski i letnji odmor). Ovo radno iskustvo može pomoći studentima da dobiju poziciju na kanadskom tržištu rada i počnu da grade mrežu za buduće prilike.",
+    "postGraduationWorkPermit": "Dozvola za rad nakon diplomiranja (PGWP)",
+    "pgwpDescription": "Nakon završetka studija, studenti mogu biti kvalifikovani za dozvolu za rad nakon diplomiranja, koja im omogućava rad u Kanadi do tri godine. Ova dozvola za rad je ključni korak ka sticanju kanadskog radnog iskustva i apliciranju za stalni boravak.",
+    "whyStudyInCanada": "Zašto studirati u Kanadi?",
+    "studyInCanadaBenefits": {
+      "benefit1": "Kanada je dom nekih od najboljih univerziteta na svetu, nudeći raznovrsne programe u različitim oblastima.",
+      "benefit2": "Program za dozvolu studija ne samo da otvara vrata kvalitetnom obrazovanju, već pruža i prilike za rad i potencijalnu imigraciju.",
+      "benefit3": "Visokokvalitetno obrazovanje: Kanadske institucije su globalno priznate po svojoj akademskoj izvrsnosti.",
+      "benefit4": "Prilike za rad: Studenti mogu steći praktično iskustvo tokom studija, što im pomaže da dobiju poslove nakon diplomiranja.",
+      "benefit5": "Put do stalnog boravka: Mnogi međunarodni studenti koriste svoje studijsko iskustvo i dozvole za rad nakon diplomiranja kako bi prešli na stalni boravak kroz programe kao što su Express Entry ili Provincial Nominee Programs (PNPs)."
+    },
+    "howWeHelp": "Kako vam pomažemo da uspete",
+    "howWeHelpDescription": "U Diverse Visa, činimo proces dobijanja dozvole za studije što jednostavnijim. Evo kako podržavamo studente tokom procesa:",
+    "supportList": {
+      "support1": "Izbor škole: Pomažemo studentima da izaberu najbolju odabranu instituciju za učenje koja odgovara njihovim akademskim ciljevima.",
+      "support2": "Pomoć u prijavi: Pomažemo u svim aspektima procesa prijave, uključujući prikupljanje dokumenata, podnošenje prijava i praćenje napretka.",
+      "support3": "Podrška radu i učenju: Naš tim vodi studente kako da usklade studije sa radnim prilikama, osiguravajući da maksimalno iskoriste kanadske programe rada i studija.",
+      "support4": "Putanje nakon diplomiranja: Pružamo sveobuhvatnu podršku nakon diplomiranja, pomažući studentima da obezbede radne dozvole i pređu u programe stalnog boravka."
+    },
+    "whyChooseDiverseVisa": "Zašto izabrati Diverse Visa?",
+    "chooseDiverseVisaDescription": "U Diverse Visa, posvećeni smo pomaganju studentima da postignu svoje akademske i imigracione ciljeve. Bilo da je reč o pronalaženju prave škole, navigaciji kroz proces dozvole za studije ili obezbeđivanju posla nakon diplomiranja, pružamo stručne savete potrebne za uspeh u Kanadi."
+  },
+  "startUpVisa": {
+    "startUpVisaTitle": "Start-Up Visa Program: Put za Kanadu za Vas i Vašu Porodicu",
+    "introduction": "Uvod",
+    "introductionDescription": {
+      "description1": "Program Start-Up Visa (SUV) nudi direktan put za preduzetnike da donesu svoj posao u Kanadu i obezbede stalno prebivalište za sebe i svoje porodice. Osmišljen za inovatore i poslovne lidere, program vas povezuje sa investitorima iz privatnog sektora u Kanadi, pomažući vam da dobijete ne samo finansijska sredstva, već i stručnost potrebnu za uspešno pokretanje vašeg poduhvata.",
+      "description2": "Start-Up Visa program u Kanadi predstavlja neverovatnu priliku za osnivače preduzeća da pristupe globalnim tržištima, iskoriste snažno ekonomsko okruženje Kanade i da se smeste sa svojim porodicama. Program obezbeđuje stalno prebivalište bez obzira na uspeh poslovanja, čineći ga najboljim putem za preduzetnike koji žele da se presele i uspostave život u Kanadi.",
+      "description3": "Čak i ako još nemate poslovnu ideju, možemo vam pomoći! U Diverse Visa, pomažemo u usavršavanju ili razvoju održive poslovne ideje koja ispunjava kriterijume programa, osiguravajući da ste postavljeni za uspeh od samog početka."
+    },
+    "programOverview": "Pregled programa",
+    "qualifyingBusiness": "Kvalifikovani posao",
+    "qualifyingBusinessList": {
+      "qualifying1": "Morate posedovati posao koji ispunjava kriterijume Kanadske imigracije, izbeglica i državljanstva (IRCC). To uključuje dokazivanje inovacija, skalabilnosti i potencijala za stvaranje radnih mesta u Kanadi.",
+      "qualifying2": "U trenutku dobijanja stalnog prebivališta, morate aktivno upravljati poslom iz Kanade i sprovoditi značajan deo svojih operacija ovde."
+    },
+    "languageRequirements": "Jezicke zahteve",
+    "languageRequirementsList": {
+      "language1": "Morate ispunjavati minimum Kanadskog jezičkog standarda (CLB) nivo 5 na engleskom ili francuskom jeziku u svim veštinama: govoru, slušanju, čitanju i pisanju.",
+      "language2": "Prihvaćeni jezički testovi uključuju IELTS ili CELPIP za engleski i TCF Canada ili TEF Canada za francuski."
+    },
+    "letterOfSupport": "Pismo podrške",
+    "letterOfSupportList": {
+      "supportLetter1": "Osigurajte Pismo podrške od određene organizacije, kao što su fondovi rizičnog kapitala, grupe anđela investitora ili poslovni inkubatori. Ovo je od suštinskog značaja za pokazivanje da vaša firma ima jaku podršku u Kanadi.",
+      "supportLetter2": "Ako nemate poslovnu ideju ili vam je potrebna pomoć u usavršavanju, Diverse Visa može pomoći u izgradnji poslovnog modela koji ispunjava kriterijume programa i privlači podršku investitora."
+    },
+    "settlementFunds": "Sredstva za preseljenje",
+    "settlementFundsDescription": "Potrebno je dokazati dovoljno sredstava za preseljenje vas i vaše porodice u Kanadu. Potrebna suma zavisi od broja zavisnih članova koje planirate da dovedete.",
+    "whyPerfectForFamilies": "Zašto je savršeno za porodice",
+    "whyPerfectForFamiliesDescription": {
+      "familyBenefit1": "Jedna od glavnih prednosti Start-Up Visa programa je što omogućava celoj porodici da imigrira u Kanadu. Dok glavni aplikant gradi posao, članovima porodice se dodeljuje stalno prebivalište i mogu uživati u svim pogodnostima koje Kanada nudi, uključujući pristup zdravstvenoj zaštiti i obrazovanju.",
+      "familyBenefit2": "Nema starosne granice, što ga čini idealnim za porodice u bilo kojoj fazi života."
+    },
+    "processingTime": "Vreme obrade",
+    "processingTimeList": {
+      "processingTime1": "Ukupno vreme za obezbeđivanje stalnog prebivališta putem Start-Up Visa programa je otprilike 12 do 18 meseci.",
+      "processingTime2": "Obezbeđivanje Pisma podrške od određene organizacije traje oko 4 do 6 meseci.",
+      "processingTime3": "Aplikanti su kvalifikovani za privremenu radnu dozvolu dok se obrada aplikacije za stalno prebivalište odvija."
+    },
+    "benefitsOfProgram": "Prednosti Start-Up Visa programa",
+    "benefitsList": {
+      "benefit1": "Stalno prebivalište za celu porodicu: Do 5 suosnivača i njihovih porodica može se prijaviti za stalno prebivalište pod jednim poslovnim poduhvatom.",
+      "benefit2": "Put do kanadskog državljanstva: Kada se nastanite u Kanadi i ispunite uslove za prebivalište, možete se prijaviti za državljanstvo.",
+      "benefit3": "Sloboda života i rada bilo gde u Kanadi: Nema ograničenja o tome gde živite ili vodite posao u Kanadi.",
+      "benefit4": "Bezuslovno stalno prebivalište: Vaše stalno prebivalište nije vezano za uspeh vašeg start-up-a. Čak i ako posao ne uspe, vaš PR status ostaje netaknut.",
+      "benefit5": "Pristup globalnim tržištima: Država kanadski pasoša ima poboljšan pristup SAD-u i drugim globalnim tržištima."
+    },
+    "howWeHelp": "Kako pomažemo da uspete",
+    "howWeHelpDescription": {
+      "helpDescription1": "U Diverse Visa, specijalizovani smo za vođenje preduzetnika kroz složen proces prijave za Start-Up Visa. Evo kako olakšavamo proces:",
+      "helpDescription2": "Kreiranje i konsultacije poslovne ideje: Ako nemate poslovnu ideju, možemo vam pomoći da usavršite ili razvijete onu koja ispunjava visoke standarde koje zahtevaju kanadski investitori. Bilo da vam je potrebna podrška u ideaciji ili fazi razvoja, osiguraćemo da vaša poslovna ideja bude usklađena s kriterijumima programa.",
+      "helpDescription3": "Povezivanje s investitorima: Naše duboke veze s određenim organizacijama osiguravaju da vaša firma dobije podršku koja joj je potrebna za uspeh.",
+      "helpDescription4": "Pomoć u aplikacijama: Upravljamo celokupnim procesom imigracije, osiguravajući da su vaše aplikacije kompletne, tačne i pravovremene.",
+      "helpDescription5": "Preseljenje porodice: Pomažemo ne samo s preseljenjem preduzeća, već i s osiguranjem da se vaša porodica lako uklopi u kanadski život."
+    },
+    "chooseDiverseVisa": "Izborom Diverse Visa ne samo da poboljšavate svoje šanse za uspešnu prijavu za Start-Up Visa, već i pružate svojoj porodici priliku da izgrade novi život u jednoj od najprijateljskijih zemalja na svetu."
+  },
+  "jobOpportunities": {
+    "lmiaWorkPermitTitle": "LMIA-Na osnovu radne dozvole: Put do zapošljavanja i imigracije u Kanadu",
+    "introduction": "Uvod",
+    "introductionDescription1": "Radna dozvola na osnovu procene uticaja na tržište rada (LMIA) je jedan od glavnih načina na koje kvalifikovani strani radnici mogu ući na kanadsko tržište rada i na kraju obezbediti stalno prebivalište. Kanadski poslodavci koriste LMIA kako bi dokazali da zapošljavanje stranog radnika neće negativno uticati na mogućnosti zapošljavanja kanadskih građana ili stalnih stanovnika. Sa odobrenim LMIA, radnici mogu podneti zahtev za radnu dozvolu i započeti svoje putovanje ka izgradnji karijere u Kanadi.",
+    "introductionDescription2": "U Diverse Visa, specijalizovani smo ne samo da vas vodimo kroz proces apliciranja za LMIA, već i da vam pomognemo da obezbedite posao kod kanadskih poslodavaca, čineći put do rada u Kanadi lakšim i pristupačnijim.",
+    "programOverview": "Pregled programa",
+    "eligibilityRequirements": "Kriterijumi podobnosti",
+    "eligibilityRequirementsList": {
+      "requirement1": "Ponuda posla od kanadskog poslodavca: Glavni zahtev je imati ponudu posla od kanadskog poslodavca koji je voljan da zaposli stranog radnika i obezbedi LMIA kako bi dokazao potrebu za stranim talentima.",
+      "requirement2": "Odobren LMIA: Kada poslodavac dobije odobrenje LMIA od Ministarstva zapošljavanja i socijalnog razvoja Kanade (ESDC), strani radnik može nastaviti sa apliciranjem za radnu dozvolu.",
+      "requirement3": "Potrebne kvalifikacije: Podnosioci zahteva moraju ispunjavati kvalifikacije posla i posedovati potrebne veštine, obrazovanje i iskustvo za tu ulogu.",
+      "requirement4": "Prijava za radnu dozvolu: Nakon obezbeđivanja posla i LMIA, podnosilac zahteva može podneti prijavu za radnu dozvolu kako bi legalno počeo da radi u Kanadi."
+    },
+    "typesOfJobsAvailable": "Vrste dostupnih poslova",
+    "typesOfJobsDescription": "Kroz našu mrežu poslodavaca, pomažemo vam da pronađete poslove u sektorima sa velikom potražnjom, kao što su:",
+    "jobsList": {
+      "job1": "Vožnja kamiona: Jedan od najtraženijih poslova u Kanadi, sa atraktivnim platama i beneficijama.",
+      "job2": "Građevinarstvo i zanatske delatnosti: Stolari, varioci, električari i drugi u zanatskim poslovima su stalno traženi u Kanadi.",
+      "job3": "Poljoprivreda: Radnici na farmama i mlekare igraju ključnu ulogu u kanadskoj poljoprivredi i često su potrebni.",
+      "job4": "Ugostiteljstvo: Hoteli, restorani i letovališta traže kvalifikovane radnike za uloge kao što su kuvari, konobari i osoblje za održavanje."
+    },
+    "benefitsOfLmiaWorkPermits": "Benefiti LMIA-Na osnovu radnih dozvola",
+    "benefitsList": {
+      "benefit1": "Put do stalnog prebivališta: Mnogi radnici na osnovu LMIA imaju pravo da se prijave za stalno prebivalište kroz programe kao što su Express Entry ili provincialni nominacijski programi (PNP).",
+      "benefit2": "Obezbeđivanje kanadskog posla: Pomažemo vam da pronađete poslodavce sa odobrenim LMIA u različitim sektorima, otvarajući vrata sigurnosti posla i stabilne karijere.",
+      "benefit3": "Sticanje kanadskog radnog iskustva: Radno iskustvo koje ste stekli u Kanadi jača vaš profil za stalno prebivalište pod klasom kanadskog iskustva."
+    },
+    "challenges": "Izazovi",
+    "challengesList": {
+      "challenge1": "Obaveza poslodavca: Poslodavci moraju dokazati da nisu mogli popuniti poziciju kanadskim radnicima, što može učiniti proces malo dužim.",
+      "challenge2": "Privremeni status: LMIA radna dozvola je privremena, ali uz našu pomoć, može dovesti do stalnog prebivališta."
+    },
+    "howWeHelp": "Kako vam pomažemo da uspete",
+    "howWeHelpDescription": {
+      "helpDescription1": "U Diverse Visa pružamo sveobuhvatnu pomoć na svakom koraku vašeg putovanja:",
+      "helpDescription2": "Usklađivanje poslova: Blisko radimo sa kanadskim poslodavcima kako bismo vas uskladili sa LMIA-odobrenim poslovima, osiguravajući da vaše veštine odgovaraju dostupnim ulogama.",
+      "helpDescription3": "Priprema dokumenata: Naš tim osigurava da su svi potrebni dokumenti, uključujući CV, sertifikate i preporuke, pravilno organizovani za podnošenje.",
+      "helpDescription4": "Prijava za radnu dozvolu: Kada se osigura ponuda posla i LMIA, mi obavljamo vašu prijavu za radnu dozvolu, osiguravajući pravovremenu i tačnu obradu.",
+      "helpDescription5": "Put do stalnog prebivališta: Nakon sticanja kanadskog radnog iskustva, pomažemo vam da pređete iz privremenog radnika u stalnog stanovnika kroz imigracione programe kao što su Express Entry i provincialni nominacijski programi (PNP)."
+    },
+    "whyChooseDiverseVisa": "Zašto odabrati Diverse Visa?",
+    "whyChooseDiverseVisaList": {
+      "choice1": "Jak mreža poslodavaca: Imamo odnose sa poslodavcima širom Kanade koji aktivno traže strane radnike sa LMIA odobrenjima.",
+      "choice2": "Personalizovana podrška: Od pomoći u pronalaženju pravog posla do vođenja kroz proces radne dozvole, nudimo prilagođene usluge koje odgovaraju vašim individualnim potrebama.",
+      "choice3": "Bez problema: Rukovodimo procesom od pretrage posla do imigracije, osiguravajući glatko i bezbrižno iskustvo."
+    }
   }
-  
+}
