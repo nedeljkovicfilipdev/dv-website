@@ -7,4 +7,8 @@ export type TranslationKeys =
   | 'startup.blog-title'
   | 'job-title'
   | 'heading'
+  | 'visitor-visa-title'
+  | 'job-opportunities-title'
+  | 'study-in-canada-title'
+  | 'start-up-visa-title'
   // Add other translation keys here...

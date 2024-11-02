@@ -4,30 +4,22 @@ import React, { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { useSpring, animated } from '@react-spring/web';
 
-export const Card: React.FC<{ title: string, content: string }> = ({ title, content }) => {
-
-  return (
-  <div className="w-full h-auto p-8 rounded-lg bg-customblue shadow-md flex flex-col justify-center hover:bg-customblue1 hover:cursor-default tracking-tighter">
+export const Card: React.FC<{ title: string, content: string }> = ({ title, content }) => (
+  <div className="w-full h-auto p-8 rounded-lg bg-customblue shadow-md flex flex-col justify-center hover:bg-customblue1 cursor-pointer tracking-tighter">
     <h3 className="mb-6 text-2xl sm:text-2xl xl:text-3xl font-bold text-white">{title}</h3>
     <p className="text-xl text-gray-100 text-left">{content}</p>
   </div>
-
-  );
-};
+);
 
 const AccordionItem: React.FC<{ title: string, content: React.ReactNode, isOpen: boolean, onToggle: () => void }> = ({ title, content, isOpen, onToggle }) => {
-
   const animationProps = useSpring({
     from: { maxHeight: 0, opacity: 0 },
-    to: {
-      maxHeight: isOpen ? 1000 : 0,
-      opacity: isOpen ? 1 : 0
-    },
+    to: { maxHeight: isOpen ? 1000 : 0, opacity: isOpen ? 1 : 0 },
     config: { duration: 300 }
   });
 
   return (
-    <div className="">
+    <div>
       <button
         onClick={onToggle}
         className="w-full p-4 flex items-center justify-between bg-custombluehover hover:bg-customblue1 text-white focus:outline-none"
@@ -46,6 +38,17 @@ const AccordionItem: React.FC<{ title: string, content: React.ReactNode, isOpen:
   );
 };
 
+const servicesData = [
+  { title: 'Personalized Immigration Guidance', content: 'We conduct in-depth assessments of your background, qualifications, and goals during our consultations to provide tailored immigration strategies that suit your specific needs.' },
+  { title: 'Full-Service Support', content: 'We manage every stage of the immigration process, from documentation and job matching to visa submissions and interview coaching, ensuring you have expert guidance throughout.' },
+  { title: 'Expertise Across Multiple Programs', content: 'Our team is proficient in a variety of Canadian immigration programs such as Express Entry, Provincial Nominee Programs (PNPs), Work Permits, and Family Sponsorship, giving us the ability to recommend the most suitable pathway for you.' },
+  { title: 'Job Matching and Employment Support', content: 'We provide job matching services by working directly with employers and helping you build a professional resume and prepare for interviews, giving you access to Canadian job opportunities that match your skill set.' },
+  { title: 'Transparency and Clear Communication', content: 'We maintain clear, transparent communication, providing upfront details about costs and regular updates on your application’s progress to keep you informed at every step.' },
+  { title: 'Experience and a Strong Network', content: 'With years of experience, we have built a network of professionals including immigration lawyers, recruiters, and business brokers, ensuring that you have access to the best resources available.' },
+  { title: 'Post-Immigration Support', content: 'After you’ve arrived in Canada, we offer additional services such as housing assistance and career guidance to help you settle smoothly into your new life.' },
+  { title: 'Streamlined Documentation', content: 'We handle the entire documentation process, ensuring that all paperwork is accurately completed, translated when necessary, and submitted on time to the appropriate authorities.' },
+];
+
 export const DiverseServices = () => {
   const t = useTranslations();
   const [expandedItem, setExpandedItem] = useState<string | null>(null);
@@ -59,60 +62,20 @@ export const DiverseServices = () => {
       <div className="w-full py-16 bg-white">
         <div className="px-4 md:px-6 container">
           <div className="mx-auto w-full max-w-full space-y-20">
-            
-            {/* Our Services */}
             <div className="p-8 bg-customblue rounded-lg shadow-md text-xl">
-              <h4 className="mb-8 text-center sm:text-3xl xl:text-5xl p-4 text-white rounded-t-lg font-bold text-3xl">{t('services')}</h4>
+              <h4 className="mb-8 text-center sm:text-3xl xl:text-5xl p-4 text-white rounded-t-lg font-bold text-3xl">
+                {t('services')}
+              </h4>
               <div className="space-y-4 mb-4">
-                <AccordionItem
-                  title={t('immigration-consulting-experts')}
-                  content={<div className="text-lg"><p>{t('immigration-consulting-experts-description')}</p></div>}
-                  isOpen={expandedItem === 'immigration-consulting-experts'}
-                  onToggle={() => toggleAccordion('immigration-consulting-experts')}
-                />
-                <AccordionItem
-                  title={t('recruiters-job-placements')}
-                  content={<div className="text-lg"><p>{t('recruiters-job-placements-description')}</p></div>}
-                  isOpen={expandedItem === 'recruiters-job-placements'}
-                  onToggle={() => toggleAccordion('recruiters-job-placements')}
-                />
-                <AccordionItem
-                  title={t('business-brokers')}
-                  content={<div className="text-lg"><p>{t('business-brokers-description')}</p></div>}
-                  isOpen={expandedItem === 'business-brokers'}
-                  onToggle={() => toggleAccordion('business-brokers')}
-                />
-                <AccordionItem
-                  title={t('educational-institutions')}
-                  content={<div className="text-lg"><p>{t('educational-institutions-description')}</p></div>}
-                  isOpen={expandedItem === 'educational-institutions'}
-                  onToggle={() => toggleAccordion('educational-institutions')}
-                />
-                <AccordionItem
-                  title={t('legal-compliance-advisors')}
-                  content={<div className="text-lg"><p>{t('legal-compliance-advisors-description')}</p></div>}
-                  isOpen={expandedItem === 'legal-compliance-advisors'}
-                  onToggle={() => toggleAccordion('legal-compliance-advisors')}
-                />
-              </div>
-              
-              {/* What Sets Us Apart */}
-              {/* Display cards on larger screens */}
-              <div className="hidden md:grid md:grid-cols-2 gap-4">
-                <Card title={t('holistic-approach')} content={t('holistic-approach-text')} />
-                <Card title={t('understanding-unique-journeys')} content={t('understanding-unique-journeys-text')} />
-              </div>
-              
-              {/* Display title and content on mobile screens */}
-              <div className="md:hidden space-y-4 mb-4">
-                <div className="p-4 bg-white rounded-lg shadow-md">
-                  <h3 className="text-lg font-bold font-bold mb-4">{t('holistic-approach')}</h3>
-                  <p className="text-lg text-[#333] mt-2">{t('holistic-approach-text')}</p>
-                </div>
-                <div className="p-4 bg-white rounded-lg shadow-md">
-                  <h3 className="text-lg font-bold font-bold mb-4">{t('understanding-unique-journeys')}</h3>
-                  <p className="text-lg text-[#333] mt-2">{t('understanding-unique-journeys-text')}</p>
-                </div>
+                {servicesData.map((service, index) => (
+                  <AccordionItem
+                    key={index}
+                    title={service.title}
+                    content={<p className="text-lg">{service.content}</p>}
+                    isOpen={expandedItem === service.title}
+                    onToggle={() => toggleAccordion(service.title)}
+                  />
+                ))}
               </div>
             </div>
           </div>
