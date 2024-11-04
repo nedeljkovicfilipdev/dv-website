@@ -1,41 +1,63 @@
 "use client"; // Add this to mark the component as a Client Component
 
-import React, { useState } from 'react';
-import { useTranslations } from 'next-intl';
-import { useSpring, animated } from '@react-spring/web';
+import { animated, useSpring } from "@react-spring/web";
+import { useTranslations } from "next-intl";
+import React, { useState } from "react";
 
-const AccordionItem: React.FC<{ title: string, content: React.ReactNode, isOpen: boolean, onToggle: () => void }> = ({ title, content, isOpen, onToggle }) => {
+const AccordionItem: React.FC<{
+  title: string;
+  content: React.ReactNode;
+  isOpen: boolean;
+  onToggle: () => void;
+}> = ({ title, content, isOpen, onToggle }) => {
   const animationProps = useSpring({
     from: { maxHeight: 0, opacity: 0 },
     to: {
       maxHeight: isOpen ? 1000 : 0,
-      opacity: isOpen ? 1 : 0
+      opacity: isOpen ? 1 : 0,
     },
-    config: { duration: 300 }
+    config: { duration: 300 },
   });
 
   return (
     <div className="overflow-hidden border-b border-gray-200">
       <button
         onClick={onToggle}
-        className="w-full p-4 flex items-center justify-between bg-custombluehover hover:bg-customblue1 text-white focus:outline-none"
+        className="flex w-full items-center justify-between bg-custombluehover p-4 text-white hover:bg-customblue1 focus:outline-none"
       >
-        <span className="tracking-tighter sm:text-lg lg:text-xl xl:text-2xl font-regular text-left">{title}</span>
-        <span className={`transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}>
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+        <span className="text-left font-regular tracking-tighter sm:text-lg lg:text-xl xl:text-2xl">
+          {title}
+        </span>
+        <span
+          className={`transition-transform duration-300 ${
+            isOpen ? "rotate-180" : ""
+          }`}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M19 9l-7 7-7-7"
+            />
           </svg>
         </span>
       </button>
       <animated.div style={animationProps} className="overflow-hidden">
-        <div className="p-4 bg-gray-50 text-lg text-left">{content}</div>
+        <div className="bg-gray-50 p-4 text-left text-lg">{content}</div>
       </animated.div>
     </div>
   );
 };
 
 export const DiverseBenefits = () => {
-  const t = useTranslations();
+  const t = useTranslations("benefits");
   const [expandedItem, setExpandedItem] = useState<string | null>(null);
 
   const toggleAccordion = (item: string) => {
@@ -43,30 +65,39 @@ export const DiverseBenefits = () => {
   };
 
   const benefits = [
-    { title: 'Personalized Immigration Guidance', description: 'We conduct in-depth assessments of your background, qualifications, and goals during our consultations to provide tailored immigration strategies that suit your specific needs.' },
-    { title: 'Full-Service Support', description: 'We manage every stage of the immigration process, from documentation and job matching to visa submissions and interview coaching, ensuring you have expert guidance throughout.' },
-    { title: 'Expertise Across Multiple Programs', description: 'Our team is proficient in a variety of Canadian immigration programs such as Express Entry, Provincial Nominee Programs (PNPs), Work Permits, and Family Sponsorship, giving us the ability to recommend the most suitable pathway for you.' },
-    { title: 'Job Matching and Employment Support', description: 'We provide job matching services by working directly with employers and helping you build a professional resume and prepare for interviews, giving you access to Canadian job opportunities that match your skill set.' },
-    { title: 'Transparency and Clear Communication', description: 'We maintain clear, transparent communication, providing upfront details about costs and regular updates on your application’s progress to keep you informed at every step.' },
-    { title: 'Experience and a Strong Network', description: 'With years of experience, we have built a network of professionals including immigration lawyers, recruiters, and business brokers, ensuring that you have access to the best resources available.' },
-    { title: 'Post-Immigration Support', description: 'After you’ve arrived in Canada, we offer additional services such as housing assistance and career guidance to help you settle smoothly into your new life.' },
-    { title: 'Streamlined Documentation', description: 'We handle the entire documentation process, ensuring that all paperwork is accurately completed, translated when necessary, and submitted on time to the appropriate authorities.' }
-  ];
+    { titleKey: "title1", descriptionKey: "description1" },
+    { titleKey: "title2", descriptionKey: "description2" },
+    { titleKey: "title3", descriptionKey: "description3" },
+    { titleKey: "title4", descriptionKey: "description4" },
+    { titleKey: "title5", descriptionKey: "description5" },
+    { titleKey: "title6", descriptionKey: "description6" },
+    { titleKey: "title7", descriptionKey: "description7" },
+    { titleKey: "title8", descriptionKey: "description8" },
+  ] as const;
 
   return (
-    <section id="services" className="relative w-full py-12 sm:py-16 bg-white text-left">
+    <section
+      id="services"
+      className="relative w-full bg-white py-12 text-left sm:py-16"
+    >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col mx-auto w-full max-w-5xl p-6 sm:p-10 rounded-lg bg-customblue bg-opacity-95 shadow-md">
+        <div className="mx-auto flex w-full max-w-5xl flex-col rounded-lg bg-customblue bg-opacity-95 p-6 shadow-md sm:p-10">
           <div className="w-full">
-            <h4 className="mb-6 sm:mb-8 text-center sm:text-3xl xl:text-4xl font-bold text-white">Benefits of Working with Diverse Visa</h4>
+            <h4 className="mb-6 text-center font-bold text-white sm:mb-8 sm:text-3xl xl:text-4xl">
+              {t("title")}
+            </h4>
             <div className="space-y-4">
-              {benefits.map((benefit, index) => (
+              {benefits.map(({ titleKey, descriptionKey }, index) => (
                 <AccordionItem
                   key={index}
-                  title={benefit.title}
-                  content={<p className="text-base sm:text-lg text-gray-800">{benefit.description}</p>}
-                  isOpen={expandedItem === benefit.title}
-                  onToggle={() => toggleAccordion(benefit.title)}
+                  title={t(titleKey)}
+                  content={
+                    <p className="text-base text-gray-800 sm:text-lg">
+                      {t(descriptionKey)}
+                    </p>
+                  }
+                  isOpen={expandedItem === t(titleKey)}
+                  onToggle={() => toggleAccordion(t(titleKey))}
                 />
               ))}
             </div>

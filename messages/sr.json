@@ -612,5 +612,24 @@
     "question5": "Mogu li povesti svoju porodicu sa sobom u Kanadu?",
     "answer5": "Da, mnogi imigracioni programi omogućavaju vam da povedete supružnika i decu. Vodimo vas kroz proces kako bismo osigurali da su uključeni u vašu aplikaciju i da ispunjavaju potrebne zahteve, kako bi vaša porodica ostala zajedno tokom tranzicije."
   },
-  "faq-nav": "FAQ"
+  "faq-nav": "FAQ",
+  "benefits": {
+    "title": "Prednosti rada sa Diverse Visa",
+    "title1": "Personalizovano imigraciono vođenje",
+    "description1": "Tokom naših konsultacija sprovodimo detaljne procene vaše pozadine, kvalifikacija i ciljeva kako bismo pružili prilagođene imigracione strategije koje odgovaraju vašim specifičnim potrebama.",
+    "title2": "Podrška punog servisa",
+    "description2": "Upravljamo svakim korakom imigracionog procesa, od dokumentacije i povezivanja sa poslom do podnošenja viza i pripreme za intervjue, osiguravajući da imate stručnu podršku tokom celog procesa.",
+    "title3": "Ekspertiza u više programa",
+    "description3": "Naš tim je stručan u različitim kanadskim imigracionim programima kao što su Express Entry, Provincial Nominee Programs (PNPs), radne dozvole i porodično sponzorstvo, što nam omogućava da preporučimo najprikladniji put za vas.",
+    "title4": "Povezivanje sa poslodavcima i podrška zapošljavanju",
+    "description4": "Pružamo usluge povezivanja sa poslodavcima tako što direktno radimo sa njima i pomažemo vam da izradite profesionalni CV i pripremite se za intervjue, omogućavajući vam pristup kanadskim poslovnim prilikama koje odgovaraju vašim veštinama.",
+    "title5": "Transparentnost i jasna komunikacija",
+    "description5": "Održavamo jasnu i transparentnu komunikaciju, pružajući unapred informacije o troškovima i redovne ažuriranja o napretku vaše prijave kako bismo vas informisali na svakom koraku.",
+    "title6": "Iskustvo i jaka mreža",
+    "description6": "Sa višegodišnjim iskustvom, izgradili smo mrežu profesionalaca, uključujući imigracione advokate, regrutere i poslovne posrednike, osiguravajući da imate pristup najboljim resursima.",
+    "title7": "Podrška posle imigracije",
+    "description7": "Nakon što stignete u Kanadu, nudimo dodatne usluge kao što su pomoć pri pronalaženju smeštaja i savetovanje u karijeri kako bismo vam pomogli da se glatko prilagodite novom životu.",
+    "title8": "Uređivanje dokumentacije",
+    "description8": "Mi upravljamo celokupnim procesom dokumentacije, osiguravajući da su svi papiri tačno popunjeni, prevedeni kada je to potrebno i blagovremeno podneti odgovarajućim vlastima."
+  }
 }
