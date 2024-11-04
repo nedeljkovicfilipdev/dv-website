@@ -599,5 +599,18 @@
       "choice2": "Personalizovana podrška: Od pomoći u pronalaženju pravog posla do vođenja kroz proces radne dozvole, nudimo prilagođene usluge koje odgovaraju vašim individualnim potrebama.",
       "choice3": "Bez problema: Rukovodimo procesom od pretrage posla do imigracije, osiguravajući glatko i bezbrižno iskustvo."
     }
-  }
+  },
+  "faq": {
+    "question1": "Koliko traje proces imigracije?",
+    "answer1": "Vreme obrade zavisi od programa. Na primer, radne dozvole poput LMIA mogu trajati 2-6 meseci, dok Express Entry može trajati oko 6 meseci. Iako ne možemo kontrolisati vremenske okvire vlade, obezbeđujemo da sva dokumentacija bude pravilno pripremljena kako bismo izbegli nepotrebna kašnjenja.",
+    "question2": "Da li mi je potrebna ponuda za posao da bih emigrirao u Kanadu?",
+    "answer2": "Nisu svi programi zahtevaju ponudu za posao. Dok LMIA radne dozvole i programi za provincijske nominacije (PNP) to zahtevaju, opcije kao što su Express Entry i studentske dozvole to ne čine. Pomoći ćemo vam da odredite najbolji put imigracije, bez obzira da li imate ponudu za posao ili ne.",
+    "question3": "Šta se dešava ako mi aplikacija za vizu bude odbijena?",
+    "answer3": "Odbijanja su obeshrabrujuća, ali nisu kraj. Pregledamo razloge odbijanja i pomažemo u jačanju vaše aplikacije za ponovno podnošenje. Naše stručno vođenje od početka minimizira rizik od odbijanja osiguravajući da je sve kompletno i tačno.",
+    "question4": "Šta ako me brinu troškovi?",
+    "answer4": "Razumemo da finansije mogu biti zabrinjavajuće. Imigracija uključuje troškove, ali nudimo potpunu transparentnost o troškovima unapred, sa svim detaljima. Takođe možemo istražiti programe koji odgovaraju vašem budžetu i finansijskoj situaciji.",
+    "question5": "Mogu li povesti svoju porodicu sa sobom u Kanadu?",
+    "answer5": "Da, mnogi imigracioni programi omogućavaju vam da povedete supružnika i decu. Vodimo vas kroz proces kako bismo osigurali da su uključeni u vašu aplikaciju i da ispunjavaju potrebne zahteve, kako bi vaša porodica ostala zajedno tokom tranzicije."
+  },
+  "faq-nav": "FAQ"
 }

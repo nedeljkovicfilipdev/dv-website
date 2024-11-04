@@ -621,5 +621,17 @@
       "choice2": "Personalized Support: From helping you find the right job to guiding you through the work permit process, we offer tailored services to meet your individual needs.",
       "choice3": "Seamless Process: We handle the process from job search to immigration, ensuring a smooth and stress-free experience."
     }
+  },
+  "faq": {
+    "question1": "How long does the immigration process take?",
+    "answer1": "Processing times vary depending on the program. For instance, work permits like the LMIA can take 2-6 months, while Express Entry may take around 6 months. Although we can’t control government timelines, we ensure all documentation is prepared properly to avoid unnecessary delays.",
+    "question2": "Do I need a job offer to immigrate to Canada?",
+    "answer2": "Not all programs require a job offer. While LMIA work permits and Provincial Nominee Programs (PNPs) do, options like Express Entry and study permits do not. We’ll help you determine the best immigration pathway, whether or not you have a job offer.",
+    "question3": "What happens if my visa application is rejected?",
+    "answer3": "Rejections are disheartening, but they’re not the end. We review the reasons for rejection and help strengthen your application for resubmission. Our expert guidance from the start minimizes the risk of rejection by ensuring everything is complete and accurate.",
+    "question4": "What if I’m concerned about the costs?",
+    "answer4": "We understand that finances can be a concern. Immigration involves fees, but we offer full transparency about costs upfront, breaking everything down. We can also explore programs that suit your budget and financial situation.",
+    "question5": "Can I bring my family with me to Canada?",
+    "answer5": "Yes, many immigration programs allow you to bring your spouse and children. We’ll guide you through the process to ensure they’re included in your application and meet the necessary requirements, so your family can stay together during the transition."
   }
 }
