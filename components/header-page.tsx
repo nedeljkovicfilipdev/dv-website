@@ -59,6 +59,13 @@ export const Header = () => {
       setIsMenuOpen(false);
     }
   };
+  const handleFAQ = () => {
+    router.push(`/${locale}/faq`);
+    window.scrollTo(0, 0);
+    if (isMenuOpen) {
+      setIsMenuOpen(false);
+    }
+  };
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -107,6 +114,9 @@ export const Header = () => {
           </button>
           <Button onClick={handleBlog} className="cursor-pointer bg-customblue hover:bg-custombluehover text-white rounded-xl">
             {t('blog-nav')}
+          </Button>
+          <Button onClick={handleFAQ} className="cursor-pointer bg-customblue hover:bg-custombluehover text-white rounded-xl">
+            {t('faq-nav')}
           </Button>
         </div>
         <div className="hidden lg:flex items-center gap-4">

@@ -21,15 +21,15 @@ export default function IndexPage({ params: { locale } }: Props) {
   return (
     <section>
       <DiverseHero />
-      <DiverseStoryline />
+      {/* <DiverseStoryline /> */}
       <DiverseAbout />
       <DiversePrograms />
+      <ResidentCountries />
       <DiverseServices />
       <DiverseNetwork />
       <DiverseConsultations />
       <DiverseLatestBlogs />
       <Stories />
-      <ResidentCountries />
     </section>
   );
 }

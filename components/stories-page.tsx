@@ -16,7 +16,7 @@ export const Stories = () => {
     });
 
     return (
-        <div className="bottom-0 w-full py-2">
+        <div className="bottom-0 w-full mt-20">
             <h3 className="text-2xl md:text-3xl font-bold text-center mb-4 md:mb-6">
                 {t('journeyStart.successStoriesTitle')}
             </h3>

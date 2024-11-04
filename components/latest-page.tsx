@@ -18,7 +18,7 @@ const DiverseLatestBlogs: React.FC = () => {
   const latestBlogs = BlogList.slice(0,3);
 
   return (
-    <div className="container shadow-lg p-8 bg-gray-50">
+    <div className="container shadow-lg mt-20">
       <h2 className="text-center sm:text-3xl xl:text-5xl p-4 text-black rounded-t-lg font-bold mb-8">
         {t('blog-latest')}
       </h2>
