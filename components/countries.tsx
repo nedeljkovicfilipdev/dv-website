@@ -6,39 +6,56 @@ export const ResidentCountries = () => {
   const locale = useLocale();
 
   return (
-    <section id="countries">
-      <h3 className="mb-4 text-center text-2xl font-bold md:mb-6 md:text-3xl">
+    <section id="countries" className="py-10 bg-gray-100">
+      <h3 className="mb-10 text-center text-2xl font-bold md:text-3xl">
         {t("countriesHeader")}
       </h3>
-      <div className="mx-auto flex w-full max-w-full flex-col gap-10 rounded-lg bg-white p-10 md:flex-row">
+      <div className="mx-auto flex w-full max-w-5xl flex-col gap-8 px-4 md:flex-row">
         {/* Canada */}
-        <div className="mb-6 w-full md:mb-0 md:w-1/2">
+        <div className="w-full md:w-1/3">
           <Link href={`/${locale}/links/canada`}>
-            <img
-              src="/images/flags/canada.svg"
-              alt="Canada flag"
-              className="h-full w-full rounded-lg object-cover"
-            />
+            <div className="relative overflow-hidden rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl">
+              <img
+                src="/images/flags/canada.png"
+                alt="Canada flag"
+                className="h-56 w-full object-cover"
+              />
+              <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-lg font-semibold">
+                Canada
+              </div>
+            </div>
           </Link>
         </div>
+
         {/* Serbia */}
-        <div className="mb-6 w-full md:mb-0 md:w-1/2">
+        <div className="w-full md:w-1/3">
           <Link href={`/${locale}/links/serbia`}>
-            <img
-              src="/images/flags/serbia.svg"
-              alt="Serbia flag"
-              className="h-full w-full rounded-lg object-cover"
-            />
+            <div className="relative overflow-hidden rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl">
+              <img
+                src="/images/flags/serbia.png"
+                alt="Serbia flag"
+                className="h-56 w-full object-cover"
+              />
+              <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-lg font-semibold">
+                Serbia
+              </div>
+            </div>
           </Link>
-          {/* USA */}
         </div>
-        <div className="mb-6 w-full md:mb-0 md:w-1/2">
+
+        {/* USA */}
+        <div className="w-full md:w-1/3">
           <Link href={`/${locale}/links/usa`}>
-            <img
-              src="/images/flags/usa.svg"
-              alt="USA flag"
-              className="h-full w-full rounded-lg object-cover"
-            />
+            <div className="relative overflow-hidden rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl">
+              <img
+                src="/images/flags/usa.png"
+                alt="USA flag"
+                className="h-56 w-full object-cover"
+              />
+              <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-lg font-semibold">
+                USA
+              </div>
+            </div>
           </Link>
         </div>
       </div>
