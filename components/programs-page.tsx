@@ -111,7 +111,7 @@ export const DiversePrograms = () => {
             >
               <div className="bg-customblue text-white p-8 rounded-lg shadow-lg max-w-xl text-center" onClick={(e) => e.stopPropagation()}>
                 <h2 className="text-2xl font-bold mb-4">{program.title}</h2>
-                <p className="text-xl text-justify tracking-tighter">{program.content}</p>
+                <p className="text-xl text-left tracking-tighter">{program.content}</p>
                 <button
                   onClick={handleClose}
                   className="mt-4 px-4 py-2 bg-custombluehover text-white rounded-md hover:bg-white hover:text-black tracking-tighter text-xl"
