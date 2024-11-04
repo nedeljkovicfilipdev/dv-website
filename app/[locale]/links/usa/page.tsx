@@ -1,14 +1,10 @@
+"use client"
+
 import { useTranslations } from "next-intl";
-import { unstable_setRequestLocale } from "next-intl/server";
 
-type Props = {
-  params: { locale: string };
-};
-
-export default function IndexPage({ params: { locale } }: Props) {
+export default function IndexPage() {
   // Enable static rendering
   const t = useTranslations();
-  unstable_setRequestLocale(locale);
 
   return (
     <section className="mt-20 p-2 md:p-4">
