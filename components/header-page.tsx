@@ -174,7 +174,6 @@ export const Header = () => {
             <div className="mb-2">
               <LocaleSwitcher isMenuOpen={isMenuOpen} />
             </div>
-            
           </div>
         </div>
       )}

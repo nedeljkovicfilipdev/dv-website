@@ -24,7 +24,7 @@ export const ResidentCountries = () => {
                   className="h-40 w-full object-cover rounded-lg" // Adjusted height to make it rectangular
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70" />
-                <div className="absolute bottom-4 left-4 text-2xl font-semibold text-white">
+                <div className="absolute bottom-4 left-4 text-2xl font-medium text-white">
                   Canada
                 </div>
               </div>

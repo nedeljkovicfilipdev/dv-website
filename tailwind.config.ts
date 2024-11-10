@@ -15,20 +15,6 @@ const config: Config = {
       },
     },
     extend: {
-      fontFamily: { 
-        "lato": ['Lato', 'sans-serif'] 
-      },
-      fontWeight: {
-        thin: '100',
-        light: '300',
-        regular: '400',
-        bold: '700',
-        black: '900',
-      },
-      fontStyle: {
-        italic: 'italic',
-        normal: 'normal',
-      },
       clipPath: {
         'custom-circle': 'circle(75% at 50% 0%)',
       },

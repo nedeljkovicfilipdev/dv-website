@@ -34,7 +34,7 @@ export const ResidentJourney = () => {
         style={{ backgroundImage: "url('/images/visa-application-canada.jpg')" }}
       >
         <div className="absolute top-0 left-0 w-full text-center bg-opacity-70 bg-customblue shadow-lg p-4">
-          <h2 className="text-2xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold text-white">
+          <h2 className="text-2xl sm:text-2xl lg:text-3xl xl:text-4xl font-semibold text-white">
             {t('journeyStart.consultationsTitle')}
           </h2>
         </div>
@@ -48,8 +48,8 @@ export const ResidentJourney = () => {
               >
                 <div className="flex flex-col h-full">
                   <div className="flex-grow">
-                    <h4 className="text-lg sm:text-xl font-bold mb-1 sm:mb-2">{point.title}</h4>
-                    <p className='text-sm sm:text-lg mt-1 sm:mt-2'>{point.description}</p>
+                    <h4 className="text-lg sm:text-xl font-semibold mb-1 sm:mb-4">{point.title}</h4>
+                    <p className='text-sm sm:text-lg mt-1 sm:mt-2 font-light'>{point.description}</p>
                   </div>
                   {index === 0 && (
                     <button

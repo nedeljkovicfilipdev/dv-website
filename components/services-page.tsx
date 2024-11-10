@@ -81,9 +81,9 @@ export const DiverseBenefits = () => {
       className="relative w-full bg-white py-12 text-left sm:py-16"
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto flex w-full max-w-5xl flex-col rounded-lg bg-customblue bg-opacity-95 p-6 shadow-md sm:p-10">
+        <div className="mx-auto flex w-full max-w-5xl flex-col rounded-lg bg-custombluehover bg-opacity-95 p-6 shadow-md sm:p-10">
           <div className="w-full">
-            <h4 className="mb-6 text-center font-bold text-white sm:mb-8 sm:text-3xl xl:text-4xl">
+            <h4 className="mb-6 text-center font-semibold text-white sm:mb-8 sm:text-3xl xl:text-4xl">
               {t("title")}
             </h4>
             <div className="space-y-4">
@@ -92,7 +92,7 @@ export const DiverseBenefits = () => {
                   key={index}
                   title={t(titleKey)}
                   content={
-                    <p className="text-base text-gray-800 sm:text-lg">
+                    <p className="text-base text-[#333] sm:text-lg">
                       {t(descriptionKey)}
                     </p>
                   }

@@ -75,13 +75,13 @@ export const DiversePrograms = () => {
                 {programs.map((prog, index) => (
                   <div
                     key={index}
-                    className="absolute w-40 h-40 bg-white hover:bg-gray-100 flex items-center justify-center rounded-full shadow-lg cursor-pointer"
+                    className="absolute w-40 h-40 bg-white hover:bg-gray-100 flex items-center justify-center rounded-full shadow-lg cursor-pointer font-medium"
                     style={{
                       transform: `rotate(${index * 45}deg) translate(18rem) rotate(-${index * 45}deg)` // Adjusted translation for the image
                     }}
                     onClick={() => handleProgramClick(prog)}
                   >
-                    <h3 className="text-center sm:text-lg xl:text-xl text-[#333] font-bold">{prog.title}</h3>
+                    <h3 className="text-center sm:text-lg xl:text-xl text-[#333]">{prog.title}</h3>
                   </div>
                 ))}
                 <div className="mb-6 tracking-tighter font-bold text-white sm:text-3xl xl:text-5xl">{t('ourPrograms')}</div>
@@ -110,8 +110,8 @@ export const DiversePrograms = () => {
               onClick={handleClose} // Close overlay on click anywhere
             >
               <div className="bg-customblue text-white p-8 rounded-lg shadow-lg max-w-xl text-center" onClick={(e) => e.stopPropagation()}>
-                <h2 className="text-2xl font-bold mb-4">{program.title}</h2>
-                <p className="text-xl text-left tracking-tighter">{program.content}</p>
+                <h2 className="text-2xl mb-4 font-semibold">{program.title}</h2>
+                <p className="text-xl text-left font-light">{program.content}</p>
                 <button
                   onClick={handleClose}
                   className="mt-4 px-4 py-2 bg-custombluehover text-white rounded-md hover:bg-white hover:text-black tracking-tighter text-xl"

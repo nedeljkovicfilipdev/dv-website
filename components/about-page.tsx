@@ -21,28 +21,28 @@ export const DiverseAbout = () => {
             </div>
 
             {/* Right Column: Content */}
-            <div className="w-full md:w-1/2 md:pl-10 tracking-tight" >
+            <div className="w-full md:w-1/2 md:pl-10 tracking-tight">
               {/* Header */}
               <div className="flex items-center justify-center mb-8">
-                <p className="mb-6 text-center font-bold text-black text-3xl md:text-2xl xl:text-5xl">
+                <p className="mb-6 text-center font-bold text-black text-3xl md:text-2xl xl:text-5xl text-[#333]">
                   {t('about-us')}
                 </p>
               </div>
 
               {/* Content Sections */}
-              <div className="p-2 font-light">
+              <div className="p-2">
                 <p className="text-lg text-[#333]">{t('diverse-story')}</p>
               </div>
-              <div className="p-2 font-light">
+              <div className="p-2">
                 <p className="text-lg text-[#333]">{t('diverse-mission')}</p>
               </div>
-              <div className="p-2 font-light">
+              <div className="p-2">
                 <p className="text-lg text-[#333]">{t('diverse-vision')}</p>
               </div>
-              <div className="p-2 font-light">
+              <div className="p-2">
                 <p className="text-lg text-[#333]">{t('diverse-values')}</p>
               </div>
-              <div className="p-2 space-y-8 font-light">
+              <div className="p-2 space-y-8">
                 <h2 className="text-2xl xl:text-3xl text-[#333] text-center font-bold">{t('our-team')}</h2>
                 <p className="text-lg text-[#333]">{t('diverse-team-about')}</p>
               </div>

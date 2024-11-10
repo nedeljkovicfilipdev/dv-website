@@ -19,7 +19,7 @@ export default function IndexPage({ params: { locale } }: Props) {
   unstable_setRequestLocale(locale);
 
   return (
-    <section>
+    <section className="font-merriweather">
       <DiverseHero />
       {/* <DiverseStoryline /> */}
       <DiverseAbout />
