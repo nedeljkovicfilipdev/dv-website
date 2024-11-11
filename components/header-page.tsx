@@ -6,6 +6,7 @@ import { useLocale, useTranslations } from 'next-intl';
 import { Languages, Menu, X } from 'lucide-react';
 import { Button } from '@/ui/button';
 import LocaleSwitcher from './LocaleSwitcher';
+import Image from 'next/image';
 
 interface IProps {
   leftNode?: ReactNode;
@@ -78,7 +79,11 @@ export const Header = () => {
           onClick={() => handleNavigation('poster')}
           className="flex font-regular md:flex-col sm:flex-row text-slate-700 items-center text-center cursor-pointer hover:opacity-75"
         >
-          <img src="/images/logo/dv-icon.png" alt="Diverse Logo" className="h-10 w-auto" />
+          <Image src="/images/logo/dv-icon.png" 
+          alt="Diverse Logo"
+          width={80} // Define a fixed width for the image
+          height={10} // Define a fixed height to maintain aspect ratio
+          />
           <span>DIVERSE VISA</span>
         </button>
         <div className="hidden lg:flex flex-grow items-center justify-center gap-4">
@@ -118,14 +123,26 @@ export const Header = () => {
           <Button onClick={handleFAQ} className="cursor-pointer bg-customblue hover:bg-custombluehover text-white rounded-xl">
             {t('faq-nav')}
           </Button>
+          <button
+          onClick={() => handleNavigation('contact-us')}
+          className="fixed bottom-6 right-6 p-3 bg-white rounded-full shadow-lg hover:bg-slate-100 transition duration-300"
+          aria-label="Submit Form"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={24} height={24} fill="none">
+            <path d="M7.5 4.94531H16C16.8284 4.94531 17.5 5.61688 17.5 6.44531V7.94531" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M15 12.9453H9" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M12 16.9453H9" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M18.497 2L6.30767 2.00002C5.81071 2.00002 5.30241 2.07294 4.9007 2.36782C3.62698 3.30279 2.64539 5.38801 4.62764 7.2706C5.18421 7.7992 5.96217 7.99082 6.72692 7.99082H18.2835C19.077 7.99082 20.5 8.10439 20.5 10.5273V17.9812C20.5 20.2007 18.7103 22 16.5026 22H7.47246C5.26886 22 3.66619 20.4426 3.53959 18.0713L3.5061 5.16638" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+          </svg>
+        </button>
         </div>
         <div className="hidden lg:flex items-center gap-4">
           <LocaleSwitcher isMenuOpen={isMenuOpen} />
-          
         </div>
         <button className="lg:hidden flex items-center justify-center p-2 text-slate-700" onClick={toggleMenu}>
           <Menu className="h-6 w-6" />
         </button>
+        
       </header>
       {isMenuOpen && (
         <div className="fixed inset-0 z-40 bg-white shadow-lg md:hidden">

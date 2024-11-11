@@ -3,6 +3,7 @@
 import { BlogList } from '@/data/blogList';
 import { useTranslations } from 'next-intl';
 import { useLocale } from 'next-intl';
+import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 
 const DiverseLatestBlogs: React.FC = () => {
@@ -26,10 +27,16 @@ const DiverseLatestBlogs: React.FC = () => {
         {latestBlogs.map(blog => (
           <div
             key={blog.slug}
-            className="card cursor-pointer bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-300"
+            className="card cursor-pointer bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-300 mb-6"
             onClick={() => handleBlogClick(blog.slug)}
           >
-            <img src={blog.image} alt={t(blog.titleKey)} className="w-full h-48 object-cover" />
+            <Image src={blog.image} 
+            alt={t(blog.titleKey)} 
+            className="w-full h-48 object-cover" 
+            width={500} // Define a fixed width for the image
+            height={300} // Define a fixed height to maintain aspect ratio
+            layout="responsive" // Maintain aspect ratio while being responsive
+            />
             <div className="p-4">
               <h3 className="text-xl font-bold mt-2">{t(blog.titleKey)}</h3>
             </div>

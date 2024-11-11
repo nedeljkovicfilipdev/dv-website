@@ -3,12 +3,8 @@ import { useLocale, useTranslations } from 'next-intl';
 
 export const ResidentJourney = () => {
   const t = useTranslations();
-  const locale = useLocale()
 
   const handleNavigation = (sectionId: string) => {
-    const currentPath = window.location.pathname;
-    const rootPath = `/${locale}`;
-
     document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' });
 
   };

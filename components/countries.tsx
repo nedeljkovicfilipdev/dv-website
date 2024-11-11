@@ -2,6 +2,7 @@
 
 import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
+import Image from "next/image";
 
 export const ResidentCountries = () => {
   const t = useTranslations();
@@ -18,13 +19,15 @@ export const ResidentCountries = () => {
           <div className="w-full md:w-1/3 flex flex-col items-center">
             <Link href={`/${locale}/links/canada`} className="w-full">
               <div className="relative overflow-hidden rounded-xl shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl">
-                <img
+                <Image
                   src="/images/flags/canada.png"
                   alt="Canada flag"
-                  className="h-40 w-full object-cover rounded-lg" // Adjusted height to make it rectangular
+                  width={400}    // Fixed width
+                  height={250}   // Fixed height
+                  className="object-cover rounded-lg" 
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70" />
-                <div className="absolute bottom-4 left-4 text-2xl font-medium text-white">
+                <div className="absolute bottom-4 left-4 text-2xl font-semibold text-white">
                   Canada
                 </div>
               </div>
@@ -35,10 +38,12 @@ export const ResidentCountries = () => {
           <div className="w-full md:w-1/3 flex flex-col items-center">
             <Link href={`/${locale}/links/serbia`} className="w-full">
               <div className="relative overflow-hidden rounded-xl shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl">
-                <img
+                <Image
                   src="/images/flags/serbia.png"
                   alt="Serbia flag"
-                  className="h-40 w-full object-cover rounded-lg" // Adjusted height
+                  width={400}    // Fixed width
+                  height={250}   // Fixed height
+                  className="object-cover rounded-lg" 
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70" />
                 <div className="absolute bottom-4 left-4 text-2xl font-semibold text-white">
@@ -52,10 +57,12 @@ export const ResidentCountries = () => {
           <div className="w-full md:w-1/3 flex flex-col items-center">
             <Link href={`/${locale}/links/usa`} className="w-full">
               <div className="relative overflow-hidden rounded-xl shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl">
-                <img
+                <Image
                   src="/images/flags/usa.png"
                   alt="USA flag"
-                  className="h-40 w-full object-cover rounded-lg" // Adjusted height
+                  width={400}    // Fixed width
+                  height={250}   // Fixed height
+                  className="object-cover rounded-lg" 
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70" />
                 <div className="absolute bottom-4 left-4 text-2xl font-semibold text-white">

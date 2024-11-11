@@ -5,6 +5,7 @@ import { useParams, useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import { BlogList } from '@/data/blogList'; // Adjust the import path as necessary
 import { useLocale } from 'next-intl';
+import Image from 'next/image';
 
 const DiverseBlog: React.FC = () => {
   const router = useRouter();
@@ -64,7 +65,13 @@ const DiverseBlog: React.FC = () => {
                 className="card cursor-pointer bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-300"
                 onClick={() => handleBlogClick(blog.slug)}
               >
-                <img src={blog.image} alt={t(blog.titleKey)} className="w-full h-48 object-cover" />
+                <Image src={blog.image} 
+                alt={t(blog.titleKey)} 
+                className="object-cover"
+                width={600} // Define a fixed width for the image
+                height={400} // Define a fixed height to maintain aspect ratio
+                layout="responsive" // Maintain aspect ratio while being responsive
+                />
                 <div className="p-4">
                   <h2 className="text-xl font-bold mt-2">{t(blog.titleKey)}</h2>
                 </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 
 const Blog4: React.FC = () => {
     const t = useTranslations();
@@ -7,10 +8,13 @@ const Blog4: React.FC = () => {
     return (
         <section className="p-2 md:p-4">
             <div className="max-w-3xl mt-20 mx-auto">
-                <img 
+                <Image 
                     src="/images/blog/blogimg4.jpg" 
                     alt={t('startup.blog-image1-alt')} 
-                    className="mb-4 w-full h-auto rounded-xl"
+                    className="mb-4 rounded-xl"
+                    width={600} // Define a fixed width for the image
+                    height={400} // Define a fixed height to maintain aspect ratio
+                    layout="responsive" // Maintain aspect ratio while being responsive
                 />
                 <h1 className="mb-8 text-center sm:text-2xl xl:text-4xl p-4 text-black rounded-t-lg font-bold text-3xl">
                     {t('job-title')}

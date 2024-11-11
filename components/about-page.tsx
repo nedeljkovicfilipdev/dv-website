@@ -1,6 +1,7 @@
 "use client"; // Add this to mark the component as a Client Component
 
 import { useTranslations } from 'next-intl'
+import Image from 'next/image';
 
 export const DiverseAbout = () => {
   const t = useTranslations()
@@ -13,10 +14,13 @@ export const DiverseAbout = () => {
             
             {/* Left Column: Image */}
             <div className="w-full md:w-1/2 mb-6 md:mb-0">
-              <img
+              <Image
                 src="/images/about-canada.jpg"
                 alt="Visa Application Canada"
-                className="w-full h-full object-cover rounded-lg"
+                className="object-cover rounded-lg"
+                width={600} // Define a fixed width for the image
+                height={400} // Define a fixed height to maintain aspect ratio
+                layout="responsive" // Maintain aspect ratio while being responsive
               />
             </div>
 
