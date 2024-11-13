@@ -32,7 +32,7 @@ export const DiverseHero = () => {
       {/* Background image with overlay */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/testhero.jpg"
+          src="/images/testhero.png"
           alt="Canada Poster"
           fill
           sizes="100vw"

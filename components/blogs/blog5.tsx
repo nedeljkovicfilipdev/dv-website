@@ -14,7 +14,6 @@ const Blog5: React.FC = () => {
                     className="mb-4 rounded-xl"
                     width={600} // Define a fixed width for the image
                     height={400} // Define a fixed height to maintain aspect ratio
-                    layout="responsive" // Maintain aspect ratio while being responsive
                 />
                 <h1 className="mb-8 text-center sm:text-2xl xl:text-4xl p-4 text-black rounded-t-lg font-bold text-3xl">
                     {t('heading')}

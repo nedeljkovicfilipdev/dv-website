@@ -20,7 +20,6 @@ export const DiverseAbout = () => {
                 className="object-cover rounded-lg"
                 width={600} // Define a fixed width for the image
                 height={400} // Define a fixed height to maintain aspect ratio
-                layout="responsive" // Maintain aspect ratio while being responsive
               />
             </div>
 
