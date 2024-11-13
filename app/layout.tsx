@@ -1,8 +1,10 @@
 import { ReactNode } from 'react';
 import './globals.css';
 import { Metadata } from 'next';
-import { Inter, Montserrat } from 'next/font/google';
+import { Montserrat } from 'next/font/google';
+import Script from 'next/script';
 import { GoogleAnalytics } from '@next/third-parties/google';
+import Link from 'next/link';
 
 const montserrat = Montserrat({ subsets: ['latin'] });
 
@@ -21,7 +23,7 @@ export default function RootLayout({ children }: Props) {
     <html className="h-full" lang="en">
       <head>
         {/* Favicon */}
-        <link rel="icon" href="/icon.ico" />
+        <Link rel="icon" href="/icon.ico" />
 
         {/* Open Graph Meta Tags */}
         <meta property="og:site_name" content="Diverse Visa" />
@@ -33,7 +35,19 @@ export default function RootLayout({ children }: Props) {
         {/* Viewport Meta Tag */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <script
+        {/* Google Tag (gtag.js) */}
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-16715603156" strategy="afterInteractive" />
+        <Script id="google-ads" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-16715603156');
+          `}
+        </Script>
+
+        {/* Structured Data */}
+        <Script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
