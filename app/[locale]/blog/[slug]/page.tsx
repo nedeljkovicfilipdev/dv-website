@@ -4,6 +4,8 @@ import Blog2 from '@/components/blogs/blog2';
 import Blog3 from '@/components/blogs/blog3';
 import Blog4 from '@/components/blogs/blog4';
 import Blog5 from '@/components/blogs/blog5';
+import Blog6 from '@/components/blogs/cost-living';
+import Blog7 from '@/components/blogs/moving-to-serbia';
 
 interface BlogPageProps {
   params: {
@@ -32,6 +34,12 @@ const BlogPage = ({ params }: BlogPageProps) => {
       break;
     case 'on-site-job-opportunities-across-canada-apply-now':
       BlogComponent = Blog5
+      break;
+    case 'cost-of-living-in-canada-what-you-need-to-know-before-relocating':
+      BlogComponent = Blog6
+      break;
+    case 'moving-to-serbia-a-comprehensive-immigration-guide':
+      BlogComponent = Blog7
       break;
     default:
       return notFound(); // Show 404 page if slug is not found

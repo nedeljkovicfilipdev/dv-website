@@ -7,4 +7,6 @@ export type TranslationKeys =
   | 'startup.blog-title'
   | 'job-title'
   | 'heading'
+  | 'cost-living-title'
+  | 'moving-serbia-title'
   // Add other translation keys here...
