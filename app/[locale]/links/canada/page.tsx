@@ -1,3 +1,4 @@
+import { benne, cinzel } from "@/app/fonts";
 import { unstable_setRequestLocale } from "next-intl/server";
 import Link from "next/link";
 
@@ -11,7 +12,7 @@ export default function IndexPage({ params: { locale } }: Props) {
 
   return (
     <section className="mt-20 p-2 md:p-4">
-      <div className="mx-auto max-w-4xl p-6">
+      <div className={`${cinzel.className} mx-auto max-w-4xl p-6`}>
         <h1 className="mb-8 text-3xl font-bold">Explore Canada</h1>
         <div className="grid gap-6 md:grid-cols-2">
           <Link
@@ -19,9 +20,11 @@ export default function IndexPage({ params: { locale } }: Props) {
             className="rounded-lg border border-gray-200 p-4 shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl"
           >
             <h2 className="text-xl font-semibold text-blue-500">Visitor Visa</h2>
-            <p className="mt-2 text-gray-600">
+            <div className={`${benne.className}`}>
+            <p className="mt-2 text-gray-600 text-lg">
               Learn about the requirements and application process for visiting Canada.
             </p>
+            </div>
           </Link>
 
           <Link
@@ -29,9 +32,11 @@ export default function IndexPage({ params: { locale } }: Props) {
             className="rounded-lg border border-gray-200 p-4 shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl"
           >
             <h2 className="text-xl font-semibold text-blue-500">Job Opportunities</h2>
-            <p className="mt-2 text-gray-600">
+            <div className={`${benne.className}`}>
+            <p className="mt-2 text-gray-600 text-lg">
               Discover employment prospects and career options in Canada.
             </p>
+            </div>
           </Link>
 
           <Link
@@ -39,9 +44,11 @@ export default function IndexPage({ params: { locale } }: Props) {
             className="rounded-lg border border-gray-200 p-4 shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl"
           >
             <h2 className="text-xl font-semibold text-blue-500">Study in Canada</h2>
-            <p className="mt-2 text-gray-600">
+            <div className={`${benne.className}`}>
+            <p className="mt-2 text-gray-600 text-lg">
               Explore educational opportunities and academic institutions in Canada.
             </p>
+            </div>
           </Link>
 
           <Link
@@ -49,9 +56,11 @@ export default function IndexPage({ params: { locale } }: Props) {
             className="rounded-lg border border-gray-200 p-4 shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl"
           >
             <h2 className="text-xl font-semibold text-blue-500">Start-Up Visa</h2>
-            <p className="mt-2 text-gray-600">
+            <div className={`${benne.className}`}>
+            <p className="mt-2 text-gray-600 text-lg">
               Find out how to start your business journey with the Start-Up Visa program.
             </p>
+            </div>
           </Link>
         </div>
       </div>

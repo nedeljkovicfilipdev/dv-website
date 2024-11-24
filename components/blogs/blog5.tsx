@@ -11,7 +11,7 @@ const Blog5: React.FC = () => {
                 <Image 
                     src="/images/blog/blogimg5.jpg" 
                     alt={t('startup.blog-image1-alt')} 
-                    className="mb-4 rounded-xl"
+                    className="mb-4 rounded-xl mx-auto"
                     width={600} // Define a fixed width for the image
                     height={400} // Define a fixed height to maintain aspect ratio
                 />

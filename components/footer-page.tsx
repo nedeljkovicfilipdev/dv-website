@@ -9,6 +9,7 @@ import { Button } from '@/ui/button';
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Flag from 'react-world-flags';
+import { cinzel } from '@/app/fonts';
 
 export const Footer = () => {
   const t = useTranslations();
@@ -26,7 +27,7 @@ export const Footer = () => {
 
   return (
     <section id="contact-us">
-      <footer className="left-0 bottom-0 bg-customblue text-gray-200 w-full px-4 py-8 md:px-12 mt-20">
+      <footer className={`${cinzel.className} left-0 bottom-0 bg-customblue text-gray-200 w-full px-4 py-8 md:px-12 mt-20`}>
         <div className="container mx-auto grid grid-cols-1 items-start gap-8 md:grid-cols-3 md:items-center">
           {/* Left Section - Logo and Contact Info */}
           <div className="mb-4 flex flex-col items-center md:mb-0 md:items-start bg-black bg-opacity-10 rounded-2xl p-4 md:w-[250px] xl:w-[450px]">

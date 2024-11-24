@@ -10,7 +10,7 @@ const Blog1: React.FC = () => {
             <div className="max-w-3xl mt-20 mx-auto">
                 <Image src="/images/blog/blogimg3.jpg" 
                 alt={t('blog-image3-alt')} 
-                className="mb-4 rounded-xl" 
+                className="mb-4 rounded-xl mx-auto" 
                 width={600} // Define a fixed width for the image
                 height={400} // Define a fixed height to maintain aspect ratio
                 />
