@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
-
 :root {
   --foreground-rgb: 0, 0, 0; /* Black text */
   --background-start-rgb: 255, 255, 255; /* White background */
   --background-end-rgb: 255, 255, 255; /* White background */
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-cinzel: 'Cinzel', serif;
 }
 
 /* Remove the dark mode preference media query */

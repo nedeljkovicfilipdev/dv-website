@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { useSpring, animated } from '@react-spring/web';
+import { benne } from '@/app/fonts';
 
 interface Program {
   title: string;
@@ -66,7 +67,7 @@ export const DiversePrograms = () => {
 
   return (
     <section id="our-programs" className="h-screen">
-      <div className="relative h-full bg-cover bg-center" style={{ backgroundImage: `url('/images/niagara-waterfalls.jpg')` }}>
+      <div className="relative h-full bg-cover bg-center" style={{ backgroundImage: `url('/images/our-programs-section.jpg')` }}>
         <div className="absolute inset-0 bg-customblue bg-opacity-0">
           <div className="absolute inset-0 flex flex-col justify-center items-center text-center">
             {/* Rotating structure for large screens */}
@@ -75,7 +76,7 @@ export const DiversePrograms = () => {
                 {programs.map((prog, index) => (
                   <div
                     key={index}
-                    className="absolute w-40 h-40 bg-white hover:bg-gray-100 flex items-center justify-center rounded-full shadow-lg cursor-pointer font-medium"
+                    className="absolute w-48 h-48 bg-white  hover:bg-gray-100 flex items-center justify-center rounded-full shadow-lg cursor-pointer font-medium"
                     style={{
                       transform: `rotate(${index * 45}deg) translate(18rem) rotate(-${index * 45}deg)` // Adjusted translation for the image
                     }}
@@ -111,7 +112,9 @@ export const DiversePrograms = () => {
             >
               <div className="bg-customblue text-white p-8 rounded-lg shadow-lg max-w-xl text-center" onClick={(e) => e.stopPropagation()}>
                 <h2 className="text-2xl mb-4 font-semibold">{program.title}</h2>
-                <p className="text-xl text-left font-light">{program.content}</p>
+                <div className={`${benne.className}`}>
+                <p className="text-xl text-left">{program.content}</p>
+                </div>
                 <button
                   onClick={handleClose}
                   className="mt-4 px-4 py-2 bg-custombluehover text-white rounded-md hover:bg-white hover:text-black tracking-tighter text-xl"

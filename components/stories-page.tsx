@@ -1,4 +1,5 @@
 "use client"
+import { benne } from "@/app/fonts";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 
@@ -37,12 +38,15 @@ export const Stories = () => {
             </h3>
             <div className="flex flex-col items-center text-center">
                 <div className="p-6 md:p-8 rounded-xl bg-gray-100 w-3/4 md:w-1/2 lg:h-[300px]">
+                    <div className={`${benne.className}`}>
                     <p className="text-gray-700 italic text-lg md:text-xl mb-3">
                         {currentStory.text}
                     </p>
+                    
                     <p className="text-gray-900 font-bold text-lg md:text-xl">
                         {currentStory.author}
                     </p>
+                    </div>
                 </div>
                 <div className="mt-4 flex space-x-4">
                     <button

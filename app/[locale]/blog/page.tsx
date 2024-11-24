@@ -70,7 +70,6 @@ const DiverseBlog: React.FC = () => {
                 className="object-cover"
                 width={600} // Define a fixed width for the image
                 height={400} // Define a fixed height to maintain aspect ratio
-                layout="responsive" // Maintain aspect ratio while being responsive
                 />
                 <div className="p-4">
                   <h2 className="text-xl font-bold mt-2">{t(blog.titleKey)}</h2>

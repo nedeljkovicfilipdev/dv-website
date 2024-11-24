@@ -1,12 +1,9 @@
 import { ReactNode } from 'react';
 import './globals.css';
 import { Metadata } from 'next';
-import { Montserrat } from 'next/font/google';
 import Script from 'next/script';
 import { GoogleAnalytics } from '@next/third-parties/google';
-import Link from 'next/link';
-
-const montserrat = Montserrat({ subsets: ['latin'] });
+import { cinzel, montserrat } from './fonts';
 
 type Props = {
   children: ReactNode;
@@ -23,7 +20,7 @@ export default function RootLayout({ children }: Props) {
     <html className="h-full" lang="en">
       <head>
         {/* Favicon */}
-        <Link rel="icon" href="/icon.ico" />
+        <link rel="icon" href="/icon.ico" />
 
         {/* Open Graph Meta Tags */}
         <meta property="og:site_name" content="Diverse Visa" />

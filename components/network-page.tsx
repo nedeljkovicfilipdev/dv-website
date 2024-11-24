@@ -1,5 +1,6 @@
 import Marquee from 'react-fast-marquee';
 import { useTranslations } from 'next-intl';
+import { benne } from '@/app/fonts';
 
 type PartnerKeys =
 | 'immigrationProfessionals'
@@ -35,7 +36,9 @@ const partners: PartnerKeys[] = [
                 className="w-[600px] h-[150px] p-4 rounded-lg border border-gray-200 shadow-sm transition-shadow duration-300 hover:shadow-lg"
               >
                 <h3 className="mb-2 text-lg font-semibold">{t(`partners.${partnerKey}.title`)}</h3>
-                <p className="text-gray-700 text-lg">{t(`partners.${partnerKey}.description`)}</p>
+                <div className={`${benne.className}`}>
+                <p className="text-gray-700 text-xl">{t(`partners.${partnerKey}.description`)}</p>
+                </div>
               </div>
             ))}
           </div>

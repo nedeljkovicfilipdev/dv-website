@@ -1,68 +1,11 @@
 "use client"; // Add this to mark the component as a Client Component
 
-import { animated, useSpring } from "@react-spring/web";
+import { benne } from "@/app/fonts";
 import { useTranslations } from "next-intl";
-import React, { useState } from "react";
-
-const AccordionItem: React.FC<{
-  title: string;
-  content: React.ReactNode;
-  isOpen: boolean;
-  onToggle: () => void;
-}> = ({ title, content, isOpen, onToggle }) => {
-  const animationProps = useSpring({
-    from: { maxHeight: 0, opacity: 0 },
-    to: {
-      maxHeight: isOpen ? 1000 : 0,
-      opacity: isOpen ? 1 : 0,
-    },
-    config: { duration: 300 },
-  });
-
-  return (
-    <div className="overflow-hidden border-b border-gray-200">
-      <button
-        onClick={onToggle}
-        className="flex w-full items-center justify-between bg-custombluehover p-4 text-white hover:bg-customblue1 focus:outline-none"
-      >
-        <span className="text-left font-regular tracking-tighter sm:text-lg lg:text-xl xl:text-2xl">
-          {title}
-        </span>
-        <span
-          className={`transition-transform duration-300 ${
-            isOpen ? "rotate-180" : ""
-          }`}
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-6 w-6"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M19 9l-7 7-7-7"
-            />
-          </svg>
-        </span>
-      </button>
-      <animated.div style={animationProps} className="overflow-hidden">
-        <div className="bg-gray-50 p-4 text-left text-lg">{content}</div>
-      </animated.div>
-    </div>
-  );
-};
+import React from "react";
 
 export const DiverseBenefits = () => {
   const t = useTranslations("benefits");
-  const [expandedItem, setExpandedItem] = useState<string | null>(null);
-
-  const toggleAccordion = (item: string) => {
-    setExpandedItem(expandedItem === item ? null : item);
-  };
 
   const benefits = [
     { titleKey: "title1", descriptionKey: "description1" },
@@ -78,29 +21,30 @@ export const DiverseBenefits = () => {
   return (
     <section
       id="services"
-      className="relative w-full bg-white py-12 text-left sm:py-16"
+      className="relative w-full bg-cover bg-center sm:py-16"
+      style={{ backgroundImage: "url('/images/benefits-section.jpg')" }}
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto flex w-full max-w-5xl flex-col rounded-lg bg-custombluehover bg-opacity-95 p-6 shadow-md sm:p-10">
-          <div className="w-full">
-            <h4 className="mb-6 text-center font-semibold text-white sm:mb-8 sm:text-3xl xl:text-4xl">
-              {t("title")}
-            </h4>
-            <div className="space-y-4">
-              {benefits.map(({ titleKey, descriptionKey }, index) => (
-                <AccordionItem
-                  key={index}
-                  title={t(titleKey)}
-                  content={
-                    <p className="text-base text-[#333] sm:text-lg">
-                      {t(descriptionKey)}
-                    </p>
-                  }
-                  isOpen={expandedItem === t(titleKey)}
-                  onToggle={() => toggleAccordion(t(titleKey))}
-                />
-              ))}
+      <div className="px-4 sm:px-6 lg:px-12 mt-20">
+        <div className="w-full max-w-9xl mx-auto">
+          <h4 className="mb-8 text-center font-semibold text-customblue sm:text-3xl xl:text-4xl">
+            {t("title")}
+          </h4>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-16">
+            {benefits.map(({ titleKey, descriptionKey }, index) => (
+              <div
+              key={index}
+              className="flex flex-col items-center justify-start p-6 bg-customblue1 bg-opacity-60 rounded-xl text-customblue shadow-md hover:shadow-lg hover:scale-105 transition-all w-full sm:w-[320px] lg:w-[350px] mx-auto"
+            >
+              <h5 className="mb-4 text-center font-semibold sm:text-xl w-full">
+                {t(titleKey)}
+              </h5>
+              <div className={`${benne.className}`}>
+                <p className="text-center sm:text-lg lg:text-lg text-[#333]">
+                  {t(descriptionKey)}
+                </p>
+              </div>
             </div>
+            ))}
           </div>
         </div>
       </div>

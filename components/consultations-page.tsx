@@ -1,4 +1,5 @@
 "use client"
+import { benne } from '@/app/fonts';
 import { useLocale, useTranslations } from 'next-intl';
 
 export const ResidentJourney = () => {
@@ -44,8 +45,10 @@ export const ResidentJourney = () => {
               >
                 <div className="flex flex-col h-full">
                   <div className="flex-grow">
-                    <h4 className="text-lg sm:text-xl font-semibold mb-1 sm:mb-4">{point.title}</h4>
-                    <p className='text-sm sm:text-lg mt-1 sm:mt-2 font-light'>{point.description}</p>
+                    <h4 className="text-lg text-center sm:text-xl font-semibold mb-1 sm:mb-4">{point.title}</h4>
+                    <div className={`${benne.className}`}>
+                    <p className='text-center sm:text-xl mt-1 sm:mt-2'>{point.description}</p>
+                    </div>
                   </div>
                   {index === 0 && (
                     <button

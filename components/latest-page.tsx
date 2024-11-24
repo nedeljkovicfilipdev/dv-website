@@ -35,7 +35,6 @@ const DiverseLatestBlogs: React.FC = () => {
             className="w-full h-48 object-cover" 
             width={500} // Define a fixed width for the image
             height={300} // Define a fixed height to maintain aspect ratio
-            layout="responsive" // Maintain aspect ratio while being responsive
             />
             <div className="p-4">
               <h3 className="text-xl font-bold mt-2">{t(blog.titleKey)}</h3>

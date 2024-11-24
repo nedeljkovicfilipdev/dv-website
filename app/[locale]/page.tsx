@@ -9,6 +9,7 @@ import DiverseServices from "@/components/services-page";
 import Stories from "@/components/stories-page";
 import DiverseStoryline from "@/components/storyline-page";
 import { unstable_setRequestLocale } from "next-intl/server";
+import { benne, cinzel } from "../fonts";
 
 type Props = {
   params: { locale: string };
@@ -19,8 +20,8 @@ export default function IndexPage({ params: { locale } }: Props) {
   unstable_setRequestLocale(locale);
 
   return (
-    <section className="font-merriweather">
-      <DiverseHero />
+    <section className={`${cinzel.className}`}>
+      <DiverseHero/>
       {/* <DiverseStoryline /> */}
       <DiverseAbout />
       <DiversePrograms />
