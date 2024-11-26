@@ -1,6 +1,6 @@
 "use client"; // Add this to mark the component as a Client Component
 
-import { benne, cinzel } from '@/app/fonts';
+import { benne } from '@/app/fonts';
 import { useTranslations } from 'next-intl'
 import Image from 'next/image';
 

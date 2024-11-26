@@ -1,4 +1,4 @@
-import { Benne, Cinzel, Great_Vibes } from 'next/font/google';
+import { Benne, Cinzel, Great_Vibes, Spectral } from 'next/font/google';
 
 export const cinzel = Cinzel({
     subsets: ['latin'],
@@ -6,9 +6,9 @@ export const cinzel = Cinzel({
     variable: '--font-cinzel'
 })
 
-export const benne = Benne({
+export const benne = Spectral({
     subsets: ['latin'],
-    weight : '400'
+    weight : '300'
 })
 
 export const alexbrush = Great_Vibes({
