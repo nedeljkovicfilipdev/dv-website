@@ -67,7 +67,7 @@ export const DiversePrograms = () => {
 
   return (
     <section id="our-programs" className="h-screen">
-      <div className="relative h-full bg-cover bg-center" style={{ backgroundImage: `url('/images/our-programs-section.jpg')` }}>
+      <div className="relative h-full bg-cover bg-center" style={{ backgroundImage: `url('/images/our-programs-section1.jpg')` }}>
         <div className="absolute inset-0 bg-customblue bg-opacity-0">
           <div className="absolute inset-0 flex flex-col justify-center items-center text-center">
             {/* Rotating structure for large screens */}

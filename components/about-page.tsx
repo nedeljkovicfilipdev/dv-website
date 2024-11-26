@@ -16,7 +16,7 @@ export const DiverseAbout = () => {
             {/* Left Column: Image */}
             <div className="w-full md:w-1/2 mb-6 md:mb-0">
               <Image
-                src="/images/about-canada.jpg"
+                src="/images/about-canada-section.jpg"
                 alt="Visa Application Canada"
                 className="object-cover rounded-lg"
                 width={600} // Define a fixed width for the image

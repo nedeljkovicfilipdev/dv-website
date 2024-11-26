@@ -3,7 +3,7 @@ import './globals.css';
 import { Metadata } from 'next';
 import Script from 'next/script';
 import { GoogleAnalytics } from '@next/third-parties/google';
-import { cinzel, montserrat } from './fonts';
+import { cinzel } from './fonts';
 
 type Props = {
   children: ReactNode;
@@ -27,7 +27,7 @@ export default function RootLayout({ children }: Props) {
         <meta property="og:title" content="Diverse Visa - Expert Immigration Services for Canada and Beyond" />
         <meta property="og:description" content="Expert immigration services for Canada. Diverse Visa helps with visa applications, study permits, work permits, and more. Seamless, professional, and successful outcomes." />
         <meta property="og:image" content="/images/logo/dv-logo-reverse.jpg" /> {/* Replace with a specific image if needed */}
-        <meta property="og:url" content="https://www.diversevisa.com" />
+        <meta property="og:url" content="https://diversevisa.com" />
 
         {/* Viewport Meta Tag */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -49,9 +49,9 @@ export default function RootLayout({ children }: Props) {
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "Organization",
+              "@type": "WebSite",
               "name": "Diverse Visa",
-              "url": "https://www.diversevisa.com",
+              "url": "https://diversevisa.com",
               "description": "Expert immigration services for Canada and more.",
               "sameAs": [
                 "https://www.facebook.com/diversevisa",
@@ -62,7 +62,7 @@ export default function RootLayout({ children }: Props) {
           }}
         />
       </head>
-      <body className={`${montserrat.className} bg-white`}>
+      <body className={`${cinzel.className} bg-white`}>
         <h1 className='sr-only'>Diverse Visa</h1>
         {children}
       </body>

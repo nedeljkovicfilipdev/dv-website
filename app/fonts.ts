@@ -1,9 +1,4 @@
-import { Benne, Cinzel, Montserrat } from 'next/font/google';
-
-export const montserrat = Montserrat({
-    subsets: ['latin'],
-    display: 'swap'
-})
+import { Benne, Cinzel, Great_Vibes } from 'next/font/google';
 
 export const cinzel = Cinzel({
     subsets: ['latin'],
@@ -14,4 +9,9 @@ export const cinzel = Cinzel({
 export const benne = Benne({
     subsets: ['latin'],
     weight : '400'
+})
+
+export const alexbrush = Great_Vibes({
+    subsets: ['latin'],
+    weight: '400',
 })
