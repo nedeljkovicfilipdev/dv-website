@@ -7,7 +7,7 @@ const PrivacyPolicy: React.FC = () => {
       <p>Last Updated: <strong>9/18/2024</strong></p>
 
       <p className="mt-4">
-        By using <a href="https://www.diversevisa.com" className="text-customblue underline">www.diversevisa.com</a> (the "Site"), you agree to the terms in this Privacy Policy.
+        By using <a href="https://diversevisa.com" className="text-customblue underline">diversevisa.com</a> (the "Site"), you agree to the terms in this Privacy Policy.
         Diverse Visa is committed to protecting your privacy. We will NEVER sell your personal information to third parties. The information you provide will only be used to stay connected with you.
         Should you wish to stop receiving communications from us, feel free to contact us, and we’ll promptly cease communication.
       </p>
@@ -16,7 +16,7 @@ const PrivacyPolicy: React.FC = () => {
 
       <h3 className="text-xl font-semibold mt-4">Information We Collect:</h3>
       <p className="mt-2">
-        When you visit <a href="https://www.diversevisa.com" className="text-customblue underline">www.diversevisa.com</a> (the “Site”), we may collect the following types of personal information:
+        When you visit <a href="https://diversevisa.com" className="text-customblue underline">diversevisa.com</a> (the “Site”), we may collect the following types of personal information:
       </p>
       <ol className="list-decimal ml-6 mt-2">
         <li><strong>Information You Provide:</strong> This includes details like your name, email address, and other contact information, which you may share with us when filling out contact forms, subscribing to our newsletter, or interacting with the Site.</li>

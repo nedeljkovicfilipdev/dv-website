@@ -4,6 +4,7 @@ import { Metadata } from 'next';
 import Script from 'next/script';
 import { GoogleAnalytics } from '@next/third-parties/google';
 import { cinzel } from './fonts';
+import Head from 'next/head';
 
 type Props = {
   children: ReactNode;
@@ -11,21 +12,21 @@ type Props = {
 
 export const metadata: Metadata = {
   title: 'Diverse Visa - Expert Immigration Services for Canada and Beyond',
-  description: 'Expert immigration services for Canada. Diverse Visa helps with visa applications, study permits, work permits, and more. Seamless, professional, and successful outcomes.',
+  description: 'Expert immigration services for Canada. Diverse Visa helps with visa applications, study permits, work permits, and more.',
   keywords: 'diverse visa, immigration, visa, canada immigration, work permits, study permits, diverse visa, visa application',
 };
 
 export default function RootLayout({ children }: Props) {
   return (
     <html className="h-full" lang="en">
-      <head>
-        {/* Favicon */}
-        <link rel="icon" href="/icon.ico" />
+      <Head>
+        {/* Canonical URL */}
+        <link rel="canonical" href="https://diversevisa.com" />
 
         {/* Open Graph Meta Tags */}
         <meta property="og:site_name" content="Diverse Visa" />
-        <meta property="og:title" content="Diverse Visa - Expert Immigration Services for Canada and Beyond" />
-        <meta property="og:description" content="Expert immigration services for Canada. Diverse Visa helps with visa applications, study permits, work permits, and more. Seamless, professional, and successful outcomes." />
+        <meta property="og:title" content='Diverse Visa - Expert Immigration Services for Canada and Beyond' />
+        <meta property="og:description" content='Expert immigration services for Canada. Diverse Visa helps with visa applications, study permits, work permits, and more.' />
         <meta property="og:image" content="/images/logo/dv-logo-reverse.jpg" /> {/* Replace with a specific image if needed */}
         <meta property="og:url" content="https://diversevisa.com" />
 
@@ -45,28 +46,29 @@ export default function RootLayout({ children }: Props) {
 
         {/* Structured Data */}
         <Script
+          id="structured-data"
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              "name": "Diverse Visa",
-              "url": "https://diversevisa.com",
-              "description": "Expert immigration services for Canada and more.",
-              "sameAs": [
+              name: "Diverse Visa",
+              url: "https://diversevisa.com",
+              description: "Expert immigration services for Canada and more.",
+              sameAs: [
                 "https://www.facebook.com/diversevisa",
                 "https://www.instagram.com/diversevisa",
-                "https://www.linkedin.com/company/diverse-visa"
-              ]
+                "https://www.linkedin.com/company/diverse-visa",
+              ],
             }),
           }}
         />
-      </head>
+      </Head>
       <body className={`${cinzel.className} bg-white`}>
-        <h1 className='sr-only'>Diverse Visa</h1>
+        <h1 className="sr-only">Diverse Visa</h1>
         {children}
       </body>
-      <GoogleAnalytics gaId='G-VQSRSLBQYG' />
+      <GoogleAnalytics gaId="G-VQSRSLBQYG" />
     </html>
   );
 }

@@ -26,95 +26,88 @@ export const Footer = () => {
   };
 
   return (
-    <section id="contact-us">
-      <footer className={`${cinzel.className} left-0 bottom-0 bg-customblue text-gray-200 w-full px-4 py-8 md:px-12 mt-20`}>
-        <div className="container mx-auto grid grid-cols-1 items-start gap-8 md:grid-cols-3 md:items-center">
-          {/* Left Section - Logo and Contact Info */}
-          <div className="mb-4 flex flex-col items-center md:mb-0 md:items-start bg-black bg-opacity-10 rounded-2xl p-4 md:w-[250px] xl:w-[450px]">
-            <Link href="#poster">
-                <div className="cursor-pointer text-4xl hover:text-white dark:text-white">
-                    <Image 
-                    src="/images/logo/dv-logo-white.png" 
-                    alt="Diverse Logo" 
-                    width={216}  // Adjust width and height accordingly
-                    height={54} 
-                    className="h-54 w-auto dark:filter dark:brightness-90 rounded-2xl" 
-                    />
-                </div>
-            </Link>
-
-            <div className="mb-6 p-4 text-white rounded-lg">
-              <div className="mb-2">
-                <span className="text-blue-400 hover:text-blue-300">
-                  Canadian Office:
-                </span>
-                <div className="flex items-center">
-                  <Flag code="CA" className="w-6 h-6 mr-2" />
-                  <span>+1 (647) 931-6484</span>
-                </div>
-              </div>
-              <div className="mb-2">
-                <span className="text-blue-400 hover:text-blue-300">
-                  Serbian Office:
-                </span>
-                <div className="flex items-center">
-                  <Flag code="RS" className="w-6 h-6 mr-2" />
-                  <span>+381 (64) 468-4465</span>
-                </div>
-              </div>
-              <div className="mb-4 mt-6">
-                <a href="mailto:info@example.com" className="flex text-blue-400 hover:text-blue-300">
-                  <Mail className="mr-4" /> info@diversevisa.com
-                </a>
-              </div>
-              <div className="mt-10 text-lg font-semibold">{t('Locations')}:</div>
-              <div className="mt-2">
-                <p className="flex mb-4"><MapPin className="mr-4" />Belgrade, Serbia</p>
-                <p className="flex"><MapPin className="mr-4" />Toronto, Canada</p>
-              </div>
-            </div>
-
+<section id="contact-us" className="bg-[#f2f4f3] mt-20 py-16">
+  <div className="container mx-auto px-4 ">
+    <div className="flex flex-col md:flex-row bg-white items-center rounded-xl">
+      {/* Left Section - Contact Info */}
+      <div className="mb-4 flex flex-col items-center md:mb-0 md:items-start bg-white rounded-2xl p-4 md:w-[450px] xl:w-[450px]">
+        <Link href="#poster">
+          <div className="cursor-pointer text-4xl hover:text-white dark:text-white">
+            <Image
+              src="/images/logo/dv-logo-white.png"
+              alt="Diverse Logo"
+              width={216} // Adjust width and height accordingly
+              height={54}
+              className="h-54 w-auto dark:filter dark:brightness-90 rounded-2xl"
+            />
           </div>
+        </Link>
 
-          {/* Middle Section */}
-          <div className="mb-4 flex flex-col items-center md:mb-0 md:items-center">
-            
-          </div>
-
-          {/* Right Section - Form and Social Links */}
-          <div className='bg-white p-6 text-black rounded-2xl md:w-[250px] xl:w-[450px]'>
-            <section id='contact-us-form'>
-              <EmailForm />
-            </section>
-            <div className="mt-8 text-center font-light">
-              <p>{t('connect-social-network')}</p>
-              <div className="mt-2 flex justify-center gap-4">
-                <a href="https://www.instagram.com/diversevisa?igsh=eXpvb3Zsd2R5dW03" className="text-custombluehover hover:text-customblue" title="Instagram">
-                  <Instagram size={24} />
-                </a>
-                <a href="https://www.facebook.com/profile.php?id=61564051493332" className="text-custombluehover hover:text-customblue" title="Facebook">
-                  <Facebook size={24} />
-                </a>
-                <a href="https://www.linkedin.com/company/diverse-visa/" className="text-custombluehover hover:text-customblue" title="LinkedIn">
-                  <Linkedin size={24} />
-                </a>
-              </div>
+        <div className="mb-6 p-4 text-black rounded-lg">
+          {/* Canadian Office */}
+          <div className="mb-2">
+            <span className="text-blue-400 hover:text-blue-300">
+              Canadian Office:
+            </span>
+            <div className="flex items-center">
+              <Flag code="CA" className="w-6 h-6 mr-2" />
+              <span>+1 (647) 931-6484</span>
             </div>
           </div>
-        </div>
 
-        {/* Bottom Section - Footer Links and Contact Info */}
-        <div className="mt-8 text-center text-gray-400">
-          <div>
-            <Button onClick={handlePrivacy} className="cursor-pointer bg-customblue text-white hover:bg-custombluehover">
-              {t('privacy-policy')}
-            </Button>
+          {/* Serbian Office */}
+          <div className="mb-2">
+            <span className="text-blue-400 hover:text-blue-300">
+              Serbian Office:
+            </span>
+            <div className="flex items-center">
+              <Flag code="RS" className="w-6 h-6 mr-2" />
+              <span>+381 (64) 468-4465</span>
+            </div>
           </div>
-          <div>
-            <p>&copy; {new Date().getFullYear()} Diverse Visa. All rights reserved.</p>
+
+          {/* Email */}
+          <div className="mb-4 mt-6">
+            <a href="mailto:info@example.com" className="flex text-blue-400 hover:text-blue-300">
+              <Mail className="mr-4" /> info@diversevisa.com
+            </a>
+          </div>
+
+          {/* Locations */}
+          <div className="mt-10 text-lg font-semibold">{t('Locations')}:</div>
+          <div className="mt-2">
+            <p className="flex mb-4">
+              <MapPin className="mr-4" />
+              Belgrade, Serbia
+            </p>
+            <p className="flex">
+              <MapPin className="mr-4" />
+              Toronto, Canada
+            </p>
           </div>
         </div>
-      </footer>
-    </section>
+      </div>
+
+      {/* Right Column - Hero Image */}
+      <div className="md:w-7/12 w-full md:ml-8">
+  <div className="nmr hero-img-container">
+    <Image 
+      src="/images/footer-section.jpg" 
+      className="w-full h-auto rounded-xl shadow-lg" 
+      alt="Footer Section"
+      height="600"
+      width={1000}
+    />
+  </div>
+</div>
+    </div>
+    <div className='mt-20 flex flex-col justify-center items-center bg-white p-8 rounded-xl'>
+      <div className='text-center text-4xl mb-16'>Contact us</div>
+    <EmailForm />
+    </div>
+  </div>
+</section>
+
+
   );
 };

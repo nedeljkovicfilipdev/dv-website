@@ -21,7 +21,7 @@ export default function NotFound() {
       <Head>
         <title>Page Not Found - Diverse Visa</title>
         <meta name="description" content="Sorry, the page you are looking for does not exist. Explore other services from Diverse Visa." />
-        <meta property="og:url" content="https://www.diversevisa.com/404" />
+        <meta property="og:url" content="https://diversevisa.com/404" />
         <meta property="og:title" content="Page Not Found - Diverse Visa" />
         <meta property="og:description" content="Sorry, the page you are looking for does not exist. Explore other services from Diverse Visa." />
         <meta property="og:image" content="/images/logo/dv-logo-reverse.jpg" />
