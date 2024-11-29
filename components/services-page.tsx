@@ -25,21 +25,21 @@ export const DiverseBenefits = () => {
       style={{ backgroundImage: "url('/images/benefits-section.jpg')" }}
     >
       <div className="px-4 sm:px-6 lg:px-12 mt-20">
-        <div className="w-full max-w-9xl mx-auto">
+        <div className="w-full max-w-7xl mx-auto">
           <h4 className="mb-8 text-center font-semibold text-customblue sm:text-3xl xl:text-4xl">
             {t("title")}
           </h4>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-16">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {benefits.map(({ titleKey, descriptionKey }, index) => (
               <div
               key={index}
-              className="flex flex-col items-center justify-start p-6 bg-customblue1 bg-opacity-60 rounded-xl text-customblue shadow-md hover:shadow-lg hover:scale-105 transition-all w-full sm:w-[320px] lg:w-[350px] mx-auto"
+              className="flex flex-col items-center justify-start p-6 bg-customblue1 bg-opacity-60 rounded-xl text-customblue shadow-md hover:shadow-lg hover:scale-105 transition-all w-full sm:w-[320px] lg:w-[300px] mx-auto"
             >
               <h5 className="mb-4 text-center font-semibold sm:text-xl w-full">
                 {t(titleKey)}
               </h5>
               <div className={`${benne.className}`}>
-                <p className="text-center sm:text-lg lg:text-lg text-[#333]">
+                <p className="text-left sm:text-lg lg:text-lg text-[#333]">
                   {t(descriptionKey)}
                 </p>
               </div>

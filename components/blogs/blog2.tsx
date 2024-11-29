@@ -1,12 +1,13 @@
 import React from 'react';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
+import { benne } from '@/app/fonts';
 
 const Blog2: React.FC = () => {
     const t = useTranslations();
 
     return (
-        <section className="p-2 md:p-4">
+        <section className={`${benne.className} p-2 md:p-4`}>
             <div className="max-w-3xl mt-20 mx-auto">
                 <Image src="/images/blog/blogimg2.jpg" 
                 alt={t('family.blog-image2-alt')} 

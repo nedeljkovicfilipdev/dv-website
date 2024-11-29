@@ -27,14 +27,14 @@ export const Footer = () => {
 
   return (
 <section id="contact-us" className="bg-[#f2f4f3] mt-20 py-16">
-  <div className="container mx-auto px-4 ">
-    <div className="flex flex-col md:flex-row bg-white items-center rounded-xl">
+  <div className="container mx-auto px-4 rounded-xl bg-white">
+    <div className="flex flex-col md:flex-row  items-center">
       {/* Left Section - Contact Info */}
       <div className="mb-4 flex flex-col items-center md:mb-0 md:items-start bg-white rounded-2xl p-4 md:w-[450px] xl:w-[450px]">
         <Link href="#poster">
           <div className="cursor-pointer text-4xl hover:text-white dark:text-white">
             <Image
-              src="/images/logo/dv-logo-white.png"
+              src="/images/logo/dv-logo-regular.png"
               alt="Diverse Logo"
               width={216} // Adjust width and height accordingly
               height={54}
@@ -101,7 +101,7 @@ export const Footer = () => {
   </div>
 </div>
     </div>
-    <div className='mt-20 flex flex-col justify-center items-center bg-white p-8 rounded-xl'>
+    <div className='flex flex-col justify-center items-center bg-white p-8'>
       <div className='text-center text-4xl mb-16'>Contact us</div>
     <EmailForm />
     </div>

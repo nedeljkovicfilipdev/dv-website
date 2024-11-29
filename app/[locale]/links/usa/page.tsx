@@ -1,5 +1,6 @@
 "use client"
 
+import { benne } from "@/app/fonts";
 import { useTranslations } from "next-intl";
 
 export default function IndexPage() {
@@ -7,7 +8,7 @@ export default function IndexPage() {
   const t = useTranslations();
 
   return (
-    <section className="mt-20 p-2 md:p-4">
+    <section className={`${benne.className } mt-20 p-2 md:p-4`}>
       <div className="mx-auto max-w-4xl p-6">
         <h1 className="mb-4 text-3xl font-bold">{t("immigrationUSA.title")}</h1>
 
