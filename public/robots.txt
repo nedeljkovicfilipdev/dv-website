@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.diversevisa.com
+Host: https://diversevisa.com
 
 # Sitemaps
-Sitemap: https://www.diversevisa.com/sitemap.xml
+Sitemap: https://diversevisa.com/sitemap.xml

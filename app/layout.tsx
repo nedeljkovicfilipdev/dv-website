@@ -14,25 +14,24 @@ export const metadata: Metadata = {
   title: 'Diverse Visa - Expert Immigration Services for Canada and Beyond',
   description: 'Expert immigration services for Canada. Diverse Visa helps with visa applications, study permits, work permits, and more.',
   keywords: 'diverse visa, immigration, visa, canada immigration, work permits, study permits, diverse visa, visa application',
+  alternates: {
+    canonical: 'https://diversevisa.com'
+  },
+  openGraph: {
+    siteName: 'Diverse Visa',
+    title: 'Diverse Visa - Expert Immigration Services for Canada and Beyond',
+    url: 'https://diversevisa.com',
+    type: 'website',
+    images: '/images/logo/dv-logo-reverse.jpg'
+  },
+  metadataBase: new URL('https://diversevisa.com'), // Add this line
+
 };
 
 export default function RootLayout({ children }: Props) {
   return (
     <html className="h-full" lang="en">
       <Head>
-        {/* Canonical URL */}
-        <link rel="canonical" href="https://diversevisa.com" />
-
-        {/* Open Graph Meta Tags */}
-        <meta property="og:site_name" content="Diverse Visa" />
-        <meta property="og:title" content='Diverse Visa - Expert Immigration Services for Canada and Beyond' />
-        <meta property="og:description" content='Expert immigration services for Canada. Diverse Visa helps with visa applications, study permits, work permits, and more.' />
-        <meta property="og:image" content="/images/logo/dv-logo-reverse.jpg" /> {/* Replace with a specific image if needed */}
-        <meta property="og:url" content="https://diversevisa.com" />
-
-        {/* Viewport Meta Tag */}
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-
         {/* Google Tag (gtag.js) */}
         <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-16715603156" strategy="afterInteractive" />
         <Script id="google-ads" strategy="afterInteractive">
