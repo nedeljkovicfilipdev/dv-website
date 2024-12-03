@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://diversevisa.com',
   },
+  icons: {
+    icon: './icon.ico'
+  },
   openGraph: {
     siteName: 'Diverse Visa',
     title: 'Diverse Visa - Expert Immigration Services for Canada and Beyond',
