@@ -19,6 +19,7 @@ const BlogPage = ({ params }: BlogPageProps) => {
 
   let BlogComponent;
 
+  //Links for blogs
   switch (slug) {
     case 'understanding-the-canadian-study-permit-process-a-comprehensive-guide':
       BlogComponent = Blog1;

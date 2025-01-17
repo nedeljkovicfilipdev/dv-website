@@ -25,12 +25,14 @@ const DiverseBlog: React.FC = () => {
     }
   }, [slug]);
 
+  //Going back to blog page
   const handleClickToBlog = () => {
     setSelectedBlog(null);
     router.push(`/${locale}/blog`);
     window.scrollTo(0, 0);
   };
 
+  //Go to chosen blog
   const handleBlogClick = (blogSlug: string) => {
     router.push(`/${locale}/blog/${blogSlug}`);
     window.scrollTo(0, 0);

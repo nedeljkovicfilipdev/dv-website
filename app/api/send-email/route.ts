@@ -8,7 +8,7 @@ export async function POST(req: NextRequest) {
   const { firstName, lastName, email, message } = await req.json();
 
   if (!firstName || !lastName || !email || !message) {
-    return NextResponse.json({ error: 'All fields are required' }, { status: 400 });
+    return NextResponse.json({ error: 'All fields are required!' }, { status: 400 });
   }
 
   const transporter = nodemailer.createTransport({
@@ -31,9 +31,9 @@ export async function POST(req: NextRequest) {
       text: `Message:\n\n${message}`,
     });
 
-    return NextResponse.json({ success: 'Email sent successfully' }, { status: 200 });
+    return NextResponse.json({ success: 'Email sent successfully!' }, { status: 200 });
   } catch (error) {
     console.error('Error sending email:', error);
-    return NextResponse.json({ error: 'Failed to send email' }, { status: 500 });
+    return NextResponse.json({ error: 'Failed to send email!' }, { status: 500 });
   }
 }
